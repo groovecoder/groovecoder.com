@@ -1,0 +1,49 @@
+---
+layout: post
+status: publish
+published: true
+title: MDN 2.2
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 814
+wordpress_url: http://groovecoder.com/?p=814
+date: '2012-02-14 17:15:23 -0600'
+date_gmt: '2012-02-14 23:15:23 -0600'
+categories:
+- mozilla
+- mdn
+tags:
+- mdn
+comments: []
+---
+<ul>
+<li>BrowserID<br />
+bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=721171">721171</a> to draw Sign in buttons with progressive enhancement - should hopefully fix our <a href="https://encrypted.google.com/search?q=mdn+experimental_inline&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:unofficial&amp;client=firefox-a#hl=en&amp;client=firefox-a&amp;hs=Ek7&amp;rls=org.mozilla:en-US:unofficial&amp;sa=X&amp;ei=xeY6T_KJH4TWiAKDou2SDA&amp;ved=0CBkQBSgA&amp;q=mdn+experimental+inline&amp;spell=1&amp;bav=on.2,or.r_gc.r_pw.r_cp.,cf.osb&amp;fp=9b0b60d38ab7fb7d&amp;biw=1920&amp;bih=1043">search results snippets</a> too! &gt;&lt;<br />
+bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=719945">719945</a> to link to browserid on the demo submit page</li>
+<li>MindTouch wiki migration<br />
+prepare for localized page migration (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=717380">bug 717380</a>)<br />
+scripting architecture (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=715253">bug 715253</a>)</li>
+<li><a title="MDN 2.1" href="http://mzl.la/mdn_22">More</a></li>
+</ul>
+<p><a href="https://wiki.mozilla.org/MDN/Kuma/Scripting#Proposed_solution_.231"><img class="aligncenter" title="Kumascript Diagram" src="https://wiki.mozilla.org/images/thumb/2/2b/Kumascript.png/1000px-Kumascript.png" alt="Kumascript Diagram" width="1000" height="480" /></a></p>
+<p>I'm excited about <a href="https://github.com/lmorchard/kumascript">kumascript - lmorchard's prototype for implementing server-side scripting in kuma to replace DekiScript</a>. I'm glad we're using JavaScript. I was a little surprised that <a href="http://developers.slashdot.org/story/12/02/01/1429229/wikipedia-chooses-lua-as-its-new-template-language">MediaWiki chose Lua for their new scripting language</a> (is it ironic that DekiWiki and its Lua-based DekiScript has roots close to MediaWiki and now MediaWiki is going to Lua-based scripting too?). JavaScript just makes sense for us - a community of web developers writing web developer docs.</p>
+<h3>MDN 2.2.5</h3>
+<ul>
+<li>An HTML5 landing page (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=712387">bug 712387</a>) that summarizes all of Mozilla's HTML5 content and initiatives</li>
+<li>Redesign Apps landing page in time for MWC (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=726166">bug 726166</a>, <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=726167">bug 726167</a>, and <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=725757">bug 725757</a>)</li>
+</ul>
+<h3>MDN 2.3</h3>
+<ul>
+<li>wiki migration<br />
+migrate tags (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=710722">bug 710722</a> and <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=722467">bug 722567</a>)<br />
+migrate code samples (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=725359">bug 725359</a>)<br />
+migrate file attachments (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=725358">bug 725358</a>)<br />
+migrate localized docs (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=710724">bug 710724</a>)</li>
+<li><a>More</a></li>
+</ul>

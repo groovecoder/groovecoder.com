@@ -1,0 +1,37 @@
+---
+layout: post
+status: publish
+published: true
+title: MDN 2.0
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 804
+wordpress_url: http://groovecoder.com/?p=804
+date: '2012-01-31 11:29:14 -0600'
+date_gmt: '2012-01-31 17:29:14 -0600'
+categories:
+- mozilla
+- mdn
+tags:
+- mdn
+comments: []
+---
+<p>Wow, that's how much of a non-event a "2.0" product release is these days. I forgot to publish this when we pushed 2.0. Might as well publish before our 2.1 push today. :)</p>
+<ul>
+<li>BrowserID cleanup (bugs <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=715708">715708</a> and <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=714915">714915</a>)</li>
+<li>MindTouch migration script - authors (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=710714">bug 710714</a>) and revision history (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=710715">bug 710715</a>)</li>
+<li><a href="http://mzl.la/mdn_20">More</a></li>
+</ul>
+<h3 style="clear: both;">MDN 2.1</h3>
+<ul>
+<li>Set up 'master' and 'next' branches and corresponding stage servers on allizom.org (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=710747">bug 710747</a>)</li>
+<li>Wiki content migration &amp; work</li>
+<li>Architecture for migrating MindTouch DekiScript templates into Django JavaScript templates (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=715253">bug 715253</a>)</li>
+</ul>
+<p>Small sprint this time, but Les made some great progress on our wiki migration. I'm forcing myself to do a migration script bug this sprint so I learn enough of that code to follow his architecture and contribute what I can.</p>

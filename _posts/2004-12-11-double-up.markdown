@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: double up
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 232
+wordpress_url: http://groovecoder.com/2004/12/11/double-up/
+date: '2004-12-11 15:15:00 -0600'
+date_gmt: '2004-12-11 21:15:00 -0600'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<div style="text-align: justify;">I didn't actually read <a href="http://www.redherring.com/Article.aspx?a=11051&hed=Top+100+Innovative+Companies%3A+Amazon.com%2C+Open-door+policy&amp;sector=Industries&amp;subsector=InternetAndServices">this entire thing</a>, but it came in thru my Google alerts and I wanted to comment on Amazon.</p>
+<p>the article states that it is counterintuitive for Amazon to benefit from opening up its system via web services (lowercased by me on purpose, since they were originally doing XML over POSTs, GETs, and other, non-SOAP methods...but now they do it all!).</p>
+<p>I've always thought exposing their catalogue and shopping cart to others would be an easy way to let others re-market Amazon products. Amazon has their own computer books and computer equipment, but what if a site dedicated to Web Services pulled in plenty of traffic from WS-oriented people. if that site could put its own face on Amazon's storefront, market WS-oriented products more fully, and Amazon could be getting business it would not have gotten otherwise!</p>
+<p>I've liked Amazon's web services approach ever since I heard about their reseller program. I like the Google AdSense program for similar reasons. I think the access to information in all kinds of flavors is going to create a lot of extra business for more generic companies.</p>
+<p>oh yeah...even my favorite gaming company, Blizzard, has <a href="http://www.gameshout.com/news/122004/article104.htm">caught onto XML</a>.<br />
+</div>

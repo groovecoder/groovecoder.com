@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: PRWeb
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 260
+wordpress_url: http://groovecoder.com/2005/03/28/prweb/
+date: '2005-03-28 14:24:00 -0600'
+date_gmt: '2005-03-28 20:24:00 -0600'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<div style="text-align: justify;">the most important thing about <a href="http://www.prweb.com/releases/2005/3/prweb222496.htm">this press release</a> has nothing to do with web services or email validation at all. rather, it made me aware of my need to register on that <a href="http://www.prweb.com/">PRWeb</a> site, so that if/when we are able to make announcements pertaining to lamp5, we can announce them on that site and they will get picked up by various <a href="http://www.google.com/alerts">google alerts</a>.</p>
+<p>will just have to ensure that our press releases contain the most common buzzwords used by our target audience.</div>

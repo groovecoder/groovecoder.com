@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 215
+wordpress_url: http://groovecoder.com/2004/11/10/215/
+date: '2004-11-10 13:55:00 -0600'
+date_gmt: '2004-11-10 19:55:00 -0600'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<div align="justify">this <a href="http://www.webservicesarchitect.com/content/articles/johnston01.asp">somewhat old article</a> makes a great point, that I agree with, about the reason open source programmers are reluctant to jump onto the web services bandwagon.</p>
+<p>"Maybe one problem Open Source developers have with Web Services is that the code responsible for actually implementing a service is rarely on the machine requesting it. This separation of code and functionality greatly reduces the incentive to look at the underlying source code. Worse still, there is no Open Source license (like the GPL or BSD license) that adequately covers Web Services."</p>
+<p>open source programmers do tend to keep the pretense that if you need/want to interact with a program in a <em>proper/correct</em> way, you should write to interface with the source code. this kind of interface is exactly opposite the entire concept of web services - connecting and integrating disperate systems with no knowledge of the underlying architecture.</p>
+<p>one significant challenge I've had is discovering the <a href="http://dictionary.reference.com/search?q=synergistic">synergistic</a> benefits of creating web services on an open-source platform vs. a proprietary platform. the conclusion that I'm starting to draw is that there really is no <em>synergistic </em>benefit, because the nature of web services is such that, as I said, it renders the choice of underlying architecture or programming language a moot point of discussion.</p>
+<p>the benefits to be had, then, are just the benefits of the two seperate technologies, realized simultaneously. in creating a service-oriented-enterprise, you capture the benefits of streamlining business processes, sustaining data integrity, and all the other good stuff. in creating open-source software, you get cheap software, solid architecture, and complete control. in implementing open-source web services, you get all of the above.</p>
+<p>if you were applying custom-built integration systems with in-house resources, a proprietary platform like J2EE or .NET may very well be the way to go, if you have lots of those resources already. it may be possible to teach a bunch of C# programmers how to make a PHP web service system, but the only benefit you would get is the open-source benefits, which you're already not capturing to their fullest since you're dependent on .NET for systems anyway.</p>
+<p>I think what's more important for <a href="http://www.lamp5.net">lamp5 </a>to recognize is not so much the technical synergistic benefits, but more, finding the correct consumer of the total benefits - ie, small-to-medium businesses with small IT budgets that want to be able to "play with the big boys". that's the angle I'm going to take, and hopefully execute on. </div>

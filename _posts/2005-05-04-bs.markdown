@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: BS ==
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 266
+wordpress_url: http://groovecoder.com/2005/05/04/bs/
+date: '2005-05-04 07:14:00 -0500'
+date_gmt: '2005-05-04 13:14:00 -0500'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<div style="text-align: justify;">I think I've hit upon something I can do that developers will really appreciate, if they give it a chance. I've recognized that I read a lot of SOA and Web Services material from a high-level, business-type perspective. I still enjoy reading tutorials on SOAP and WSDL and the like, but much of the interest I have in Web Services comes from the way I see it benefitting businesses, and small businesses especially.</p>
+<p>so, to encourage myself to remain grounded in issues that are relevant to developers, whom I hope will some day be working with me, I'm going to paraphrase certain articles that I read from high-level business rags - translating them from <a href="http://www.amazon.com/exec/obidos/ASIN/0743269098/qid=1115213188/sr=2-1/ref=pd_bbs_b_2_1/104-6401329-2170364">business-speak</a> into something that actually makes sense. with my continual forays into BS ("business speak" or "bull shit," interchangably), I have finally become disillusioned with the practice, and view it only as a necessary evil when analyzing or discussing the business effects of technical (real) progress.</p>
+<p>that last paragraph would translate to:<br />I want to be the boss of some programmers, so I'm going to explain how BS ideas affect programmers.</p>
+<p><a href="http://www.zapthink.com/report.html?id=ZAPFLASH-200553">article number 1</a> translates:<br />a decision-maker for IT projects must decide either to buy, build, or re-write programs to fit requirements. this is no different for SOA projects.</p>
+<p>but, SOA requirements are not just code, they are largely in configuration.<br />one analogy would be the way cartoons are animated. if animators took a "just code" approach to building cartoons, they would draw each frame of a cartoon in its entirety, which is an inflexible and wasteful way of doing things. better to draw the background, props, and characters separately on translucent sheets, and then configure interactactions to arrange a scene. each component provides a defined contribution to the over-all objective. back in software...instead of building every application with just code for every feature, you focus on configuring components, or services, with well-defined features to get results.</p>
+<p>so, the question is, do you build, buy, or re-write those services?</p>
+<p>building...<br />when building services, remember that you have to create the application logic <span style="font-weight: bold; font-style: italic;">AND </span>the interface for how it will be used in larger systems. and if the system is a big-deal SOA, much of the logic and other technicals should be put on the interface part. it's very much a top-down approach, where the architecture dictates what the input/output of the service is, and the service restricts its logic to getting that done, not how it will be called or where it fits in with everything else - that's part of the interface setup.</p>
+<p>for smaller components - usually basic data queries, calculations/transformations - the app logic is the easiest part. the real important and challenging thing is to build the big system that coordinates them all and glues it together. that big system needs to line up with the way the business operates. but even that bigger system could be a component of a much larger system.</p>
+<p>so, since business services rely heavily on figuring out the what and how of the components' interactions, in-house development option gets better as the system's scope is larger, because no-one knows better than the business itself how those things should GSD (get shit done).</p>
+<p>re-writing...<br />a big part of SOA is about re-using services in different systems. but at first, you have to think about features that exist in your current systems. to start out with, you'll probably be exposing functionality from your current systems as services, until you have most of your functionality available as a service, then a lot of development will be about using those services in different configurations. so maybe instead of building all new services, you'd rather find out what code you have that would be useful as a service, and then put a service layer on it.</p>
+<p>but it's still better to go with a top-down approach first - design the architecture of the processes, then chunk it up into bite-size pieces, then identify which of those bite-size pieces already exist in your system(s), then either wrap or re-write those. if you just start re-writing all your code as small services, you may never get away from them to a larger SOA, which is what you really benefit from.</p>
+<p>recognize that the stuff you already have written was probably not written with any kind of focus on separating the interface from the app logic, as mentioned above. so the biggest work will not be changing app logic, which will probably be identical. the biggest work will be defining those interfaces for the app to the rest of the SOA system.</p>
+<p>buying...<br />because SOA systems are composed of all kinds of services, some of which are small and big, and because these systems mostly just involved composing and configuring those services into a process that matches what your business needs to do, you can buy some or even most of the services from 3rd party providers. there will still be considerable work in making the SOA system match the business logic. smaller services are better to buy than larger ones, and make sure those services you buy are easy to fit into your bigger SOA system.</p>
+<p>is it possible that business will want to buy some of those bigger service systems? it's really not a technical issue, it's more of a business issue, since doing so will essentially be out-sourcing a part of your business operations to another company. if you don't want that part of your business outsourced, then buying that larger service system is a bad idea.</p>
+<p>and on medium-sized services, you may have different requirements for security, and process fit than a 3rd party provides. the most you can expect is to get a way to simply create and manage the criteria, but you won't have complete control over those. this really means that purchasing services is best for very small fine-grained services, or for outsourcing entire processes. the in-betweens are tricky to get from a 3rd party.</p>
+<p>conclusion...<br />all of the above approaches can be used, and should be used in the most appropriate places. the most important thing is to contstruct a good SOA that matches the business operations. if you've got that, you've got a much easier time of using any of the above to add services to your SOA system.</div>

@@ -1,0 +1,50 @@
+---
+layout: post
+status: publish
+published: true
+title: MDN 1.9
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 791
+wordpress_url: http://groovecoder.com/?p=791
+date: '2012-01-05 17:40:32 -0600'
+date_gmt: '2012-01-05 23:40:32 -0600'
+categories:
+- mozilla
+- mdn
+tags:
+- mdn
+comments: []
+---
+<p><img class="alignright" title="MDN 1.9" src="http://dl.dropbox.com/u/21969365/mdn_19_chamber.png" alt="MDN 1.9" width="144" height="299" /></p>
+<ul>
+<li>BrowserID! (bugs <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=706518">706518</a> and <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=706519">706519</a> and <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=706526">706526</a> and <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=714228">714228</a> and <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=714969">714969</a>)</li>
+<li>New header with the Mozilla universal tab (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=684925">bug 684925</a>)</li>
+<li>New site-wide messaging ability with django-soapbox (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=711728">bug 711728</a>)</li>
+<li>Animate <a href="https://developer.mozilla.org/demos/theoatmeal">our tumbeasts images</a> with css animations. Thanks to a contributor - lifeinterfaces! (bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=704085">704085</a>)</li>
+<li><a href="http://mzl.la/mdn_18">Various other bugs and fixes</a></li>
+</ul>
+<h3 style="clear: both;">MDN 2.0</h3>
+<ul>
+<li>Set up 'master' and 'next' branches and corresponding stage servers on allizom.org</li>
+<li>Wiki content migration &amp; work</li>
+</ul>
+<h3>BrowserID</h3>
+<p><img class="aligncenter" title="BrowserID Sign-in" src="http://dl.dropbox.com/u/21969365/browserid_signin.png" alt="BrowserID Sign-in" width="114" height="32" />A few years ago I pushed hard for <a href="https://sourceforge.net/account/login.php">OpenID on SourceForge.net</a>. OpenID was and is a noble project. But now I can tell some big advantages of <a href="https://browserid.org/">BrowserID</a> over OpenID:</p>
+<ul>
+<li><strong>It feels like an identity</strong>. I cognitively associate my online identity with my email, and BrowserID is a verified-email protocol. When I saw my email in the BrowserID login dialog on MDN, I already understand that I'm logging in - much more-so than an empty 'URL' input box.</li>
+<li><strong>No NASCAR effect</strong>. Because BrowserID is designed to be an open web standard, there's a single sign-in button that invokes a javascript API. It <a href="https://github.com/mozilla/browserid/wiki/How-to-Use-BrowserID-on-Your-Site">can be polyfilled</a> with Mozilla's BrowserID service until platforms implement it, but even that will automatically be consumed by platform-native UI.</li>
+<li><strong>The site already knows you</strong>. As a site owner, we already have email addresses for our users. So when you sign in with BrowserID, we don't have to say "Now sign in with your existing account to merge your new identity with your existing" the way we did with OpenID. We know you own that email, so we log you into the account with that email address - simple.</li>
+<li><strong>Changing email is <em>easy</em></strong>. Craig and I fretted for a whole hour or so over how to let users change their email address with BrowserID, but we were over-thinking it. Since BrowserID is effectively a streamlined "verify your email" dance, we simply point our "Change email" links to our sign-in page. If you're already signed in, and you sign in with a new verified email address, we simply update your email. BrowserID has already done the whole verify-your-email-address dance.</li>
+<li><strong>No lock-in</strong>. We get a verified email address from BrowserID, so we can register users in django with set_unusable_password(). But if we ever drop BrowserID (oh noes!), <em>we have a verified email address</em>. So we can initiate an email-based password reset flow for users. In addition, any site can <a href="https://github.com/mozilla/browserid/wiki/How-to-Use-BrowserID-on-Your-Site">run their own verification service</a> so they don't need to call Mozilla's BrowserID at all.</li>
+<li><strong>Privacy</strong>. Finally, BrowserID is a user-centric identity system. This really hit me when I watched <a href="http://vimeo.com/32380595">Ben's Deeper Look at BrowserID video</a>. Especially when BrowserID is implemented in other platforms, Mozilla doesn't sit between you and the sites or services you use. A primary authority can issue identity certificates to your agent, and <em><strong>you</strong></em> present those certificates to other parties for authentication. "This triangle is never closed."</li>
+</ul>
+<p><img class="aligncenter" title="BrowserID Triangle " src="http://dl.dropbox.com/u/21969365/browserid_triangle.png" alt="BrowserID Triangle" width="507" height="336" /></p>
+<p>All-in-all, it was much simpler and much more intuitive to implement BrowserID on MDN than it was to implement OpenID on SourceForge. The Mozilla Identity team has built an awesome product, and <a href="http://decafbad.com/blog/">Les</a> integrated <a href="https://github.com/mozilla/django-browserid">django-browserid</a> with his trademark pace and effectiveness. BrowserID is great for the whole web - it will help us regain control of our online identities. It's worth repeating, "the people I work with are built of brains and heart" - it's another great day for Mozillians and for the web.</p>
+<p>/me is so proud</p>

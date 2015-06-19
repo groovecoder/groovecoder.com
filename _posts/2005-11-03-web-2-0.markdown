@@ -1,0 +1,57 @@
+---
+layout: post
+status: publish
+published: true
+title: Web 2.0
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 284
+wordpress_url: http://groovecoder.com/2005/11/03/web-2-0/
+date: '2005-11-03 13:06:00 -0600'
+date_gmt: '2005-11-03 19:06:00 -0600'
+categories:
+- Uncategorized
+tags: []
+comments:
+- id: 194
+  author: luke
+  author_email: ''
+  author_url: ''
+  date: '2005-11-07 11:30:00 -0600'
+  date_gmt: '2005-11-07 17:30:00 -0600'
+  content: I had read that article a while back and I agree with what you and Tim
+    are saying.<br/><br/>Even in the business world there is a lot to be said for
+    performing a simple HTTP post with a zip code and getting back the current applicable
+    sales tax at that location. It can do wonders to ease the burden of tax coordination
+    for distribution companies.<br/><br/>But then there are those more intricate exchanges
+    between departments or between different enterprises. These will have little direct
+    effect on general consumers, but the (hopeful) resulting agility within and between
+    enterprises will enable them to capture efficiency benefits from things like economies
+    of scale, but also efficiency benefits from their agility.<br/><br/>In the end,
+    it enables a massively bureaucratic enterprise to open some of its services and
+    processes as those simplified remixable services for general public consumption.
+    And it does it in such a way that the enterprise keeps the security, management,
+    reliability, etc that they require.
+- id: 195
+  author: luke
+  author_email: ''
+  author_url: ''
+  date: '2005-11-11 06:57:00 -0600'
+  date_gmt: '2005-11-11 12:57:00 -0600'
+  content: How about this Web 1.0 -> Web 2.0 :<br/><br/>Slashdot == Web 1.0<br/>Digg
+    = Web 2.0<br/><br/>?
+---
+<p><a href="http://www.oreillynet.com/pub/a/oreilly/tim/news/2005/09/30/what-is-web-20.html">This article</a> is a month old but good. I especially liked the chart with stuff like<br />Ofoto   -->   Flickr<br />Akamai  -->  BitTorrent<br />mp3.com -->  Napster<br />Britannica Online -->  Wikipedia<br />...<br />but then there was <br />screen scraping  -->   web services</p>
+<p>and I was like wtf mate? WS does quite a bit ... "more" than screen scraping. It wasn't long before Tim shut me up.</p>
+<p><span style="font-style:italic;">Once the idea of web services became au courant, large companies jumped into the fray with a complex web services stack designed to create highly reliable programming environments for distributed applications.</p>
+<p>But much as the web succeeded precisely because it overthrew much of hypertext theory, substituting a simple pragmatism for ideal design, RSS has become perhaps the single most widely deployed web service because of its simplicity, while the complex corporate web services stacks have yet to achieve wide deployment.</span></p>
+<p>...which, for those of you just joining us, is dead on. There will, of course, always be a place in the world for thick, fat stalks of really-complicated SOA apps that can run a whole department or a whole company. But I don't see these impacting the general public much.</p>
+<p>What has much more creative potential are specific little very-hackable webservices that do one thing and do it well. Throw a few hundred thousand of them out into the Net and see what a bit of remixing does for them.</p>
+<p>This, of course, assumes that creating/modifying webservices without licensing the various applicable (ha) patents remains possible.</p>
+<p>Anyway, read the rest of that article. Very slick.</p>

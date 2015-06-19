@@ -1,0 +1,73 @@
+---
+layout: post
+status: publish
+published: true
+title: MDN 1.6
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 752
+wordpress_url: http://groovecoder.com/?p=752
+date: '2011-11-22 11:45:05 -0600'
+date_gmt: '2011-11-22 17:45:05 -0600'
+categories:
+- mozilla
+- mdn
+tags:
+- mdn
+comments:
+- id: 1328
+  author: Caspy7
+  author_email: caspy77@gmail.com
+  author_url: ''
+  date: '2011-11-23 11:58:03 -0600'
+  date_gmt: '2011-11-23 17:58:03 -0600'
+  content: Why is there no sound in Firefox?
+- id: 1330
+  author: groovecoder
+  author_email: luke.crouch@gmail.com
+  author_url: http://groovecoder.com
+  date: '2011-11-23 12:54:09 -0600'
+  date_gmt: '2011-11-23 18:54:09 -0600'
+  content: If you're talking about Angry Birds, IIRC, it uses Flash for audio. :(
+    If you have Flash disabled that might be why the audio doesn't play.
+- id: 1331
+  author: Caspy7
+  author_email: caspy77@gmail.com
+  author_url: ''
+  date: '2011-11-23 13:14:06 -0600'
+  date_gmt: '2011-11-23 19:14:06 -0600'
+  content: "Yup, that's what I was talking about.\r\nAnd yup, that was the issue.\r\nGood
+    calls.\r\n\r\n(Also: Flash? Seriously people?)"
+---
+<p><a href="http://mzl.la/mdn_16"><img class="alignnone" title="MDN 1.6" src="https://farm7.staticflickr.com/6236/6389595255_ce212243bc_b.jpg" alt="MDN 1.6" width="1660" height="730" /></a></p>
+<p>We released <a href="http://mzl.la/mdn_16">MDN 1.6</a> today.</p>
+<h3>MDN</h3>
+<ul>
+<li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=698435">We fixed a bunch of un-localized strings</a>. (Though we're not consistently <a title="pseudo-translation to test i18n" href="http://groovecoder.com/2011/11/18/pseudo-translation-to-test-i18n/">using pseudo-translation to spot un-localized strings</a> yet.)</li>
+<li>Fixed a <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=672962">bug when editing dev derby demos</a>.</li>
+<li>Fixed a couple of other bugs generating server errors.</li>
+<li>Made content updates for dev derby, web landing page, and upcoming apps page.</li>
+</ul>
+<h3>Kuma</h3>
+<ul>
+<li>We wrapped up the last bug (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=688245">handling collisions</a>) for <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=678498">section editing</a>.</li>
+<li>We closed one of the last bugs (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=692239">migrating and syndicating user preferences</a>) for moving authentication from MindTouch to django.</li>
+<li>Cleaned up document listing pages - i.e., "Docs that need technical review", "Docs that need editorial review", etc.</li>
+</ul>
+<h3>Up next</h3>
+<p>For <a href="http://mzl.la/mdn_17">MDN 1.7</a> we will:</p>
+<ul>
+<li>Complete the switch from MindTouch authentication &amp; users to django authentication &amp; users.</li>
+<li>Add some spiffy HTML5 features to MDN.</li>
+<li>(Start to) Merge the separate kuma (master) and mdn (mdn) branches into a single branch so we can optimize our git workflow and run the new wiki side-by-side with MindTouch for testing and comparison.</li>
+<li>Promote MDN developer profiles.</li>
+<li>Include various content changes and bug fixes.</li>
+</ul>
+<p>In other news(?), as you can see from my Google search box there, <a href="http://chrome.angrybirds.com">Angry Birds Web</a> now works in Firefox, and Safari and IE9. (Why does Rovio give Opera a big fat screen to download Google Chrome? How much is Google paying these developers to bundle or promote Chrome with everything?) Someone needs to tell <a href="http://www.rovio.com/en/our-work/games/view/1/angry-birds">Rovio</a> it's not just for the Chrome Web Store anymore. And someone needs to tell Google that "Chrome Web" is as senseless as "Firefox Web", "Explorer Web", "Opera Web", "Safari Web", "Xbox Web", "iPhone Web", or anything else into which companies are trying to confine the web these days.</p>
+<p><img class="aligncenter" title="Angry Birds Chrome-only?" src="http://content.screencast.com/users/groovecoder/folders/Jing/media/da3241c2-aa6b-4c8b-b14e-6e5c24f6ab2a/00000113.png" alt="Angry Birds Chrome-only?" width="776" height="190" /></p>

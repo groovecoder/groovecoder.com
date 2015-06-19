@@ -1,0 +1,41 @@
+---
+layout: post
+status: publish
+published: true
+title: MDN 1.8
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 772
+wordpress_url: http://groovecoder.com/?p=772
+date: '2011-12-21 16:46:37 -0600'
+date_gmt: '2011-12-21 22:46:37 -0600'
+categories:
+- mozilla
+- mdn
+tags:
+- mdn
+comments: []
+---
+<p><img class="alignright" title="MDN 1.8" src="http://dl.dropbox.com/u/21969365/mdn_18_chamber.png" alt="MDN 1.8" width="144" height="299" /></p>
+<ul>
+<li>Bug fixes for the new django authentication. (bugs <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=703364">703364</a> and <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=706530">706530</a> and <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=708826">708826</a>)</li>
+<li>James built a new <a href="https://github.com/ubernostrum/django-soapbox">message broadcast app</a> we will add to the site in 1.9 (bugs <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=705675">705675</a> and <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=711728">711728</a>)</li>
+<li>Les merged our 'mdn' and 'master' branches and put the new wiki pages behind waffle so we can use more sane branches (bugs <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=702988">702988</a> and <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=702989">702989</a> and <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=702990">702990</a> and <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=705849">705849</a>)</li>
+<li>Added attribution for <a href="https://developer.mozilla.org/demos/theoatmeal">our tumbeasts images</a> (bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=704085">704085</a>)</li>
+<li>Tweaks and fixes to the <a href="https://developer.mozilla.org/apps">now-released Apps page</a></li>
+<li><a href="http://mzl.la/mdn_18">Various other bugs and fixes</a></li>
+</ul>
+<h3 style="clear: both;">MDN 1.9</h3>
+<p style="text-align: center;"><a href="https://wiki.mozilla.org/Identity/BrowserID/TransitioningSites#BrowserID_flow_with_legacy_migration"><img class="aligncenter" title="BrowserID Flow" src="https://dl.dropbox.com/u/21969365/browserid_flow.png" alt="BrowserID Flow" width="500" height="207" /></a></p>
+<ul>
+<li>Les and Craig have done some good work to set us up to <a href="https://wiki.mozilla.org/Identity/BrowserID/TransitioningSites#BrowserID_flow_with_legacy_migration">transition to BrowserID</a>! At first we'll cover the "golden paths" of <a href="https://browserid.org/">BrowserID</a> - i.e., <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=706526">log in existing users with a single account</a>, <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=706519">register new users</a>.</li>
+<li>Aside from BrowserID, we're just working on <a href="http://mzl.la/mdn_19">a bunch of smaller bug fixes</a> around the holidays.</li>
+</ul>
+<p>In Q1 2012 we are planning to sprint thru our wiki migration from MindTouch to django. Les has already started a <a href="https://github.com/lmorchard/kuma/blob/deki-migration/apps/dekicompat/management/commands/migrate_to_kuma_wiki.py">migration script</a> we will work on to import all the MindTouch wiki pages into django. That will be a big focus of 2.0. After that, the only big unknown is how to replace DekiScript with JavaScript.</p>
+<p>Since Jay will be gone, <a href="https://twitter.com/#!/openjck">John</a> is re-joining us part-time to do some product management along with folks from the Developer Engagement team until we hire a dedicated PM. Until that happens, we're going to work hard on the wiki migration and we'll only add features if they are high priority - like Apps, BrowserID, mobile, etc.</p>

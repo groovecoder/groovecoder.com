@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: $lamp5-&gt;start();
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 248
+wordpress_url: http://groovecoder.com/2005/01/25/lamp5-start/
+date: '2005-01-25 12:54:00 -0600'
+date_gmt: '2005-01-25 18:54:00 -0600'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<div style="text-align: justify;">am hopefully getting started on a php web services project that will be the basis of my work for lamp5. but for now, <a href="http://www.computerworld.com/developmenttopics/development/webservices/story/0,10801,99175,00.html?source=NLT_AM_B&amp;nid=99175">this article</a> is a good read.<br />
+</div>

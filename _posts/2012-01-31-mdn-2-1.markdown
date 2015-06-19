@@ -1,0 +1,44 @@
+---
+layout: post
+status: publish
+published: true
+title: MDN 2.1
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 809
+wordpress_url: http://groovecoder.com/?p=809
+date: '2012-01-31 18:52:31 -0600'
+date_gmt: '2012-02-01 00:52:31 -0600'
+categories:
+- mozilla
+- mdn
+tags:
+- mdn
+comments: []
+---
+<p>We're doing better at keeping away from big new features while we try to work on the wiki migration, so there's no big item in today's release notes.</p>
+<ul>
+<li>More BrowserID cleanup<br />
+bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=715723">715723</a> was really annoying - Sign in was broken from wiki pages<br />
+bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=715811">715811</a> should help users who've forgotten which email address they use on MDN</li>
+<li>MindTouch wiki migration<br />
+James did a thorough job on <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=710734">bug 710734</a> to expand the markup allowed in kuma<br />
+Les did some more great working discovering all MindTouch namespace pages (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=710753">bug 710753</a>) and script template usage (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=714804">bug 714804</a>)<br />
+Craig fixed up a bunch of CSS issues we've discovered as we migrate real content (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=710737">bug 710737</a>)</li>
+<li><a href="http://mzl.la/mdn_21">More</a></li>
+</ul>
+<h3 style="clear: both;">MDN 2.2</h3>
+<ul>
+<li>More MindTouch wiki migration work<br />
+Les is <a href="https://wiki.mozilla.org/MDN/Kuma/Scripting#Proposed_solution_.231">drawing up a proposed architecture for KumaScript</a> to replace DekiScript (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=715253">bug 715253</a>), made the bugs to migrate tags (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=721143">bug 721143</a>), and wrote code to migrate redirects (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=710721">bug 710721</a>)<br />
+I shirked the <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=717380">'locale' bug 717380</a> onto James :)<br />
+I'm working with IT to add the migration script to a cron job on our staging server (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=721072">bug 721072</a>) so the doc community can see the progress so far</li>
+<li>An HTML5 landing page (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=712387">bug 712387</a>) that summarizes all of Mozilla's HTML5 content and initiatives</li>
+<li><a href="http://mzl.la/mdn_22">More</a></li>
+</ul>

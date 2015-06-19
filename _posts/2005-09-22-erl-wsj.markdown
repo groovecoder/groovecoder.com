@@ -1,0 +1,30 @@
+---
+layout: post
+status: publish
+published: true
+title: erl @ WSJ
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 276
+wordpress_url: http://groovecoder.com/2005/09/22/erl-wsj/
+date: '2005-09-22 08:06:00 -0500'
+date_gmt: '2005-09-22 14:06:00 -0500'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<div style="text-align: justify;">I can't find it online, but <a href="http://www.thomaserl.com/">T. Erl</a> wrote what I hope is an introductory-type article to <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0131858580/qid=1127398589/sr=8-2/ref=pd_bbs_2/002-4419384-3904068?v=glance&s=books&amp;n=507846">his new book</a>. I appreciate that he makes an attempt to talk about SOA in a vendor-neutral standpoint, and I think WSJ is pretty good about being agnostic with regard to this or that vendor's marketing hype.</p>
+<p>Erl:</p>
+<p>"Its popularity to date is largely the result of vendors advertising SOA support or capability as part of their product lines. Because SOA has been so vendor-driven, its meaning has been somewhat divergent, skewed by proprietary technology that is...identified with common characteristics that transcend proprietary boundaries."</p>
+<p>and</p>
+<p>"Vendors...have published numerous papers, blueprints, and even frameworks. Most such document serve the dual purpose of educating readers about SOA while marketing related products or services. This is nothing new...However, because a core expectation of SOA is its ability to harmonize and streamline <span style="font-style: italic;">diverse</span> technical environments, preserving an abstract viewpoint is required to achieving its potential." (emphasis mine)</p>
+<p>He talks a bit about Service Orientation (SO) and Object Orientation - they are tantamount in pursuing "separation of concerns," but with different approaches. In describing SO's approach, he describes 8 common principles of SO that should be considered and encouraged when designing systems on any platform, regardless of vendor/language. (Sun/J2EE, MS/.NET, Zend/PHP, etc)</p>
+<p>I hate that vendors often <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0743269098/qid=1127399550/sr=8-1/ref=pd_bbs_1/002-4419384-3904068?v=glance&s=books&amp;n=507846">prattle on about SOA without actually saying anything</a>. But Erl may be too much on the other extreme - describing SOA in such idealistic technical terms that it escapes any relation to real down-to-earth, or in-the-trenches, programming. his <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0131428985/qid=1127399872/sr=8-1/ref=pd_bbs_1/002-4419384-3904068?v=glance&s=books&amp;n=507846">first book</a> was <span style="font-style: italic;">okay </span>in providing example situations and scenarios, but he never seems to go into any run-time code detail, instead focusing only on the XML syntax of the various WS-* techs.</p>
+<p>when I create my uber-l33t service-oriented system, I'll be sure to write an entire book/dissertation/case-study on it down to the code level. hopefully I will show the link between the SO common principles and the SO code. that is, as soon as I write and master the SO code. here's hoping...</div>

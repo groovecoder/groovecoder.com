@@ -1,0 +1,49 @@
+---
+layout: post
+status: publish
+published: true
+title: __init__
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 23
+wordpress_url: http://groovecoder.com/?p=23
+date: '2011-02-10 20:54:42 -0600'
+date_gmt: '2011-02-11 02:54:42 -0600'
+categories:
+- mozilla
+- mdn
+tags:
+- mozilla
+- mdn
+comments: []
+---
+<p>I'm embracing a lot of things recently - python, django, my underused programming handle, and now blogging. I liked <a href="http://bluke.blogspot.com/">my old blog</a>, but I didn't have the time nor leeway to post what I was doing all the time. <a href="http://blog.mozilla.com/jay/">Jay Patel</a>, product manager for MDN, encouraged me to blog about what we're doing there so here I go:</p>
+<pre lang="python">
+from mozilla.webdev import Job
+
+class MDN(Job):
+    def begin(self):
+        from mozilla.webdev.mdn import developer.mozilla.org as devmo
+        devmo.enhance(features={
+            '0.9.3':'Demo Studio', 
+            '0.9.4':'Learn HTML5', 
+            '0.9.5':'Single Sign-On'}
+        )
+
+        from mozilla.webdev.mdn import dekiwiki
+        from mozilla.webdev.sumo import Kitsune
+        class Kuma(Kitsune):
+            pass
+        dekiwiki.moveto(Kuma)
+</pre>
+<p>There are two parallel tracks for MDN - <a href="https://wiki.mozilla.org/MDN/MDNv09x">0.9.x</a> and <a href="https://wiki.mozilla.org/MDN/MDNv1">1.x</a>.</p>
+<p><strong>0.9.x</strong> is a track of enhancements to the existing MDN django, dekiwiki, and phpbb systems. In 0.9.3, we're making an HTML5 Demo Studio, somewhat like the <a href="http://www.getpersonas.com/en-US/gallery/">Personas Gallery</a> for HTML5 demos. (Duh.) 0.9.3 will also feature many new locales in the django application, and performance improvements for django & dekiwiki. Our <a href="https://developer-stage9.mozilla.org/en-US/">MDN staging server</a> showed a YSlow! score increase from 81 to 91 for django; from 79 to __ for dekiwiki. We're still defining the other 0.9.x milestones.</p>
+<p><strong>1.x</strong> to 2.0 is a large rewrite of MDN moving the wiki docs from dekiwiki to 'kuma' - a clone of 'kitsune' - the django wiki application we use for <a href="http://support.mozilla.com">SUMO</a>. Both are japanese words (a django theme?); 'kitsune' means (demonic shape-shifting) fox and 'kuma' means bear. We might describe Mozilla support users as foxes and Mozilla developers as bears. Dekiwiki is a good wiki platform, but we've run into problems maintaining it, and we want to move all of MDN to django to leverage django libs and features - especially those developed by SUMO and other <a href="https://github.com/mozilla/playdoh/">Mozilla django projects</a>.</p>
+<p>I'm mostly working on <a href="https://github.com/mozilla/kuma">Kuma</a> now - cloned <a href="https://github.com/jsocol/kitsune">kitsune</a> and will merge <a href="https://github.com/fwenzel/mdn">mdn</a> when 0.9.3 is solid. Then we should be able to branch kuma to an 'mdn' branch for the rest of the 0.9.x work and merge each milestone into 'master' with the 1.x work.</p>
+<p>At least that's the plan for now. Keep tabs on the <a href="https://wiki.mozilla.org/MDN">MDN wiki page</a>, <a href="https://bugzilla.mozilla.org/buglist.cgi?product=Mozilla%20Developer%20Network&component=Website&resolution=---">MDN bugzilla queue</a>, and join us in <a href="irc://irc.mozilla.org:6697/#mdn">#mdn</a> to follow our MDN dev activity. We hope to make MDN a premier web dev resource and I think what we're doing now is going to help us get there.</p>

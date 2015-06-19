@@ -1,0 +1,33 @@
+---
+layout: post
+status: publish
+published: true
+title: bailouts
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 188
+wordpress_url: http://groovecoder.com/2008/09/26/bailouts/
+date: '2008-09-26 09:28:00 -0500'
+date_gmt: '2008-09-26 15:28:00 -0500'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<p>I usually try to avoid preachy blog postings, but I can't help it today. Blame it on "casual Friday" or something.</p>
+<p>Like lots of people, I'm pretty angry about the government using our taxes to bail out Wall Street incompetence. But now I've gone from angry to pissed-off. Here's why ... <br />
+<blockquote>The Dot-com bubble crash wiped out $5 trillion in market value of technology companies from March 2000 to October 2002.[11]</p>
+<p>Recent research suggests, however, that as many as 50% of the dot-coms survived through 2004, reflecting two facts: the destruction of public market wealth did not necessarily correspond to firm closings, and second, that most of the dot-coms were small players who were able to weather the financial markets storm.[12]</p>
+<p>--<a href="http://en.wikipedia.org/wiki/Dot-com_bubble#Aftermath">http://en.wikipedia.org/wiki/Dot-com_bubble#Aftermath</a></p></blockquote>
+<p>Not only do I work for a dot-com survivor, I work for one of the most bruised, battered, and beaten-up dot-com survivors. I mean, just check out <a href="http://finance.google.com/finance?chdnp=1&chdd=1&chds=1&chdv=1&chvs=maximized&chdeh=0&chdet=1222459200000&chddm=875449&q=NASDAQ:LNUX&ntsp=0">our stock chart</a>! I haven't asked around the office for official corporate history or anything, but I'm pretty sure no-one remembers getting a couple billion dollars from the government while the company lost close to 99% of its market value, but I have been told there were weekly, if not daily, downsizing announcements.</p>
+<p>Now I'm not jealous or vindictive on the part of my company - I wasn't even around for the toughest times. I'm just making a point here that market "catastrophes" and "crises" have happened, happen, and will always happen. Sadly, people will lose their jobs, their wealth, and their houses. In the case of the dot-com fallout, $5 trillion worth on Wall Street alone plus whatever subsequent losses are tallied.</p>
+<p>6 weeks ago, the Congressional Budget Office said taxpayers would need to spend $25 billion to bail out Fannie Mae and Freddie Mac. Now we are seeing figures up to $700 billion. The figure could very well balloon to beyond the $5 trillion lost in the dot-com burst, no-one really knows - not you, not me, not Wall Street, and not Washington.</p>
+<p>So why are we even considering footing the bill for this when no-one even knows what the total is, how it's going to be paid, or to whom we pay it? Obviously there are some very powerful financial market players gaming the system. They are not the "small players who [are] able to weather the financial markets storm."</p>
+<p>It would be interesting to see if the Financial/Credit/Mortgage-Lending industry follows a Long Tail distribution. Might be a case of the tall head exploiting the public to avoid their necessary chop down to obscurity ...</p>
+<p><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://images.despair.com/products/demotivators/underachievement.jpg"><img style="cursor:pointer; cursor:hand;width: 320px;" src="http://images.despair.com/products/demotivators/underachievement.jpg" border="0" alt="" /></a></p>

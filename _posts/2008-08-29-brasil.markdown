@@ -1,0 +1,26 @@
+---
+layout: post
+status: publish
+published: true
+title: Brasil
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 186
+wordpress_url: http://groovecoder.com/2008/08/29/brasil/
+date: '2008-08-29 13:29:00 -0500'
+date_gmt: '2008-08-29 19:29:00 -0500'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<div style="text-align: center;"><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://www.phpconf.com.br/"><img style="margin: 0pt 10px 10px 0pt; cursor: pointer; width: 320px;" src="http://www.phpconf.com.br/includes/templates/padrao/imagens/promo/phpconf_speaker_btn_en.gif" alt="" border="0" /></a></div>
+<p>One of the great things about working for a big-name web company is that you get big opportunities. I'll be speaking at PHP Conference Brasil '08 about how we use PHP at <a href="http://sourceforge.net/">SourceForge.net</a>. Needless to say, I'm very excited and planning some vacation time around the conference.</p>
+<p><a href="http://news.bbc.co.uk/2/hi/business/4602325.stm">Open</a> <a href="http://www.wired.com/techbiz/it/news/2003/11/61257">source</a> is <a href="http://www.npr.org/templates/story/story.php?storyId=3919175">big</a> in <a href="http://news.bbc.co.uk/2/hi/business/3445805.stm">Brazil</a>. And even more pertinent, Brazil is our 3rd-highest nation in terms of site traffic - after U.S.A. and Germany.</p>
+<p>Hopefully I can <a href="http://www.amazon.com/Conversational-Brazilian-Portuguese-Understand-Schusters/dp/0743550447/ref=pd_bbs_sr_2?ie=UTF8&amp;s=books&amp;qid=1220038883&amp;sr=8-2">try</a> to overcome the language gap and present some informative material for everyone. One of the things that struck me when I joined <a href="http://sourceforge.net/">SourceForge.net</a> was that the site code isn't super-magic - it's really quite ordinary PHP, it's just very highly used.</p>

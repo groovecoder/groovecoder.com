@@ -1,0 +1,47 @@
+---
+layout: post
+status: publish
+published: true
+title: SoSaaS
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 282
+wordpress_url: http://groovecoder.com/2005/10/31/sosaas/
+date: '2005-10-31 13:47:00 -0600'
+date_gmt: '2005-10-31 19:47:00 -0600'
+categories:
+- Uncategorized
+tags: []
+comments:
+- id: 193
+  author: Matt Crouch
+  author_email: ''
+  author_url: ''
+  date: '2005-11-03 14:07:00 -0600'
+  date_gmt: '2005-11-03 20:07:00 -0600'
+  content: you bastard now i have to subscribe to that guy's stuff in addition to
+    Berlind's.<br/><br/>i like how he says "digital restrictions management"<br/><br/>and
+    "a vendor that says 'software-as-a-service' but means 'software-as-a-privilege-you-should-be-darned-grateful-for"<br/><br/>But
+    the best is <br/>"Conventional software vendors seem to think the world still
+    owes them a living, just for bothering to write some software"<br/><br/>How %^$%#ing
+    tired are you of hearing how governmental predilection for F/OSS is going to hurt
+    the software industry (it isn't) or how DRM is the only way to keep the music
+    industry afloat.<br/><br/>The creepy thing is how frequently that line works.
+---
+<div style="text-align: justify;"><a href="http://blogs.zdnet.com/SAAS/?p=8">Same old Software, as a Service</a>. Phil Wainright has a few of these <a href="http://blogs.zdnet.com/SAAS/?p=2">straight-up</a> <a href="http://blogs.zdnet.com/SAAS/index.php?p=53">slam-dunks</a>.</p>
+<p>From the second link, about the difference between ASP's in the 90's and today's <span style="font-style: italic;">real </span>services models - "<strong style="font-weight: normal;">designed from the ground up to be delivered over the Internet on pay-as-you-go terms."</strong><br /><strong style="font-weight: normal;"></strong><br /><strong style="font-weight: normal;">From the third link, somewhat related, as to why there can be a <span style="font-style: italic;">real</span> SaaS model - "</strong>No on-demand customer pays simply for the privilege of accessing the software. They pay <span style="font-weight: bold;">because the software delivers business results</span>." [emphasis his]</p>
+<p>I like Phil's analysis, and I've slapped his RSS feed right on the front of my <a href="http://www.google.com/ig">Google Personalized Homepage</a>. And since I want to contribute back, I'll add on some of my own analysis.</p>
+<p>I think a perfect (and very successful) example of a software-as-a-service model is Google AdWords. Basically, the way AdWords works - an advertiser sets up an AdWords account with Google, and can then create some basic text ads for Google to display on the most relevant sites, targeting by content. The advertiser deposits a certain amount into their AdWords account, and specifies how much they are willing to pay for each click-thru they receive via Google ad listings.</p>
+<p>The two important characteristics here are that the software service is designed to 1) be delivered on the internet 2) on a pay-as-you-go basis.</p>
+<p>Obviously, the service revolves around web content, so it's built with the web in mind. That kind of design enables great expansion, as I'll describe in a bit...</p>
+<p>But also key to the success is the pay-as-you-go aspect. If a business buys the AdWords service, they don't pay for access to AdWords, since creating an account and creating the ads are both free activities. They are paying directly (and only) when the service yields actual business value - a marketing contact with potential customers.</p>
+<p>Furthermore, the business has complete <span style="font-weight: bold;">control</span> over their software service budget. They can start small and go up on their own pace. Can you imagine if Google tried to sell this as a one-time fee, or tailor it to each advertiser? The pricing difficulties for Google and the advertisers would be monstrous and costly, and the advertisers would be stuck only with the prices Google can come up with.</p>
+<p>The internet-designed service enables more and more application of the service instead of traditional software model - a single use per application. Related to AdWords is AdSense which is another software service to help Google (and others) make money by helping AdWords's advertisers. AdSense lets anyone display the ads and receive a portion of the click-thru fee. Because AdWords was designed for the internet, it has application at Google - ads displayed in their other software services like GMail, Google Search - and outside of Google via the AdSense program. And Google recognizes that it can and should pay its AdSense partners when those partners' services (target-marketing/advertising) deliver business results as well.</p>
+<p>All of this is to say that SaaS is not only sound, but is already a huge software market for those that implement the right kinds of software services - that deliver business results.</p>
+<p>UPDATE: I read <a href="http://blogs.zdnet.com/SAAS/index.php?p=50">this post</a> of Wainright's AFTER I wrote this post. And he included such good analysis of API-accessed services like AdWords vs. On-Demand services that I included yet another link to his blog. That guy is awesome.<br /><strong></strong></div>

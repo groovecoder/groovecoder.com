@@ -1,0 +1,49 @@
+---
+layout: post
+status: publish
+published: true
+title: MDN 2.3
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 820
+wordpress_url: http://groovecoder.com/?p=820
+date: '2012-03-02 11:40:26 -0600'
+date_gmt: '2012-03-02 17:40:26 -0600'
+categories:
+- mozilla
+- mdn
+tags:
+- mdn
+comments: []
+---
+<p>Released February 28th. We are moving to weekly releases on MDN so these posts are hard to keep up. I will probably start combining releases. And I'm just going to link to the <a href="http://mzl.la/mdn_23">MDN 2.3 bug list</a> instead of linking individual bugs.</p>
+<ul>
+<li>Wiki<br />
+migrate tags from MindTouch to Kuma<br />
+(Re-)enable tag display and editing<br />
+remove extra redirect for locales<br />
+verify code samples work post-migration</li>
+<li>BrowserID<br />
+fix login infinite redirect bug</li>
+<li>HTML5 &amp; Apps MWC pages<br />
+Paul and Craig cranked out the new <a href="https://developer.mozilla.org/learn/html5">HTML5</a> and <a href="https://developer.mozilla.org/apps">Apps</a> landing pages in time for MWC</li>
+</ul>
+<p><a href="http://scrumbu.gs/projects/mdn/2.3/"><img class="alignleft" title="ScrumBugs for MDN 2.3" src="http://dl.dropbox.com/u/21969365/images/scrumbugs_mdn_23.png" alt="ScrumBugs for MDN 2.3" width="240" height="294" /></a>While Paul was with us he created <a href="http://scrumbu.gs/">ScrumBugs</a>! I love it! I always appreciated the way we did Agile/Scrum/XP/whatever at SourceForge.net, and I've been <del>forcing</del> pushing for Mozilla WebDev to adopt some of the same practices. And I just really like pretty graphs! Can you tell?! :)</p>
+<h2 style="clear: both;">MDN 2.4 &amp; 2.4.5</h2>
+<p>We're calling our first weekly sprints 2.4 and 2.4.5, but I think next we'll just move to 2.5, 2.6, ... until we all meet up in New York for <a href="http://lanyrd.com/2012/mdnyc/">MDNYC</a>. At that point we'll probably abandon bugzilla milestones and just use the whiteboard to organize bugs into sprints based on release dates. Until then, here's what we're working on for <a href="http://scrumbu.gs/projects/mdn/2.4/">2.4</a> and <a href="http://scrumbu.gs/projects/mdn/2.4.5/">2.4.5</a>.</p>
+<ul>
+<li>BrowserID<br />
+Hopefully killing all the remaining BrowserID bugs so we can concentrate on wiki</li>
+<li>Wiki<br />
+Les is rocking lots of KumaScript work<br />
+Migrate file attachments<br />
+Wiki code syntax highlighting<br />
+Refine UI for tag editing<br />
+Activate continuous migration on staging server for MDN doc community</li>
+</ul>

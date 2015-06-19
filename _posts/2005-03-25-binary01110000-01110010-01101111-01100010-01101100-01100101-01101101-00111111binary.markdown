@@ -1,0 +1,26 @@
+---
+layout: post
+status: publish
+published: true
+title: '&lt;binary&gt;01110000 01110010 01101111 01100010 01101100 01100101 01101101
+  00111111&lt;/binary&gt;'
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 259
+wordpress_url: http://groovecoder.com/2005/03/25/binary01110000-01110010-01101111-01100010-01101100-01100101-01101101-00111111binary/
+date: '2005-03-25 08:13:00 -0600'
+date_gmt: '2005-03-25 14:13:00 -0600'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<div style="text-align: justify;">I had skepticism about the idea of Binary XML when I first heard about it. I decided to take the official position that I think it could be an advantageous standard, and that I'd be open to using it if and when it makes sense to do so, but that I would only do so if other methods were not applicable.</p>
+<p>besides looking like poster-children for some kind of Geeks Anonymous Club, <a href="http://blogs.zdnet.com/service-oriented/">these guys</a> (or at least Joe) <a href="http://blogs.zdnet.com/service-oriented/index.php?p=229">think</a> that Binary XML is not only unnecessary, but that it causes problems. the same old cookie-cutter arguments against Binary come up - human readability is better, hardware will get faster, system-wide changes in how XML is handled. not only that, but these arguments and the entire article are so simplified, it seems obvious that someone was just missing a deadline?</p>
+<p>so, if you want some <span style="font-style: italic;">good</span> reporting on the Binary XML argument, look to <a href="http://www.xml.com/pub/a/2003/08/13/deviant.html">other sources</a>. I'm not saying that I could do much better, but at least I know if I can't, I can always link to someone who can.</div>

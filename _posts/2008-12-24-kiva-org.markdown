@@ -1,0 +1,26 @@
+---
+layout: post
+status: publish
+published: true
+title: Kiva.org
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 197
+wordpress_url: http://groovecoder.com/2008/12/24/kiva-org/
+date: '2008-12-24 13:03:00 -0600'
+date_gmt: '2008-12-24 19:03:00 -0600'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<p><script type="text/javascript" src="http://www.kiva.org/banners/bannerBlock.php?busId=81277" language="javascript"></script><br /><a href="http://www.kiva.org/about">Kiva.org</a> is a remarkable organization in at least a couple ways - they employ <a href="http://en.wikipedia.org/wiki/Micro-finance">micro-finance</a> principles to aid entrepreneurs in developing countries, and they make excellent use of online technology to do so. We highlighted them in my <span style="font-style:italic;">International Aid and Development</span> class in college.</p>
+<p>I really like that they're using the <a href="http://longtail.com/">Long Tail</a> on both the lending side <span style="font-weight:bold;">and</span> the receiving side of micro-finance. I also like some of their cool web features - the portable badge above, and their use of <a href="http://developers.facebook.com/connect.php">Facebook Connect</a> to syndicate their activity to Facebook.</p>
+<p>One of our good friends gave us a $25 gift certificate to Kiva and I think it's one of the best gifts we've ever received. I've admired Kiva for a while but have never spent the time or effort to get involved with it; this small amount is really inspiring me to do more.</p>
+<p>UPDATE: Wow. When I picked my loan recipient, Margaret, she had 0% of her requested loan. In the 1-2 hours it took to get this blog post up, she received 100% of it. Go Kiva! Go Margaret!</p>

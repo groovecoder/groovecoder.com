@@ -1,0 +1,36 @@
+---
+layout: post
+status: publish
+published: true
+title: open(war)
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 64
+wordpress_url: http://groovecoder.com/?p=64
+date: '2011-02-16 11:45:44 -0600'
+date_gmt: '2011-02-16 17:45:44 -0600'
+categories:
+- openness
+tags:
+- html5
+comments:
+- id: 21
+  author: danu
+  author_email: ezra_1996.@yahoo.co.id
+  author_url: ''
+  date: '2011-03-05 10:41:13 -0600'
+  date_gmt: '2011-03-05 16:41:13 -0600'
+  content: ':razz:'
+---
+<p><a href="http://lifehacker.com/#!5726764"><img class="alignleft" title="Evil App Store" src="http://fastcache.gawkerassets.com/assets/images/17/2011/01/xlarge_mac-app-store---evil.jpg" alt="Evil App Store" width="160" height="90" /></a>We (finally) see the tech industry take critical notice of Apple's closed nature. Most recently over the <a href="http://thinkvitamin.com/web-industry/why-you-should-fight-apples-subscription-extortion/">draconian terms they announced for publisher subscriptions</a>. Of course, I've been self-selecting my articles ever since I heard about Apple's predatory application of the <a href="http://lifehacker.com/#!5726764">severely closed iOS/iTunes paradigm onto Mac software</a> at large with the Mac App Store. I remember a couple of Apple (one a former employee) buds trying to sell me on it - first extolling the value of a search-able directory of apps with ratings and reviews; less than 5 minutes into the conversation they were complaining about poor App Store search results. Good thing there's an <a href="http://google.com">app</a> <a href="http://sf.net">for</a> <a href="http://download.com">that</a>.</p>
+<p>This is not totally new. Open source has been fighting the open war (very well) for a while. There are well-known battle plans on both the <a href="http://www.gsb.stanford.edu/news/research/mendelson_div_conq.html">proprietary side</a> and the <a href="http://www.eweek.com/c/a/Linux-and-Open-Source/Augustins-8-Simple-Rules-for-OpenSource-Business-Strategy/">open side</a>. Some on both sides want to see their "enemies" destroyed, but some of us think open source has "won" by simply creating and sustaining open products and opportunities - not necessarily destroying proprietary software.</p>
+<p>The struggle for Open Web over proprietary Apps is simply an evolution of this struggle of open vs. proprietary. (Personally, I moved from SourceForge.net to Mozilla because I want to be on these new "front lines.") There are signs that <a href="http://www.cnn.com/2010/TECH/mobile/10/20/html5.smartphone.apps/index.html">the tide may turn in favor of Open Web Apps for Mobile</a> and why not? We saw this already with the victory of the open web over closed networks like AOL, CompuServe, Prodigy, etc.</p>
+<p>As much as I'd like to, I'm not predicting the demise of the App Store along the lines of CompuServe & Prodigy. I'm voicing my dissent from the closed status quo and appealing for a more open approach; at least a pro-open perspective. If you're making web apps, build them with <a href="https://developer.mozilla.org/en-US/web">open web technologies</a>. Instead of making native mobile apps, make your web apps kick ass on all devices with HTML5, and only go to an App when you really need device-specific features like cameras and accelerometers.</p>
+<p>UPDATE: <a href="http://www.mobileeurope.co.uk/news/blog/8175-html-5-the-end-of-apps-">Mobile Europe has a good article on HTML5 & App co-existence</a>.</p>
+<p>That's all.</p>

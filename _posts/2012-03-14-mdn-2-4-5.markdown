@@ -1,0 +1,35 @@
+---
+layout: post
+status: publish
+published: true
+title: MDN 2.4.5
+author:
+  display_name: groovecoder
+  login: groovecoder
+  email: luke.crouch@gmail.com
+  url: http://groovecoder.com
+author_login: groovecoder
+author_email: luke.crouch@gmail.com
+author_url: http://groovecoder.com
+wordpress_id: 841
+wordpress_url: http://groovecoder.com/?p=841
+date: '2012-03-14 15:09:34 -0500'
+date_gmt: '2012-03-14 20:09:34 -0500'
+categories:
+- mozilla
+- mdn
+tags:
+- mdn
+comments: []
+---
+<p>Late as usual! MDN 2.4.5 <a href="http://mzl.la/mdn_245">bug list</a> and <a title="MDN 2.4.5 Backlog" href="http://scrumbu.gs/projects/mdn/2.4.5/">backlog</a>.</p>
+<h2>Highlights</h2>
+<ul>
+<li>Wiki<br />
+Syntax Highlighting<br />
+KumaScript is in! (Though it's not available on stage9 yet.)<br />
+Migrations are running on stage9</li>
+<li>Bugs</li>
+</ul>
+<p>Check the <a href="http://scrumbu.gs/projects/mdn/2.5">MDN 2.5 backlog</a> for what we're pushing next!<a href="http://scrumbu.gs/projects/mdn/2.5"><br />
+</a></p>
