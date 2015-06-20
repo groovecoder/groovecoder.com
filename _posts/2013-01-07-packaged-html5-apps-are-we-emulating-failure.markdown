@@ -13,8 +13,6 @@ author_email: luke.crouch@gmail.com
 author_url: http://groovecoder.com
 wordpress_id: 986
 wordpress_url: http://groovecoder.com/?p=986
-date: '2013-01-07 22:17:23 -0600'
-date_gmt: '2013-01-08 04:17:23 -0600'
 categories:
 - dev
 - tech
