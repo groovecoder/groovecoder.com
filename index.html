@@ -2,10 +2,31 @@
 title: Home
 layout: base
 ---
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+  {% for post in paginator.posts %}
+  <div id="post-{{ post.id }}" class="post post-{{ post.id }} type-post status-publish format-standard hentry">
+    <h2 class="title">
+      <a title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <div class="post-info-top">
+      <span class="post-info-date">
+          Posted by <a href="/author/{{ post.author.login }}/" title="View all posts by {{ post.author.login }}" rel="author">{{ post.author.login }}</a>
+          on        {{ post.date|date_to_string }}             </span>
+      <!-- TODO: FIXME: add 3rd-party commenting (disqus) -->
+      <span class="gotocomments"><a href="#comments"  rel="nofollow" title="Go to comments ?">Go to original comments</a></span>
+          </div>
+    <div class="clear"></div>
+
+      {{ post.content }}
+
+  </div>
   {% endfor %}
-</ul>
+
+<div id="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">&laquo; Previous page</a> |
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next page &raquo;</a>
+  {% endif %}
+</div>
