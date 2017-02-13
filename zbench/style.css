@@ -198,6 +198,9 @@ h2.sticky-h2 a{color:#ff4e00;}
 /* widget */
 #sidebar .widget input#s{width:190px;height:22px;line-height:22px;padding:0 5px;}
 #sidebar .widget input#searchsubmit{width:65px;}
+
+.book-link-image { margin-bottom: 1em;}
+
 /* WP-RecentComments */
 #sidebar ul li.rc-item,#sidebar ul li.rc-navi{background:none;padding:0;margin:3px 0;}
 #sidebar ul li.rc-item div{padding:0;border:none;}
