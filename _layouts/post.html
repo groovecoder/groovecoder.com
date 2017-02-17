@@ -7,7 +7,8 @@
             <script type="text/javascript">//<![CDATA[
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-22568404-1']);
-                    _gaq.push(['_trackPageview']);
+            _gaq.push (['_gat._anonymizeIp']);
+            _gaq.push(['_trackPageview']);
             (function () {
                 var ga = document.createElement('script');
                 ga.type = 'text/javascript';
@@ -61,7 +62,7 @@
 
 <h4>Question or comment about this post? <a href="https://github.com/groovecoder/groovecoder.com/issues" target="_blank">Tell me on GitHub</a>.</h4>
 
-<div><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">{{ page.title }} / <a href="/" >groovecoder</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://groovecoder.com"  property="cc:attributionName" rel="cc:attributionURL" >{{ page.author.login }}</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://creativecommons.org']);">Creative Commons Attribution-ShareAlike CC BY-SA</a></div>         </div><!-- END entry -->
+<div><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">{{ page.title }} / <a href="/" >groovecoder</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://groovecoder.com"  property="cc:attributionName" rel="cc:attributionURL" >{{ page.author.login }}</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0">Creative Commons Attribution-ShareAlike CC BY-SA</a></div>         </div><!-- END entry -->
     <div class="add-info">
           </div>
     <div class="post-info-bottom">
@@ -89,7 +90,7 @@
         <li class="comment even thread-even depth-1" id="li-comment-{{ comment.id }}">
         <div id="comment-{{ comment.id }}">
             <div class="comment-author vcard">
-                <img alt='' src="https://www.gravatar.com/avatar/ec25d046746de3be33779256f6957d8f?size=200" class='avatar avatar-40 photo' height='40' width='40' />     <cite class="fn"><a href="{{ comment.author.url }}" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','{{ comment.author.url }}']);"  rel='external nofollow' class='url'>{{ comment.author }}</a></cite>
+                <img alt='' src="https://www.gravatar.com/avatar/ec25d046746de3be33779256f6957d8f?size=200" class='avatar avatar-40 photo' height='40' width='40' />     <cite class="fn"><a href="{{ comment.author.url }}" rel='external nofollow' class='url'>{{ comment.author }}</a></cite>
                 <span class="comment-meta commentmetadata"><a href="{{ page.url }}#comment-{{ comment.id }}">{{comment.date|datetostring}}</a></span>
             </div>
             <div class="comment-text">
@@ -127,7 +128,9 @@
 
 <div id="text-6" class="widget widget_text"><h3 class="widgettitle">About</h3>      
     <p><img src="https://www.gravatar.com/avatar/ec25d046746de3be33779256f6957d8f?size=200" width="200" height="200" /></p>
-    <div class="textwidget">Web Developer for <a href="https://developer.mozilla.org" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://developer.mozilla.org']);">Mozilla Developer Network</a>; co-founder of <a href="http://codesy.io" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://codesy.io']);">codesy.io</a>; collaborator on <a href="http://tulsawebdevs.org" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://tulsawebdevs.org']);">tulsawebdevs</a>, <a href="http://200ok.us" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://200ok.us']);">200 OK</a>, and <a href="http://codefortulsa.org" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://codefortulsa.org']);">codefortulsa</a>; home-brewer; soccer fan; amateur mystic. [<a href="/about">more</a>]</div>
+    <div class="textwidget">
+        Web Developer for <a href="https://www.mozilla.org">Mozilla</a> working on Privacy &amp; Security prototypes for Firefox; co-founder of <a href="http://codesy.io">codesy.io</a>; collaborator on <a href="http://tulsawebdevs.org">tulsawebdevs</a>, <a href="http://200ok.us">200 OK</a>, and <a href="http://codefortulsa.org">codefortulsa</a>; home-brewer; soccer fan; amateur mystic. [<a href="/about">more</a>]</div>
+    </div>
     <div id="dpe_fp_widget-2" class="widget widget_dpe_fp_widget">
         <h3 class="widgettitle">Book Recommendations</h3>
         <a class="book-link-image" target="_blank" href="https://www.amazon.com/gp/product/039335217X/ref=as_li_tl?ie=UTF8&tag=groovecoder-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=039335217X&linkId=c8a81f4a2a45664995edf5509bac33bf"><img src="/uploads/data-and-goliath.jpg" width="200" /></a><br/>
