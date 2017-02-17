@@ -1,8 +1,8 @@
 ---
-layout: base
+layout: post
 status: publish
 published: true
-title: Presentations
+title: Talks
 author:
   display_name: groovecoder
   login: groovecoder
@@ -19,6 +19,16 @@ categories: []
 tags: []
 comments: []
 ---
+<h3>2016</h3>
+<ul>
+    <li>
+        (Coming Soon) <a href="" target="_blank">Top 5 Web Security Errors we
+        see from Firefox and how to fix them</a>
+    </li>
+    <li>
+        <a href="https://speakerdeck.com/groovecoder/scary-javascript-and-other-tech-that-tracks-you-online" target="_blank">Scary Tech that Tracks You Online</a>
+    </li>
+</ul>
 <h3>2012</h3>
 <ul>
 <li>WordPress at Mozilla <a href="http://vreplay.mozilla.com/replay/showRecordDetails.html?recId=273">webcast</a><br />
