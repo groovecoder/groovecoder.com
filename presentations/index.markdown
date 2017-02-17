@@ -19,7 +19,6 @@ categories: []
 tags: []
 comments: []
 ---
-<h3>2016</h3>
 <ul>
     <li>
         (Coming Soon) <a href="" target="_blank">Top 5 Web Security Errors we
