@@ -7,12 +7,12 @@ author:
   display_name: groovecoder
   login: groovecoder
   email: luke.crouch@gmail.com
-  url: http://groovecoder.com
+  url: https://groovecoder.com
 author_login: groovecoder
 author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
+author_url: https://groovecoder.com
 wordpress_id: 1223
-wordpress_url: http://groovecoder.com/?p=1223
+wordpress_url: https://groovecoder.com/?p=1223
 date: '2014-02-26 11:15:45 -0600'
 date_gmt: '2014-02-26 17:15:45 -0600'
 categories:
@@ -32,7 +32,7 @@ comments:
 - id: 77713
   author: groovecoder
   author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
+  author_url: https://groovecoder.com
   date: '2014-02-28 14:22:36 -0600'
   date_gmt: '2014-02-28 20:22:36 -0600'
   content: We do move content around. When we move pages, we leave behind re-directs.
@@ -43,7 +43,7 @@ comments:
 <h3><strong>tl;dr</strong> - go thru <a href="https://docs.google.com/a/mozilla.com/spreadsheet/ccc?key=0ApeHsuEebcoRdHVZZUNqYkFtTVY0UUZ4UUpGblNPZHc#gid=20">Today's stackoverflow MDN links to fix</a> and fix them in the StackOverflow answers.</h3>
 <p><img class="aligncenter size-full wp-image-1225" alt="Stack Overflow Rep" src="/uploads/2014/02/stacko_rep.png" width="744" height="224" /></p>
 <p>Helping developers is my professional and personal passion (See Exhibits <a href="https://sourceforge.net/blog/meet-the-crew-luke-crouch/">A</a>, <a href="https://blog.mozilla.org/webdev/2012/03/09/better-know-a-webdev-luke-crouch-aka-groovecoder/">B</a>, <a href="http://tulsawebdevs.org/">C</a>, and <a href="http://codefortulsa.org/">D</a>). MDN and Stack Overflow are both great resources for web developers. But <strong>following a Stack Overflow answer link to a 404 page is frustrating</strong> and dis-heartening.</p>
-<p><a href="http://xkcd.com/979/"><img class="aligncenter" alt="xkcd: Wisdom of the Ancients" src="http://imgs.xkcd.com/comics/wisdom_of_the_ancients.png" width="485" height="270" /></a>I <a href="https://github.com/mozilla/kuma/pull/2042">added GA event tracking for 404's on MDN</a>. I <strong>originally wanted to help writers decide which wiki pages to prioritize</strong>, based on how many times an MDN reader clicks <em>an internal link</em> that results in a 404. But when you record metrics and analyze them, you <strong>find the unknown unknowns</strong>, and "<a href="http://leananalyticsbook.com/behind-the-scenes-of-a-book-launch/">it’s the unknown unknowns that really matter, because that’s where the magic comes from.</a>"</p>
+<p><a href="https://xkcd.com/979/"><img class="aligncenter" alt="xkcd: Wisdom of the Ancients" src="https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png" width="485" height="270" /></a>I <a href="https://github.com/mozilla/kuma/pull/2042">added GA event tracking for 404's on MDN</a>. I <strong>originally wanted to help writers decide which wiki pages to prioritize</strong>, based on how many times an MDN reader clicks <em>an internal link</em> that results in a 404. But when you record metrics and analyze them, you <strong>find the unknown unknowns</strong>, and "<a href="http://leananalyticsbook.com/behind-the-scenes-of-a-book-launch/">it’s the unknown unknowns that really matter, because that’s where the magic comes from.</a>"</p>
 <p>So, <strong>I learned that the vast majority of 404's on MDN are from external links</strong>. (Duh!) And <strong>the biggest single source of those are old Stack Overflow links</strong>. Luckily, Stack Overflow allows us to edit those answers to update the links to MDN. There's even a special <a href="https://stackoverflow.com/help/badges/1287/excavator">"Excavator" badge</a> for editing a post that's been inactive for 6 months.</p>
 <p>So, if you've got a few minutes, you could help clean some of these links up:</p>
 <ol>

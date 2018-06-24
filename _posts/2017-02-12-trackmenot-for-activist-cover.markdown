@@ -7,10 +7,10 @@ author:
   display_name: groovecoder
   login: groovecoder
   email: luke.crouch@gmail.com
-  url: http://groovecoder.com
+  url: https://groovecoder.com
 author_login: groovecoder
 author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
+author_url: https://groovecoder.com
 date: '2017-02-12 21:00:00 -0600'
 date_gmt: '2017-02-12 21:00:00'
 tags:
@@ -42,7 +42,7 @@ One goal of obfuscation can be to provide cover - i.e.,
 
 To help provide cover for activists online, you can:
 
-1. Install [TrackMeNot](http://cs.nyu.edu/trackmenot/)
+1. Install [TrackMeNot](https://cs.nyu.edu/trackmenot/)
 2. Customize its search terms using RSS feeds of activist sites.
 
 This will force anyone surveilling  activists via online search terms to sort
@@ -50,7 +50,7 @@ thru your noise in the system.
 
 ### Install TrackMeNot
 
-This is super-easy. [TrackMeNot](http://cs.nyu.edu/trackmenot/) is available
+This is super-easy. [TrackMeNot](https://cs.nyu.edu/trackmenot/) is available
 for both Firefox and Chrome.
 
 ![TrackMeNot addons.mozilla.org Screenshot](/uploads/amo-trackmenot.png)

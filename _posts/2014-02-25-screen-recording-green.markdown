@@ -7,12 +7,12 @@ author:
   display_name: groovecoder
   login: groovecoder
   email: luke.crouch@gmail.com
-  url: http://groovecoder.com
+  url: https://groovecoder.com
 author_login: groovecoder
 author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
+author_url: https://groovecoder.com
 wordpress_id: 1218
-wordpress_url: http://groovecoder.com/?p=1218
+wordpress_url: https://groovecoder.com/?p=1218
 date: '2014-02-25 23:57:34 -0600'
 date_gmt: '2014-02-26 05:57:34 -0600'
 categories:
