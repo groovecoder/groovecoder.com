@@ -24,7 +24,7 @@ comments: []
 <ul>
   <li><a href="http://tulsawebdevs.org/">Tulsa Web Devs</a>' mission is to make Tulsa on of the greatest cities in the world for web developers.</li>
   <li><a href="http://codefortulsa.org/">Code for Tulsa</a> is our Code for America Brigade.</li>
-  <li><a href="http://techlahoma.org/">Techlahoma</a> is a sate-wide foundation to support grassroots technology communities.</li>
+  <li><a href="http://techlahoma.org/">Techlahoma</a> is a state-wide foundation to support grassroots technology communities.</li>
 </ul>
 </p>
 <p>I owe all my best experiences to the open-source community and <a href="https://github.com/groovecoder">try to give back</a>.</p>
