@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: MDN & Kuma progress
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 584
-wordpress_url: http://groovecoder.com/?p=584
 date: '2011-06-15 15:07:14 -0500'
-date_gmt: '2011-06-15 20:07:14 -0500'
 categories:
 - mdn
 tags:

@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: '&quot;marketecture&quot;'
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 269
-wordpress_url: http://groovecoder.com/2005/06/29/marketecture/
 date: '2005-06-29 07:37:00 -0500'
-date_gmt: '2005-06-29 13:37:00 -0500'
 categories:
 - Uncategorized
 tags: []

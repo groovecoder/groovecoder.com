@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Dear Google, I need an iMac
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 148
-wordpress_url: http://groovecoder.com/2006/07/14/dear-google-i-need-an-imac/
 date: '2006-07-14 12:11:00 -0500'
-date_gmt: '2006-07-14 18:11:00 -0500'
 categories:
 - Uncategorized
 tags: []

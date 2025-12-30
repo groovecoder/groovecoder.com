@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Please Learn to Eat the World
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 861
-wordpress_url: http://groovecoder.com/?p=861
 date: '2012-05-17 18:00:10 -0500'
-date_gmt: '2012-05-17 23:00:10 -0500'
 categories:
 - tech
 tags: []

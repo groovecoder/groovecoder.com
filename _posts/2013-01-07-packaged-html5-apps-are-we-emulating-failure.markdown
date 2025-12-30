@@ -3,16 +3,6 @@ layout: post
 status: publish
 published: true
 title: 'Packaged HTML5 Apps: Are we emulating failure?'
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 986
-wordpress_url: http://groovecoder.com/?p=986
 categories:
 - dev
 - tech

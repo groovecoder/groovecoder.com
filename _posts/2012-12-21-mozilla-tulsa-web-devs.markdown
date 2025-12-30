@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Mozilla & Tulsa Web Devs
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 971
-wordpress_url: http://groovecoder.com/?p=971
 date: '2012-12-21 10:24:34 -0600'
-date_gmt: '2012-12-21 16:24:34 -0600'
 categories:
 - mozilla
 - tulsa

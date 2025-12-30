@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: closing [loopholes|business models] in OS licenses
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 161
-wordpress_url: http://groovecoder.com/2006/10/13/closing-loopholesbusiness-models-in-os-licenses/
 date: '2006-10-13 13:07:00 -0500'
-date_gmt: '2006-10-13 19:07:00 -0500'
 categories:
 - Uncategorized
 tags: []

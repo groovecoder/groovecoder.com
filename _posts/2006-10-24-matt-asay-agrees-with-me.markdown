@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Matt Asay agrees with me
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 163
-wordpress_url: http://groovecoder.com/2006/10/24/matt-asay-agrees-with-me/
 date: '2006-10-24 08:55:00 -0500'
-date_gmt: '2006-10-24 14:55:00 -0500'
 categories:
 - Uncategorized
 tags: []

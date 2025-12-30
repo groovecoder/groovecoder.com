@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: WS-RealityCheck
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 244
-wordpress_url: http://groovecoder.com/2005/01/12/ws-realitycheck/
 date: '2005-01-12 15:11:00 -0600'
-date_gmt: '2005-01-12 21:11:00 -0600'
 categories:
 - Uncategorized
 tags: []

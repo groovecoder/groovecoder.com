@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Continuous Integration
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 177
-wordpress_url: http://groovecoder.com/2007/05/18/continuous-integration/
 date: '2007-05-18 21:24:00 -0500'
-date_gmt: '2007-05-19 02:24:00 -0500'
 categories:
 - Uncategorized
 tags:

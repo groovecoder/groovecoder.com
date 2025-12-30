@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: MDN 1.8
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 772
-wordpress_url: http://groovecoder.com/?p=772
 date: '2011-12-21 16:46:37 -0600'
-date_gmt: '2011-12-21 22:46:37 -0600'
 categories:
 - mozilla
 - mdn

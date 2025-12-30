@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: fun followup
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 162
-wordpress_url: http://groovecoder.com/2006/10/19/fun-followup/
 date: '2006-10-19 21:22:00 -0500'
-date_gmt: '2006-10-20 03:22:00 -0500'
 categories:
 - Uncategorized
 tags: []

@@ -3,16 +3,7 @@ layout: post
 status: publish
 published: true
 title: Let's Encrypt on Heroku with DNS Domain Validation
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: https://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: https://groovecoder.com
 date: '2017-01-02 21:00:00 -0600'
-date_gmt: '2017-01-02 21:00:00'
 tags:
 - security
 - letsencrypt

@@ -1,4 +1,19 @@
----
-plugins: [jekyll-paginate]
+title: groovecoder
+description: 203 Non-Authoritative Information
+url: https://groovecoder.com
+author: groovecoder
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-paginate
+
 paginate: 5
----
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .bundle
+  - vendor

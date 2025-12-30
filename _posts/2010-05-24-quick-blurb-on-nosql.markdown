@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: quick blurb on NoSQL
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 204
-wordpress_url: http://groovecoder.com/2010/05/24/quick-blurb-on-nosql/
 date: '2010-05-24 12:08:00 -0500'
-date_gmt: '2010-05-24 18:08:00 -0500'
 categories:
 - dev
 tags: []

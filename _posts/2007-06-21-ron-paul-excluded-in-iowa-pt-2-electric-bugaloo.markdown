@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Ron Paul Excluded in Iowa, pt. 2 electric Bugaloo
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 178
-wordpress_url: http://groovecoder.com/2007/06/21/ron-paul-excluded-in-iowa-pt-2-electric-bugaloo/
 date: '2007-06-21 12:51:00 -0500'
-date_gmt: '2007-06-21 18:51:00 -0500'
 categories:
 - Uncategorized
 tags: []

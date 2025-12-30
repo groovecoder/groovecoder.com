@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: W3C makes a move
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 249
-wordpress_url: http://groovecoder.com/2005/01/27/w3c-makes-a-move/
 date: '2005-01-27 15:31:00 -0600'
-date_gmt: '2005-01-27 21:31:00 -0600'
 categories:
 - Uncategorized
 tags: []

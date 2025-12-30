@@ -1,3 +1,7 @@
 _site
 Gemfile*
 .bundle
+.envrc
+.jekyll-cache
+.sass-cache
+vendor/

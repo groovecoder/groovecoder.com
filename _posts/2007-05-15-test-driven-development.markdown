@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Test Driven Development
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 175
-wordpress_url: http://groovecoder.com/2007/05/15/test-driven-development/
 date: '2007-05-15 07:10:00 -0500'
-date_gmt: '2007-05-15 12:10:00 -0500'
 categories:
 - Uncategorized
 tags:

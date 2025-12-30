@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: unit tests and just-got-it-working inertia
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 187
-wordpress_url: http://groovecoder.com/2008/09/17/unit-tests-and-just-got-it-working-inertia/
 date: '2008-09-17 09:48:00 -0500'
-date_gmt: '2008-09-17 14:48:00 -0500'
 categories:
 - Uncategorized
 tags:

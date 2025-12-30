@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: IBM method for SOA'ing yourself
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 264
-wordpress_url: http://groovecoder.com/2005/04/06/ibm-method-for-soaing-yourself/
 date: '2005-04-06 15:10:00 -0500'
-date_gmt: '2005-04-06 21:10:00 -0500'
 categories:
 - Uncategorized
 tags: []

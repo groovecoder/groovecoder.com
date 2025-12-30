@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: pleasant voice from open source
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 211
-wordpress_url: http://groovecoder.com/2004/11/06/pleasant-voice-from-open-source/
 date: '2004-11-06 09:14:00 -0600'
-date_gmt: '2004-11-06 15:14:00 -0600'
 categories:
 - Uncategorized
 tags: []

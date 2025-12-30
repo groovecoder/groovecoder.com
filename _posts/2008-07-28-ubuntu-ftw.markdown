@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Ubuntu FTW?
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 184
-wordpress_url: http://groovecoder.com/2008/07/28/ubuntu-ftw/
 date: '2008-07-28 21:22:00 -0500'
-date_gmt: '2008-07-29 03:22:00 -0500'
 categories:
 - Uncategorized
 tags: []

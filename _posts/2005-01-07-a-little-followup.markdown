@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: a little followup
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 241
-wordpress_url: http://groovecoder.com/2005/01/07/a-little-followup/
 date: '2005-01-07 10:06:00 -0600'
-date_gmt: '2005-01-07 16:06:00 -0600'
 categories:
 - Uncategorized
 tags: []

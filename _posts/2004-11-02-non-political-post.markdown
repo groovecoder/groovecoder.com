@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: non-political post
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 209
-wordpress_url: http://groovecoder.com/2004/11/02/non-political-post/
 date: '2004-11-02 16:26:00 -0600'
-date_gmt: '2004-11-02 22:26:00 -0600'
 categories:
 - Uncategorized
 tags: []

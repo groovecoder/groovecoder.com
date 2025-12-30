@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: repeat article?
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 263
-wordpress_url: http://groovecoder.com/2005/04/04/repeat-article/
 date: '2005-04-04 10:24:00 -0500'
-date_gmt: '2005-04-04 16:24:00 -0500'
 categories:
 - Uncategorized
 tags: []

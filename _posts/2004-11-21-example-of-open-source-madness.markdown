@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: example of open-source madness
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 220
-wordpress_url: http://groovecoder.com/2004/11/21/example-of-open-source-madness/
 date: '2004-11-21 09:34:00 -0600'
-date_gmt: '2004-11-21 15:34:00 -0600'
 categories:
 - Uncategorized
 tags: []

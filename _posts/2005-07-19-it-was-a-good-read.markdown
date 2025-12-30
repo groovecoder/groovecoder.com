@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: it was a good read
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 271
-wordpress_url: http://groovecoder.com/2005/07/19/it-was-a-good-read/
 date: '2005-07-19 09:49:00 -0500'
-date_gmt: '2005-07-19 15:49:00 -0500'
 categories:
 - Uncategorized
 tags: []

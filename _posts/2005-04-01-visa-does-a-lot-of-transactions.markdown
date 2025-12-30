@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: visa does a lot of transactions
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 262
-wordpress_url: http://groovecoder.com/2005/04/01/visa-does-a-lot-of-transactions/
 date: '2005-04-01 16:25:00 -0600'
-date_gmt: '2005-04-01 22:25:00 -0600'
 categories:
 - Uncategorized
 tags: []

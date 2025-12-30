@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Controller Testing in Zend Framework
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 173
-wordpress_url: http://groovecoder.com/2007/04/25/controller-testing-in-zend-framework/
 date: '2007-04-25 08:02:00 -0500'
-date_gmt: '2007-04-25 13:02:00 -0500'
 categories:
 - Uncategorized
 tags:

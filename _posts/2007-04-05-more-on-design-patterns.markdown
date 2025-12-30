@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: More on design patterns
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 172
-wordpress_url: http://groovecoder.com/2007/04/05/more-on-design-patterns/
 date: '2007-04-05 12:01:00 -0500'
-date_gmt: '2007-04-05 18:01:00 -0500'
 categories:
 - Uncategorized
 tags: []

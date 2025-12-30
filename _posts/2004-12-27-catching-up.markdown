@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: catching up
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 236
-wordpress_url: http://groovecoder.com/2004/12/27/catching-up/
 date: '2004-12-27 18:33:00 -0600'
-date_gmt: '2004-12-28 00:33:00 -0600'
 categories:
 - Uncategorized
 tags: []

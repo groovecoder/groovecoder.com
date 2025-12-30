@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Web Standards in Visual Studio
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 598
-wordpress_url: http://groovecoder.com/?p=598
 date: '2011-06-19 12:01:28 -0500'
-date_gmt: '2011-06-19 18:01:28 -0500'
 categories:
 - openness
 - dev

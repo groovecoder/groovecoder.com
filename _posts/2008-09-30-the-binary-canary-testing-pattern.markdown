@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: the binary canary testing pattern
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 189
-wordpress_url: http://groovecoder.com/2008/09/30/the-binary-canary-testing-pattern/
 date: '2008-09-30 17:06:00 -0500'
-date_gmt: '2008-09-30 22:06:00 -0500'
 categories:
 - Uncategorized
 tags:

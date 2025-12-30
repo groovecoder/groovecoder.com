@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: HTML5 App Stores don't go too far enough
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 1075
-wordpress_url: http://groovecoder.com/?p=1075
 date: '2013-01-22 10:35:06 -0600'
-date_gmt: '2013-01-22 16:35:06 -0600'
 categories:
 - dev
 - tech

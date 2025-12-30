@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Seven things that probably you may not know about me
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 199
-wordpress_url: http://groovecoder.com/2009/01/09/seven-things-that-probably-you-may-not-know-about-me/
 date: '2009-01-09 09:14:00 -0600'
-date_gmt: '2009-01-09 15:14:00 -0600'
 categories:
 - Uncategorized
 tags: []

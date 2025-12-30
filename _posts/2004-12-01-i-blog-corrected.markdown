@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: I blog corrected
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 225
-wordpress_url: http://groovecoder.com/2004/12/01/i-blog-corrected/
 date: '2004-12-01 17:46:00 -0600'
-date_gmt: '2004-12-01 23:46:00 -0600'
 categories:
 - Uncategorized
 tags: []

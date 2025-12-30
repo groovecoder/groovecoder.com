@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Reports of the death of the Long Tail have been greatly exxagerated.
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 167
-wordpress_url: http://groovecoder.com/2006/12/21/reports-of-the-death-of-the-long-tail-have-been-greatly-exxagerated/
 date: '2006-12-21 11:59:00 -0600'
-date_gmt: '2006-12-21 17:59:00 -0600'
 categories:
 - Uncategorized
 tags: []

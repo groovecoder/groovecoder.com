@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: nothing happening
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 246
-wordpress_url: http://groovecoder.com/2005/01/18/nothing-happening/
 date: '2005-01-18 16:36:00 -0600'
-date_gmt: '2005-01-18 22:36:00 -0600'
 categories:
 - Uncategorized
 tags: []

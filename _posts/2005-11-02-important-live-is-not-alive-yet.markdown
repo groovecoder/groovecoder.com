@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Important - &quot;Live&quot; is not alive yet
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 283
-wordpress_url: http://groovecoder.com/2005/11/02/important-live-is-not-alive-yet/
 date: '2005-11-02 18:06:00 -0600'
-date_gmt: '2005-11-03 00:06:00 -0600'
 categories:
 - Uncategorized
 tags: []

@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: 'Re: An Open Letter to the Ron Paul Faithful'
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 179
-wordpress_url: http://groovecoder.com/2007/10/12/re-an-open-letter-to-the-ron-paul-faithful/
 date: '2007-10-12 09:21:00 -0500'
-date_gmt: '2007-10-12 15:21:00 -0500'
 categories:
 - Uncategorized
 tags: []

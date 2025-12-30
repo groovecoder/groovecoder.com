@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Windows EULA
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 164
-wordpress_url: http://groovecoder.com/2006/11/02/windows-eula/
 date: '2006-11-02 17:11:00 -0600'
-date_gmt: '2006-11-02 23:11:00 -0600'
 categories:
 - Uncategorized
 tags: []

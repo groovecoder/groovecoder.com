@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: open source revenue
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 160
-wordpress_url: http://groovecoder.com/2006/09/19/open-source-revenue/
 date: '2006-09-19 21:31:00 -0500'
-date_gmt: '2006-09-20 03:31:00 -0500'
 categories:
 - Uncategorized
 tags: []

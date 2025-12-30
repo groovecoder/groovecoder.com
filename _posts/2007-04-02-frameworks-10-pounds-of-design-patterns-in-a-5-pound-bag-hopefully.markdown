@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Frameworks - 10 pounds of Design Patterns in a 5 pound bag (hopefully)
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 171
-wordpress_url: http://groovecoder.com/2007/04/02/frameworks-10-pounds-of-design-patterns-in-a-5-pound-bag-hopefully/
 date: '2007-04-02 22:31:00 -0500'
-date_gmt: '2007-04-03 04:31:00 -0500'
 categories:
 - Uncategorized
 tags: []

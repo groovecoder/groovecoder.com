@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: On Frameworks
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 169
-wordpress_url: http://groovecoder.com/2007/02/26/on-frameworks/
 date: '2007-02-26 14:54:00 -0600'
-date_gmt: '2007-02-26 20:54:00 -0600'
 categories:
 - Uncategorized
 tags: []

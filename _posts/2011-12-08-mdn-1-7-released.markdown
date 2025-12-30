@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: MDN 1.7 Released
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 762
-wordpress_url: http://groovecoder.com/?p=762
 date: '2011-12-08 23:27:46 -0600'
-date_gmt: '2011-12-09 05:27:46 -0600'
 categories:
 - mozilla
 - mdn

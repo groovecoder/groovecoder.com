@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: (Microsoft != Web Services &amp;&amp; Web Services != SOA)
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 278
-wordpress_url: http://groovecoder.com/2005/09/27/microsoft-web-services-web-services-soa/
 date: '2005-09-27 07:39:00 -0500'
-date_gmt: '2005-09-27 13:39:00 -0500'
 categories:
 - Uncategorized
 tags: []

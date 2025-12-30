@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: SOA introduction
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 242
-wordpress_url: http://groovecoder.com/2005/01/08/soa-introduction/
 date: '2005-01-08 15:17:00 -0600'
-date_gmt: '2005-01-08 21:17:00 -0600'
 categories:
 - Uncategorized
 tags: []

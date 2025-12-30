@@ -4,18 +4,7 @@ status: publish
 published: true
 title: '&lt;binary&gt;01110000 01110010 01101111 01100010 01101100 01100101 01101101
   00111111&lt;/binary&gt;'
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 259
-wordpress_url: http://groovecoder.com/2005/03/25/binary01110000-01110010-01101111-01100010-01101100-01100101-01101101-00111111binary/
 date: '2005-03-25 08:13:00 -0600'
-date_gmt: '2005-03-25 14:13:00 -0600'
 categories:
 - Uncategorized
 tags: []

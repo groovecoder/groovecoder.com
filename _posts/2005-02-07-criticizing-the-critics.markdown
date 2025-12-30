@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: criticizing the critics
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 254
-wordpress_url: http://groovecoder.com/2005/02/07/criticizing-the-critics/
 date: '2005-02-07 13:00:00 -0600'
-date_gmt: '2005-02-07 19:00:00 -0600'
 categories:
 - Uncategorized
 tags: []

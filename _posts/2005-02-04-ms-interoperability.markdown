@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: MS-Interoperability
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 252
-wordpress_url: http://groovecoder.com/2005/02/04/ms-interoperability/
 date: '2005-02-04 16:01:00 -0600'
-date_gmt: '2005-02-04 22:01:00 -0600'
 categories:
 - Uncategorized
 tags: []

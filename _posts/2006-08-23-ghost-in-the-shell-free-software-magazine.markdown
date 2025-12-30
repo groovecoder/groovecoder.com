@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Ghost in the shell | Free Software Magazine
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 155
-wordpress_url: http://groovecoder.com/2006/08/23/ghost-in-the-shell-free-software-magazine/
 date: '2006-08-23 19:29:00 -0500'
-date_gmt: '2006-08-24 01:29:00 -0500'
 categories:
 - Uncategorized
 tags: []

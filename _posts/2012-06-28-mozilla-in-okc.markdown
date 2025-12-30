@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Mozilla in OKC
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 902
-wordpress_url: http://groovecoder.com/?p=902
 date: '2012-06-28 16:15:59 -0500'
-date_gmt: '2012-06-28 21:15:59 -0500'
 categories:
 - mozilla
 - community

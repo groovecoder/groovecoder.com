@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: The Long Local Tail of Web Developers
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 674
-wordpress_url: http://groovecoder.com/?p=674
 date: '2011-08-09 14:48:15 -0500'
-date_gmt: '2011-08-09 19:48:15 -0500'
 categories:
 - community
 tags:

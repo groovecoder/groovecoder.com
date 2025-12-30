@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: bugzilla-agile
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 646
-wordpress_url: http://groovecoder.com/?p=646
 date: '2011-07-18 09:59:17 -0500'
-date_gmt: '2011-07-18 14:59:17 -0500'
 categories:
 - mozilla
 - mdn

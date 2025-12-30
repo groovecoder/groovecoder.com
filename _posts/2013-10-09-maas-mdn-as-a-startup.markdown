@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: 'MaaS: MDN as a Startup'
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 1185
-wordpress_url: http://groovecoder.com/?p=1185
 date: '2013-10-09 11:33:39 -0500'
-date_gmt: '2013-10-09 16:33:39 -0500'
 categories:
 - mozilla
 - mdn

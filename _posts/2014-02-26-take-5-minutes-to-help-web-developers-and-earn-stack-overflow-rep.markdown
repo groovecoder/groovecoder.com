@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Take 5 minutes to help web developers and earn Stack Overflow rep
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: https://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: https://groovecoder.com
-wordpress_id: 1223
-wordpress_url: https://groovecoder.com/?p=1223
 date: '2014-02-26 11:15:45 -0600'
-date_gmt: '2014-02-26 17:15:45 -0600'
 categories:
 - mdn
 tags: []

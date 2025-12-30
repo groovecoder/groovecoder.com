@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: team fortress 2 enable steam community ingame
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 1172
-wordpress_url: http://groovecoder.com/?p=1172
 date: '2013-06-19 22:43:42 -0500'
-date_gmt: '2013-06-20 03:43:42 -0500'
 categories:
 - Uncategorized
 tags: []

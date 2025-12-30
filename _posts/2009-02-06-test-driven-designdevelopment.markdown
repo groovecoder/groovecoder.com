@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Test-Driven [Design|Development]
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 201
-wordpress_url: http://groovecoder.com/2009/02/06/test-driven-designdevelopment/
 date: '2009-02-06 16:04:00 -0600'
-date_gmt: '2009-02-06 22:04:00 -0600'
 categories:
 - dev
 tags:

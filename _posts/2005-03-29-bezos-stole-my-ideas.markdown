@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: bezos stole my idea(s)
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 261
-wordpress_url: http://groovecoder.com/2005/03/29/bezos-stole-my-ideas/
 date: '2005-03-29 08:32:00 -0600'
-date_gmt: '2005-03-29 14:32:00 -0600'
 categories:
 - Uncategorized
 tags: []

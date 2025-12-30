@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Reynolds's SOA definition
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 279
-wordpress_url: http://groovecoder.com/2005/10/03/reynoldss-soa-definition/
 date: '2005-10-03 17:39:00 -0500'
-date_gmt: '2005-10-03 23:39:00 -0500'
 categories:
 - Uncategorized
 tags: []

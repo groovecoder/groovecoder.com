@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Unit-testing ZF Controllers without Zend_Test
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 198
-wordpress_url: http://groovecoder.com/2009/01/08/unit-testing-zf-controllers-without-zend_test/
 date: '2009-01-08 13:54:00 -0600'
-date_gmt: '2009-01-08 19:54:00 -0600'
 categories:
 - dev
 tags:

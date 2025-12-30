@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Webdev Offsite & Open Source Bridge
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 602
-wordpress_url: http://groovecoder.com/?p=602
 date: '2011-06-28 11:12:19 -0500'
-date_gmt: '2011-06-28 16:12:19 -0500'
 categories:
 - mozilla
 tags:

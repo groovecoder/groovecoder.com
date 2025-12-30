@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: frameworks, licenses, etc.
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 170
-wordpress_url: http://groovecoder.com/2007/03/05/frameworks-licenses-etc/
 date: '2007-03-05 21:51:00 -0600'
-date_gmt: '2007-03-06 03:51:00 -0600'
 categories:
 - Uncategorized
 tags: []

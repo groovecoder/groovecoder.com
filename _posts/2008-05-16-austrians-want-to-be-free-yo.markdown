@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Austrians want to be FREE yo
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 180
-wordpress_url: http://groovecoder.com/2008/05/16/austrians-want-to-be-free-yo/
 date: '2008-05-16 08:47:00 -0500'
-date_gmt: '2008-05-16 14:47:00 -0500'
 categories:
 - Uncategorized
 tags: []

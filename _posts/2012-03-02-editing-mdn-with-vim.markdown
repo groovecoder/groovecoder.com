@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Editing MDN with VIM
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 830
-wordpress_url: http://groovecoder.com/?p=830
 date: '2012-03-02 12:02:04 -0600'
-date_gmt: '2012-03-02 18:02:04 -0600'
 categories:
 - mdn
 - dev

@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: An open letter to all non-parents from a parent
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 885
-wordpress_url: http://groovecoder.com/?p=885
 date: '2012-06-18 23:00:35 -0500'
-date_gmt: '2012-06-19 04:00:35 -0500'
 categories:
 - Uncategorized
 tags: []

@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: The Long Tail (of|and) Open Source Software
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 165
-wordpress_url: http://groovecoder.com/2006/11/08/the-long-tail-ofand-open-source-software/
 date: '2006-11-08 00:06:00 -0600'
-date_gmt: '2006-11-08 06:06:00 -0600'
 categories:
 - Uncategorized
 tags: []

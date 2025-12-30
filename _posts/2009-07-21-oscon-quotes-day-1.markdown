@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: OSCON quotes - day 1
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 202
-wordpress_url: http://groovecoder.com/2009/07/21/oscon-quotes-day-1/
 date: '2009-07-21 00:28:00 -0500'
-date_gmt: '2009-07-21 06:28:00 -0500'
 categories:
 - Uncategorized
 tags: []

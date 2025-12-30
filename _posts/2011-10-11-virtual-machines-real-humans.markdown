@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Virtual Machines and Real Humans
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 688
-wordpress_url: http://groovecoder.com/?p=688
 date: '2011-10-11 16:28:19 -0500'
-date_gmt: '2011-10-11 21:28:19 -0500'
 categories:
 - dev
 - community

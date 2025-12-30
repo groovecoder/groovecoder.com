@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: mac raspberry pi dd permission denied
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 960
-wordpress_url: http://groovecoder.com/?p=960
 date: '2012-11-25 10:43:50 -0600'
-date_gmt: '2012-11-25 16:43:50 -0600'
 categories:
 - tech
 tags:

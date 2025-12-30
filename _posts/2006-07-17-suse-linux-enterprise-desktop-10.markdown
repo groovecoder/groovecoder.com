@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: SUSE Linux Enterprise Desktop 10
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 149
-wordpress_url: http://groovecoder.com/2006/07/17/suse-linux-enterprise-desktop-10/
 date: '2006-07-17 09:30:00 -0500'
-date_gmt: '2006-07-17 15:30:00 -0500'
 categories:
 - Uncategorized
 tags: []

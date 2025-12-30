@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: open source WS-Reliability
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 224
-wordpress_url: http://groovecoder.com/2004/11/30/open-source-ws-reliability/
 date: '2004-11-30 10:37:00 -0600'
-date_gmt: '2004-11-30 16:37:00 -0600'
 categories:
 - Uncategorized
 tags: []

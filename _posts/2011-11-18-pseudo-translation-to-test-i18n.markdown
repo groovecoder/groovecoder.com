@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: pseudo-translation to test i18n
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 610
-wordpress_url: http://groovecoder.com/?p=610
 date: '2011-11-18 16:00:12 -0600'
-date_gmt: '2011-11-18 22:00:12 -0600'
 categories:
 - mdn
 - dev

@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: ClickTale
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 147
-wordpress_url: http://groovecoder.com/2006/07/13/clicktale/
 date: '2006-07-13 14:10:00 -0500'
-date_gmt: '2006-07-13 20:10:00 -0500'
 categories:
 - Uncategorized
 tags: []

@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: phpunit travis ci undefined offset
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 932
-wordpress_url: http://groovecoder.com/?p=932
 date: '2012-09-07 01:26:05 -0500'
-date_gmt: '2012-09-07 06:26:05 -0500'
 categories:
 - dev
 tags:

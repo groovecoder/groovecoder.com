@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: php-based J2EE approach?
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 233
-wordpress_url: http://groovecoder.com/2004/12/11/php-based-j2ee-approach/
 date: '2004-12-11 15:56:00 -0600'
-date_gmt: '2004-12-11 21:56:00 -0600'
 categories:
 - Uncategorized
 tags: []

@@ -3,18 +3,7 @@ layout: post
 status: publish
 published: true
 title: Designing Simplicity
-author:
-  display_name: groovecoder
-  login: groovecoder
-  email: luke.crouch@gmail.com
-  url: http://groovecoder.com
-author_login: groovecoder
-author_email: luke.crouch@gmail.com
-author_url: http://groovecoder.com
-wordpress_id: 192
-wordpress_url: http://groovecoder.com/2008/10/30/designing-simplicity/
 date: '2008-10-30 16:30:00 -0500'
-date_gmt: '2008-10-30 22:30:00 -0500'
 categories:
 - Uncategorized
 tags: []
