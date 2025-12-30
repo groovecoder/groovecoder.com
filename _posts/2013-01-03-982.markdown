@@ -1,7 +1,5 @@
 ---
 layout: nav_menu_item
-status: publish
-published: true
 date: '2013-01-03 09:30:13 -0600'
 categories: []
 tags: []

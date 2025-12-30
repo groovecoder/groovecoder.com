@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: (Microsoft != Web Services &amp;&amp; Web Services != SOA)
 date: '2005-09-27 07:39:00 -0500'
 categories:

@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: quite a story?
 date: '2005-02-06 10:22:00 -0600'
 categories:

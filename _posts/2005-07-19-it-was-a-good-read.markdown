@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: it was a good read
 date: '2005-07-19 09:49:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 176
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2005-07-20 19:44:00 -0500'
-  date_gmt: '2005-07-21 01:44:00 -0500'
   content: those links are broken, so i'm not sure what you're talking about.<br/><br/>anti-marketing?
     huh? i don't particularly enjoy <i>doing</i> any marketing, 'cause it's annoying
     and i'm not real good at it.<br/><br/>i'm "opposed", I guess, to certain <i>kinds

@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: GoogleForge ?
 date: '2006-07-28 07:30:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 109
   author: oldtownboys
-  author_email: ''
-  author_url: ''
   date: '2006-08-14 02:01:00 -0500'
-  date_gmt: '2006-08-14 08:01:00 -0500'
   content: Very pretty design! Keep up the good work. Thanks.<br/><a HREF="http://ising.at/web_design_hosting.html"
     REL="nofollow" rel="nofollow">&raquo;</a>
 ---

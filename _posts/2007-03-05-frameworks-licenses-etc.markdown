@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: frameworks, licenses, etc.
 date: '2007-03-05 21:51:00 -0600'
 categories:

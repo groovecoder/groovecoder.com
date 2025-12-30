@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: a little followup
 date: '2005-01-07 10:06:00 -0600'
 categories:

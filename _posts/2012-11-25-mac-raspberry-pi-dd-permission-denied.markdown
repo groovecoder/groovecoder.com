@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: mac raspberry pi dd permission denied
 date: '2012-11-25 10:43:50 -0600'
 categories:
@@ -10,49 +8,29 @@ tags:
 - raspberry pi
 - mac
 comments:
-- id: 41427
   author: Russ
-  author_email: rfmcmillan@gmail.com
-  author_url: ''
   date: '2013-01-03 20:06:45 -0600'
-  date_gmt: '2013-01-04 02:06:45 -0600'
   content: Incredible. I just did like you said and blew out the SD card slot on my
     iMac and it worked! Thanks!
-- id: 51946
   author: Ed Daw
-  author_email: eddaw1@gmail.com
-  author_url: ''
   date: '2013-01-21 04:36:30 -0600'
-  date_gmt: '2013-01-21 10:36:30 -0600'
   content: I had the same problem. In my case the memory card I bought had a lock
     tab on it that was getting pushed over into the lock position when I inserted
     the memory card into the receptacle on the pi. Once I realised this and inserted
     the card more carefully - no more problems. A blob of superglue might be heading
     in the direction of that lock tab soon!
-- id: 58455
   author: DUSTIN REEVES
-  author_email: dustin.reeves@gmail.com
-  author_url: ''
   date: '2013-02-03 23:06:33 -0600'
-  date_gmt: '2013-02-04 05:06:33 -0600'
   content: "i cant believe this, i couldnt figure out for the life of me why i was
     getting permission errors, my though process \"im running root ?, ive unmounted
     the disk?, wtf?\"\r\n\r\nthank you for this helpful post."
-- id: 61705
   author: Kevin K
-  author_email: kkuhl05@gmail.com
-  author_url: ''
   date: '2013-02-15 19:47:59 -0600'
-  date_gmt: '2013-02-16 01:47:59 -0600'
   content: If you ordered through CanaKit, be sure to try the "locked" position of
     your SD card. I thought the above was my issue but apparently, the lock switch
     was put in backwards in the card shipped with my kit!
-- id: 74202
   author: Ronnie H
-  author_email: ronhashjr@gmail.com
-  author_url: ''
   date: '2013-05-18 13:14:37 -0500'
-  date_gmt: '2013-05-18 18:14:37 -0500'
   content: Hah, blowing the dust out of the SD card slot worked for me also. Thanks
     for the tip! And thanks for the flashback of the Nintendo days :)
 ---

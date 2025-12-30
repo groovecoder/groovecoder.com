@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: fun followup
 date: '2006-10-19 21:22:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 118
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2006-11-14 12:48:00 -0600'
-  date_gmt: '2006-11-14 18:48:00 -0600'
   content: 'See the thing is that works don''t "start off" copyrighted and need to
     be placed into the public domain. I mean "in nature" ... we have of course created
     a copyright system in the U.S. where things are copyrighted upon creation, but

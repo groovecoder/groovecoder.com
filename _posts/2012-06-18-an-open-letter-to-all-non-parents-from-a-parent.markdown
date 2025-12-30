@@ -1,26 +1,16 @@
 ---
 layout: post
-status: publish
-published: true
 title: An open letter to all non-parents from a parent
 date: '2012-06-18 23:00:35 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 8001
   author: Kim
-  author_email: kde1263@msn.com
-  author_url: ''
   date: '2012-06-26 15:43:56 -0500'
-  date_gmt: '2012-06-26 20:43:56 -0500'
   content: YES!
-- id: 8323
   author: sue
-  author_email: suegroot@shaw.ca
-  author_url: ''
   date: '2012-06-30 10:12:52 -0500'
-  date_gmt: '2012-06-30 15:12:52 -0500'
   content: I must admit,  this made me a bit weepy. Wonderful writing,  but in order
     to save my pride, maybe I'll attribute the majority of the weepiness to tge extra
     20 lbs that linger on my hips,  the clumps of oatmeal in my unwashed hair, and

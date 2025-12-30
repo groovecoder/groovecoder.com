@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Ubuntu FTW?
 date: '2008-07-28 21:22:00 -0500'
 categories:

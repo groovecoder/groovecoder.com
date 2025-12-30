@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: visa does a lot of transactions
 date: '2005-04-01 16:25:00 -0600'
 categories:

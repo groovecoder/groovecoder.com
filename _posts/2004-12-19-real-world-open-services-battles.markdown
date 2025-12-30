@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: real world &quot;Open Services&quot; battles
 date: '2004-12-19 08:47:00 -0600'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 159
   author: Jeff Licquia
-  author_email: ''
-  author_url: ''
   date: '2005-02-26 13:44:00 -0600'
-  date_gmt: '2005-02-26 19:44:00 -0600'
   content: Just found your link; don't know if I missed it before.<br /><br />My point
     wasn't necessarily that I don't care about eBay getting compensated, but about
     access.  Windows users of eBay can get programs like TurboLister for free; Linux

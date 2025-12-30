@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Technorati?
 date: '2006-08-27 16:45:00 -0500'
 categories:

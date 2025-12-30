@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: WS-RealityCheck
 date: '2005-01-12 15:11:00 -0600'
 categories:

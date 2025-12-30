@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: MDN 1.6
 date: '2011-11-22 11:45:05 -0600'
 categories:
@@ -10,27 +8,15 @@ categories:
 tags:
 - mdn
 comments:
-- id: 1328
   author: Caspy7
-  author_email: caspy77@gmail.com
-  author_url: ''
   date: '2011-11-23 11:58:03 -0600'
-  date_gmt: '2011-11-23 17:58:03 -0600'
   content: Why is there no sound in Firefox?
-- id: 1330
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
   date: '2011-11-23 12:54:09 -0600'
-  date_gmt: '2011-11-23 18:54:09 -0600'
   content: If you're talking about Angry Birds, IIRC, it uses Flash for audio. :(
     If you have Flash disabled that might be why the audio doesn't play.
-- id: 1331
   author: Caspy7
-  author_email: caspy77@gmail.com
-  author_url: ''
   date: '2011-11-23 13:14:06 -0600'
-  date_gmt: '2011-11-23 19:14:06 -0600'
   content: "Yup, that's what I was talking about.\r\nAnd yup, that was the issue.\r\nGood
     calls.\r\n\r\n(Also: Flash? Seriously people?)"
 ---

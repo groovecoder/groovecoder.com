@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: MDN & Kuma progress
 date: '2011-06-15 15:07:14 -0500'
 categories:
@@ -9,29 +7,17 @@ categories:
 tags:
 - mdn
 comments:
-- id: 299
   author: Robert Kaiser
-  author_email: kairo@kairo.at
-  author_url: http://home.kairo.at/blog/
   date: '2011-06-16 08:44:19 -0500'
-  date_gmt: '2011-06-16 14:44:19 -0500'
   content: Hrm, so Kuma will use the same editor as Deki? And the editor was the main
     reason why I abandoned editing anything on devmo/MDC/MDN. Well, I guess not much
     is lost by keeping me out, in the end. ;-)
-- id: 302
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: ''
   date: '2011-06-16 09:55:22 -0500'
-  date_gmt: '2011-06-16 15:55:22 -0500'
   content: It will use ckeditor, yeah. I'm not the biggest fan of ckeditor either,
     but changing that would probably be Too Much Change™ all at once. ;)
-- id: 9448
   author: Nelson Kelem
-  author_email: nelson@safarista.com
-  author_url: http://www.safarista.com
   date: '2012-07-13 05:17:34 -0500'
-  date_gmt: '2012-07-13 10:17:34 -0500'
   content: "@groovecoder What were you thinking when you named this wikis Kuma and
     Deki?\r\n\r\nSo, say I go to Nairobi Kenya or anywhere in East Africa. Say am
     speaking at a conference at the iHub Centre in Nairobi. I have to tell the audience
@@ -41,12 +27,8 @@ comments:
     But think before you use them. \r\n\r\nHow does a teacher say that to a class
     of young people without looking like an idiot. \r\n\r\nAmend please.\r\n\r\nNelson
     Kelem"
-- id: 9461
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
   date: '2012-07-13 07:46:34 -0500'
-  date_gmt: '2012-07-13 12:46:34 -0500'
   content: "We inherited the \"Kitsune\" code from https://support.mozilla.org. \"Kitsune\"
     means \"Fox\" in Japanese. We picked \"Kuma\" - the Japanese word for \"Bear\".\r\n\r\nIt
     wasn't until later that we discovered the Swahili word. :(\r\n\r\nAt some point

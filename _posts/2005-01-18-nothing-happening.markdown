@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: nothing happening
 date: '2005-01-18 16:36:00 -0600'
 categories:

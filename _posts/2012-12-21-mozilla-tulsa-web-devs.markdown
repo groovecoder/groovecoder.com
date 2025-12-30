@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Mozilla & Tulsa Web Devs
 date: '2012-12-21 10:24:34 -0600'
 categories:
@@ -13,27 +11,15 @@ tags:
 - tulsawebdevs
 - tulsa
 comments:
-- id: 71964
   author: Brad Metcalf
-  author_email: goodvillain@gmail.com
-  author_url: ''
   date: '2013-04-11 10:16:17 -0500'
-  date_gmt: '2013-04-11 15:16:17 -0500'
   content: Looking forward to this next week since hearing about it. I assume their
     isn't a cost? Just asking because I am professionally unemployed these days.
-- id: 71976
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
   date: '2013-04-11 11:49:54 -0500'
-  date_gmt: '2013-04-11 16:49:54 -0500'
   content: For the Tulsa Web Devs meeting? There's no cost for it.
-- id: 72083
   author: Brad Metcalf
-  author_email: goodvillain@gmail.com
-  author_url: ''
   date: '2013-04-11 23:59:49 -0500'
-  date_gmt: '2013-04-12 04:59:49 -0500'
   content: Thanks.
 ---
 <p><img class="aligncenter" alt="" src="https://dl.dropbox.com/u/21969365/images/tulsa_skyline_code.png" width="632" height="173" /></p>

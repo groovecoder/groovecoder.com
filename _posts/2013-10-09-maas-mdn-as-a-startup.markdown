@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'MaaS: MDN as a Startup'
 date: '2013-10-09 11:33:39 -0500'
 categories:
@@ -9,12 +7,8 @@ categories:
 - mdn
 tags: []
 comments:
-- id: 77765
   author: Bharath Kumar-Malenadu
-  author_email: malenadu@gmail.com
-  author_url: http://MALENADUGROUP.BLOGSPOT.IN/
   date: '2014-09-25 09:11:16 -0500'
-  date_gmt: '2014-09-25 14:11:16 -0500'
   content: "Coding with a sense of humor nice and unique presentation makes the content
     lovely and yet knowledgeable. The below blog a a excellent collection of nice
     funniest jokes.   \r\n\r\nHTTP://MALENADUGROUP.BLOGSPOT.IN/"

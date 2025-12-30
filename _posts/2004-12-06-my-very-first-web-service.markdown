@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: my very first web service
 date: '2004-12-06 18:11:00 -0600'
 categories:

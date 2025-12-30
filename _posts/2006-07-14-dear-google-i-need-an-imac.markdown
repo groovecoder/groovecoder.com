@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Dear Google, I need an iMac
 date: '2006-07-14 12:11:00 -0500'
 categories:

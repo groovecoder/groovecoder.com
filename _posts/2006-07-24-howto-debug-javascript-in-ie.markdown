@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'HOWTO: Debug Javascript in IE'
 date: '2006-07-24 15:17:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 110
   author: uderhood
-  author_email: ''
-  author_url: ''
   date: '2006-08-16 02:45:00 -0500'
-  date_gmt: '2006-08-16 08:45:00 -0500'
   content: Interesting website with a lot of resources and detailed explanations.<br/><a
     HREF="http://jeenz.at/free_usenet_server.html" REL="nofollow" rel="nofollow">&raquo;</a>
 ---

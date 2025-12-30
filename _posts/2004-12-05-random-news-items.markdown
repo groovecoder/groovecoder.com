@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Random news items
 date: '2004-12-05 09:10:00 -0600'
 categories:

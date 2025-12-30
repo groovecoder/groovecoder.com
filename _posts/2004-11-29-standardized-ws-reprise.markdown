@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: standardized WS-* (reprise)
 date: '2004-11-29 13:08:00 -0600'
 categories:

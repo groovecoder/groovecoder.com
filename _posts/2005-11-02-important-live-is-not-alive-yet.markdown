@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Important - &quot;Live&quot; is not alive yet
 date: '2005-11-02 18:06:00 -0600'
 categories:

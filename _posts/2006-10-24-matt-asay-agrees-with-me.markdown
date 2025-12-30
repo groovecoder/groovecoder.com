@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: Matt Asay agrees with me
 date: '2006-10-24 08:55:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 119
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2006-11-15 16:12:00 -0600'
-  date_gmt: '2006-11-15 22:12:00 -0600'
   content: Speaking on this exact issue vis-a-vis the old X (permissive) license,
     rms stated:<br/><br/>    This lead to a paradoxical situation where two different
     ways of counting the amount of freedom gave different answers to the question,
@@ -25,12 +19,8 @@ comments:
     to demonize rms as some tyrant trying to force everyone to do what he wants. He
     repeatedly states that the "permissive" licenses (BSD, LGPL, public dom) are perfectly
     free and compatible with the GPL.
-- id: 120
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2006-11-16 00:28:00 -0600'
-  date_gmt: '2006-11-16 06:28:00 -0600'
   content: <a HREF="http://www.gnu.org/gnu/thegnuproject.html" REL="nofollow" rel="nofollow">RMS
     on the subject</a>:<br/><br/>"If a program is free software when it leaves the
     hands of its author, this does not necessarily mean it will be free software for

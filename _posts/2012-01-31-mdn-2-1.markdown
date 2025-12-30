@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: MDN 2.1
 date: '2012-01-31 18:52:31 -0600'
 categories:

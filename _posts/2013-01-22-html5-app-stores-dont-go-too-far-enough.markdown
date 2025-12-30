@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: HTML5 App Stores don't go too far enough
 date: '2013-01-22 10:35:06 -0600'
 categories:
@@ -11,12 +9,8 @@ categories:
 tags:
 - html5
 comments:
-- id: 53017
   author: Ambrose Little
-  author_email: ambrogio@gmail.com
-  author_url: http://ambroselittle.com
   date: '2013-01-22 14:48:24 -0600'
-  date_gmt: '2013-01-22 20:48:24 -0600'
   content: "I replied to your comment on my blog with some more rationale for choosing
     apps.\r\n\r\nI just don't see it, unless the platform vendors do work to make
     the Web app experience better, and it's not really in their best interests to
@@ -31,24 +25,16 @@ comments:
     is that it is somewhat deceptive to users. It sorta puts on this facade of being
     native while it's not, and often times it is obvious that it is not. That's a
     frustrating experience for people."
-- id: 53067
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
   date: '2013-01-22 16:56:52 -0600'
-  date_gmt: '2013-01-22 22:56:52 -0600'
   content: "That's why Firefox OS - or something like it - is so important. The entrenched
     devices and platforms won't embrace an open (i.e., web) approach to mobile unless
     or until we - designers, developers, and our users - make it awesome.\r\n\r\nEmulating
     and copying their closed systems is a waste.\r\n\r\nCurious - you like integrated
     web app search? What if that search could deep-link into the web apps' content
     that is most relevant? Because that's basically what the web is. :)"
-- id: 53651
   author: Les Orchard
-  author_email: me@lmorchard.com
-  author_url: http://blog.lmorchard.com/
   date: '2013-01-23 12:03:00 -0600'
-  date_gmt: '2013-01-23 18:03:00 -0600'
   content: "Have you seen or used Google Now on Android? It kind of works the way
     you want, contextually speaking.\r\n\r\nIt's early days yet, but it often delightfully
     surprises me by offering up directions on my phone to a place I looked for on
@@ -61,12 +47,8 @@ comments:
     marketplace right now, but I wonder if 2.0 or 3.0 of that product could be something
     more webby and extend the whole OWA JSON manifest concept in exactly the way you
     say?"
-- id: 53681
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
   date: '2013-01-23 12:51:32 -0600'
-  date_gmt: '2013-01-23 18:51:32 -0600'
   content: "You mean Google Now only on Android 4.1+ ? ;) That's part of the problem!!\r\n\r\nBut
     yeah - I really hope we push thru and past the whole app/store model and into
     contextual data delivered via the open web."

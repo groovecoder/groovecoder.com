@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: open source revenue
 date: '2006-09-19 21:31:00 -0500'
 categories:

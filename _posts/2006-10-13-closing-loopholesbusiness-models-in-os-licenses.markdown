@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: closing [loopholes|business models] in OS licenses
 date: '2006-10-13 13:07:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 114
   author: Crosbie Fitch
-  author_email: ''
-  author_url: ''
   date: '2006-10-17 07:48:00 -0500'
-  date_gmt: '2006-10-17 13:48:00 -0500'
   content: It all results from a misunderstanding over whether freedoms taken away
     by copyright are being restored, or whether a quid pro quo is being enforced in
     support of a misperception that this is the objective of the GPL.<br/><br/>It's
@@ -22,12 +16,8 @@ comments:
     can't modify our stuff unless you publish your mods). Unfortunately, the EUPL
     has jumped on the gift economy bandwagon and the concept of privacy violation
     has whizzed over its head.
-- id: 115
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2006-10-19 22:43:00 -0500'
-  date_gmt: '2006-10-20 04:43:00 -0500'
   content: I'm not so sure I'd say that GPLv3 - SaaS clause = 100% freedom. Like I
     said, I have a freedom problem with GPLv2 in that it would REQUIRE me to REQUIRE
     my users to distribute THEIR enhancements under GPLv2...that's a couple of requirements
@@ -38,12 +28,8 @@ comments:
     necessarily mutually exclusive - a voluntary gift economy is possible. However,
     what's not possible is to ENFORCE a "free" gift economy - the very act of enforcement
     makes it unfree.<br/><br/>Thanks for coming by and for the great comment.
-- id: 116
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2006-11-14 10:18:00 -0600'
-  date_gmt: '2006-11-14 16:18:00 -0600'
   content: 'Meh. I don''t get it. If you''re uncomfortale ever placing restrictions
     on recipients of yr code, just public-domain it all and be done with it. This
     is what I think when you say "the very act of enforcement makes it unfree"<br/><br/>You

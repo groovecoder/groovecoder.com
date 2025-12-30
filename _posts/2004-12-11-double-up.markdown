@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: double up
 date: '2004-12-11 15:15:00 -0600'
 categories:

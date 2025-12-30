@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: The Long Local Tail of Web Developers
 date: '2011-08-09 14:48:15 -0500'
 categories:
@@ -10,37 +8,21 @@ tags:
 - mozilla
 - community
 comments:
-- id: 592
   author: Jeff Griffiths
-  author_email: jeff@canuckistani.ca
-  author_url: http://canuckistani.ca
   date: '2011-08-09 15:59:07 -0500'
-  date_gmt: '2011-08-09 21:59:07 -0500'
   content: Awesome post, couldn't agree more, particularly around Mozilla's ability
     to reach outside of bubbles and bring Mozilla's values with us. ;)
-- id: 593
   author: Igor Feghali
-  author_email: ifeghali@php.net
-  author_url: ''
   date: '2011-08-09 19:52:13 -0500'
-  date_gmt: '2011-08-10 01:52:13 -0500'
   content: it would be awesome if they could send a dev to PHP'n Rio late this year
-- id: 598
   author: l.m.orchard
-  author_email: me@lmorchard.com
-  author_url: http://lmorchard.com
   date: '2011-08-10 20:45:03 -0500'
-  date_gmt: '2011-08-11 02:45:03 -0500'
   content: "I've learned a lot of stuff. But, it's to the point where I know how much
     *I* don't know, so I feel like I don't know much. \r\n\r\nBut, conversely, I don't
     know much about what others don't know :) My usual problem is that I don't know
     what anyone wants to learn about that I might know."
-- id: 603
   author: Anthony Ricaud
-  author_email: anthony@ricaud.me
-  author_url: http://hanblog.info
   date: '2011-08-11 08:50:33 -0500'
-  date_gmt: '2011-08-11 14:50:33 -0500'
   content: "This seems very US-centric. In other parts of the world, the community
     does this. They go to a lot of events, organize some.\r\n\r\nFor France, I can
     name Ubuntu release parties, RMLL events, JDLL events, Les vieilles charrues (a
@@ -49,12 +31,8 @@ comments:
     I try to go to a lot of small events in Paris like ParisJS or AperoWeb.\r\n\r\nAnd
     when you look at the market share in Europe, I think this human presence has a
     real value."
-- id: 628
   author: James Socol
-  author_email: james@mozilla.com
-  author_url: http://coffeeonthekeyboard.com/
   date: '2011-08-17 18:53:48 -0500'
-  date_gmt: '2011-08-18 00:53:48 -0500'
   content: "Great, great post. We definitely need to put more pressure on our in-the-trenches
     webdevs (in addition to our great dev evangelist team) to be active community
     members, especially remoties where we have a lot of free cachet, and communities
@@ -64,12 +42,8 @@ comments:
     people to MV (or a closer \"Space\") could be cool, but doesn't do as much, I
     think, to bolster the local community as a whole. Only if the people we bring
     go back and become more active in building the community."
-- id: 633
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
   date: '2011-08-19 13:51:41 -0500'
-  date_gmt: '2011-08-19 19:51:41 -0500'
   content: "Wow, sorry I've neglected approving these comments.\r\n\r\n@Igor there's
     less PHP at Mozilla these days ;)\r\n\r\n@l.m.orchard Totally. http://www.hanselman.com/blog/ImAPhonyAreYou.aspx\r\n\r\n@Anthony
     One factor might be the distance between communities in the U.S. combined with

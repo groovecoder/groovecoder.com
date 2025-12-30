@@ -1,30 +1,20 @@
 ---
 layout: post
-status: publish
-published: true
 title: IBM method for SOA'ing yourself
 date: '2005-04-06 15:10:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 163
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2005-04-07 08:39:00 -0500'
-  date_gmt: '2005-04-07 14:39:00 -0500'
   content: '''Course shouldn''t you go for dB-neutral designs, as far as the php is
     concerned?<br/><br/>Sometimes I think it might be smart to cut our WS teeth on
     a LP5 platform (couple letters missing, see?), using the embedded SQLite from
     the command line.<br/><br/>Just thinking aloud. Sorry I don''t comment as much
     on yr blog, but my knowledge of the details of WS is limited.'
-- id: 164
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2005-04-07 10:16:00 -0500'
-  date_gmt: '2005-04-07 16:16:00 -0500'
   content: yeah, the soft spot for MySQL is nearly as soft as the silky gelatin spot
     I have for PHP, so DB choice (should be) kinda irrelevant.<br/><br/>the only systems
     I've imagined for WS deployment would have pretty heavy DB for logging, etc. so

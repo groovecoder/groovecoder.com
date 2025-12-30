@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: posting XML with PHP
 date: '2004-11-07 21:54:00 -0600'
 categories:

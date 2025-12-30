@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: open source WS standards implementations
 date: '2005-07-27 19:55:00 -0500'
 categories:

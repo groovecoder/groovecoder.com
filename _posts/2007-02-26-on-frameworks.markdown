@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: On Frameworks
 date: '2007-02-26 14:54:00 -0600'
 categories:

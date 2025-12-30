@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: (some) economics of open-source
 date: '2006-09-05 10:19:00 -0500'
 categories:

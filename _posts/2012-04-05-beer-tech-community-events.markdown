@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Beer & Tech Community Events
 date: '2012-04-05 13:34:53 -0500'
 categories:
@@ -10,19 +8,11 @@ categories:
 tags:
 - community
 comments:
-- id: 4606
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
   date: '2012-04-05 15:34:05 -0500'
-  date_gmt: '2012-04-05 20:34:05 -0500'
   content: So yeah - I spend lots of time thinking about beer. :)
-- id: 4625
   author: Fred
-  author_email: fwenzel@mozilla.com
-  author_url: http://fredericiana.com
   date: '2012-04-06 13:17:30 -0500'
-  date_gmt: '2012-04-06 18:17:30 -0500'
   content: "I like your very balanced point of view. From my European background,
     I tend to have a more relaxed and, compared to some, perhaps a more appreciative
     view towards sharing a glass of beer or wine in a social setting. I am happy to
@@ -33,43 +23,27 @@ comments:
     raising blood alcohol levels.\r\n\r\nFwiw, I like your idea of visiting a brewery
     and cathedral when traveling to new places. I'll happily join you, should we find
     ourselves at the same event sometime :)"
-- id: 4626
   author: Peter Bengtsson
-  author_email: mail@peterbe.com
-  author_url: http://www.peterbe.com
   date: '2012-04-06 13:23:58 -0500'
-  date_gmt: '2012-04-06 18:23:58 -0500'
   content: "Great post! I too enjoy beer or wine or hard liquor. Even with fellow
     geeks. \r\n\r\nThe point isn't so much about CH3CH2OH me thinks. It's the culture
     of binge drinking and with that, it often comes hand-in-hand with having the geek
     get-togethers in loud bars. \r\n\r\nBack in London, the Python Dojo we would ALWAYS
     end the hack sessions \"down the pub\" but pubs close at 11pm and are rarely loud
     an makes it possible to have group discussions."
-- id: 4628
   author: Peter Bengtsson
-  author_email: mail@peterbe.com
-  author_url: http://www.peterbe.com
   date: '2012-04-06 13:25:09 -0500'
-  date_gmt: '2012-04-06 18:25:09 -0500'
   content: I'm curious; perhaps many of these hardline drinkers are making up for
     a lost youth? When the jocks where boozing up, they were writing perl code.
-- id: 4631
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
   date: '2012-04-06 14:31:38 -0500'
-  date_gmt: '2012-04-06 19:31:38 -0500'
   content: "I, and lots of the folks in engagement-developers, agree that loud music
     is more distracting than alcohol.\r\n\r\nIt's worth repeating that the binge drinkers
     are a minority in our community - just a very annoying and obnoxious minority.
     :)\r\n\r\nFred, if we go to Weihenstephan Abbey & Brewery in 2040 for their 1000
     year anniversary, we could do both at the same time! :)"
-- id: 4743
   author: Dylan
-  author_email: mail@dylanallen.net
-  author_url: http://www.coffeehouseconversation.com
   date: '2012-04-11 15:28:49 -0500'
-  date_gmt: '2012-04-11 20:28:49 -0500'
   content: "I'm not technically in the tech community, but I am something of a geek,
     and have a high regard for a fine whiskey, beer, or wine. I appreciate alcohol's
     ability to make one feel at ease and reduce stress.\r\n\r\nI abstained until I
@@ -77,12 +51,8 @@ comments:
     friends when both parties have taken the edge off and become more of themselves
     and less of what they think someone else expects of them. Studies also show that
     about two drinks per day will make you live longer than those who abstain."
-- id: 4756
   author: Jonathan Bartlett
-  author_email: jonathan@newmedio.com
-  author_url: http://www.bartlettpublishing.com/
   date: '2012-04-11 20:41:44 -0500'
-  date_gmt: '2012-04-12 01:41:44 -0500'
   content: "Luke -\r\n\r\nFirst of all, as a non-drinker, I would like to say that
     I disagree with people who talk about the exclusionary nature of drinking.  I
     went to a seminary which spent so much time talking about things we do that were
@@ -104,12 +74,8 @@ comments:
     people be people and not worry so much about everyone's feelings.  People can
     take care of themselves.  It's good to bend on behalf of others, but that doesn't
     mean we should live lives as contortionists."
-- id: 4757
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
   date: '2012-04-11 20:53:47 -0500'
-  date_gmt: '2012-04-12 01:53:47 -0500'
   content: "\"at two beers he was at maximum productivity, and at four beers his productivity
     fell through the floor.\"\r\n\r\nhttp://xkcd.com/323/ :)"
 ---

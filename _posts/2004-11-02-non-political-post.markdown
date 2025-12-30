@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: non-political post
 date: '2004-11-02 16:26:00 -0600'
 categories:

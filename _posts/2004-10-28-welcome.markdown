@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: welcome
 date: '2004-10-28 00:36:00 -0500'
 categories:

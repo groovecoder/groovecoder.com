@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: good followup
 date: '2004-11-12 09:51:00 -0600'
 categories:

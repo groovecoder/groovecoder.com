@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Webdev Offsite & Open Source Bridge
 date: '2011-06-28 11:12:19 -0500'
 categories:

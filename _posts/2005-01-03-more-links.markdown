@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: more links
 date: '2005-01-03 08:25:00 -0600'
 categories:

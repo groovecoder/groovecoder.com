@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: I'm not surprised
 date: '2004-12-13 21:05:00 -0600'
 categories:

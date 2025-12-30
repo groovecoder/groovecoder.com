@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: WS-RetailIndustry
 date: '2005-01-03 18:09:00 -0600'
 categories:

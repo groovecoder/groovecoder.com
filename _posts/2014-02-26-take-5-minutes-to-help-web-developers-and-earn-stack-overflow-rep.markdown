@@ -1,29 +1,19 @@
 ---
 layout: post
-status: publish
-published: true
 title: Take 5 minutes to help web developers and earn Stack Overflow rep
 date: '2014-02-26 11:15:45 -0600'
 categories:
 - mdn
 tags: []
 comments:
-- id: 77712
   author: Ted Mielczarek
-  author_email: ted@mielczarek.org
-  author_url: http://ted.mielczarek.org/
   date: '2014-02-27 07:32:19 -0600'
-  date_gmt: '2014-02-27 13:32:19 -0600'
   content: Did we change something in MDN such that we caused old links to not work,
     or is this just the result of documentation being shuffled around? Either way
     it feels like we're shooting ourselves in the foot by not keeping old links working
     by default.
-- id: 77713
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: https://groovecoder.com
   date: '2014-02-28 14:22:36 -0600'
-  date_gmt: '2014-02-28 20:22:36 -0600'
   content: We do move content around. When we move pages, we leave behind re-directs.
     But many of these old links are from our MindTouch and/or MediaWiki days when
     that feature was less reliable.

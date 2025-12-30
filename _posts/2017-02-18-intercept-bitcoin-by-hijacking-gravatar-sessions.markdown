@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Intercept bitcoin by hijacking gravatar.com sessions
 date: '2017-02-17 21:00:00 -0600'
 tags:

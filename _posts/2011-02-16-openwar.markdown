@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: open(war)
 date: '2011-02-16 11:45:44 -0600'
 categories:
@@ -9,12 +7,8 @@ categories:
 tags:
 - html5
 comments:
-- id: 21
   author: danu
-  author_email: ezra_1996.@yahoo.co.id
-  author_url: ''
   date: '2011-03-05 10:41:13 -0600'
-  date_gmt: '2011-03-05 16:41:13 -0600'
   content: ':razz:'
 ---
 <p><a href="http://lifehacker.com/#!5726764"><img class="alignleft" title="Evil App Store" src="http://fastcache.gawkerassets.com/assets/images/17/2011/01/xlarge_mac-app-store---evil.jpg" alt="Evil App Store" width="160" height="90" /></a>We (finally) see the tech industry take critical notice of Apple's closed nature. Most recently over the <a href="http://thinkvitamin.com/web-industry/why-you-should-fight-apples-subscription-extortion/">draconian terms they announced for publisher subscriptions</a>. Of course, I've been self-selecting my articles ever since I heard about Apple's predatory application of the <a href="http://lifehacker.com/#!5726764">severely closed iOS/iTunes paradigm onto Mac software</a> at large with the Mac App Store. I remember a couple of Apple (one a former employee) buds trying to sell me on it - first extolling the value of a search-able directory of apps with ratings and reviews; less than 5 minutes into the conversation they were complaining about poor App Store search results. Good thing there's an <a href="http://google.com">app</a> <a href="http://sf.net">for</a> <a href="http://download.com">that</a>.</p>

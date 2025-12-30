@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: WoW
 date: '2004-11-09 09:13:00 -0600'
 categories:

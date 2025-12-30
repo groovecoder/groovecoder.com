@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: free mini mac
 date: '2005-01-17 15:02:00 -0600'
 categories:

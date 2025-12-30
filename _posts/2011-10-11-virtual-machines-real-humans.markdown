@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Virtual Machines and Real Humans
 date: '2011-10-11 16:28:19 -0500'
 categories:
@@ -11,12 +9,8 @@ tags:
 - mozilla
 - community
 comments:
-- id: 954
   author: Buddy Lindsey
-  author_email: percent20@gmail.com
-  author_url: http://buddylindsey.com
   date: '2011-10-11 20:40:55 -0500'
-  date_gmt: '2011-10-12 02:40:55 -0500'
   content: "Great post and breakdown. Also I wouldn't say I was an exception on the
     commitment level. I just hate having problems I can't solve, especially when it
     is something as \"trivial\" as setting up an application, I call it stubbornness.
@@ -33,12 +27,8 @@ comments:
     to say the least. Community contribution and interaction has always been an interesting
     subject to discuss and problem to crack. I am curios to see how well Mozilla can
     crack this particular nut."
-- id: 960
   author: David Boswell
-  author_email: dboswell@mozilla.com
-  author_url: http://davidwboswell.wordpress.com/
   date: '2011-10-12 14:05:03 -0500'
-  date_gmt: '2011-10-12 20:05:03 -0500'
   content: "Great post.  Very interesting to hear how you helped Buddy get started
     and then to see what he went on to do once he got familiar with things.\r\n\r\nI
     also like this line:\r\n\r\n\"Of course, we can't spend all our time recruiting
@@ -52,22 +42,14 @@ comments:
     be how to use the time available in the best possible way.  It wouldn't scale
     to try to mentor everyone who expressed interest so who do you mentor, what are
     good projects to start with...\r\n\r\nDavid"
-- id: 961
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
   date: '2011-10-12 14:20:39 -0500'
-  date_gmt: '2011-10-12 20:20:39 -0500'
   content: David, you have a lot more history in Mozilla than I do - do the other
     product areas of Mozilla (Firefox, Thunderbird, etc.) have full-time mentor types?
     I.e., someone whose full-time paid job is to ramp community contributors onto
     Mozilla projects?
-- id: 963
   author: David Boswell
-  author_email: dboswell@mozilla.com
-  author_url: http://davidwboswell.wordpress.com/
   date: '2011-10-12 15:41:20 -0500'
-  date_gmt: '2011-10-12 21:41:20 -0500'
   content: "There haven't been many people who have had bringing community members
     into Mozilla as their full-time job, although that's started to change recently.
     \ For instance, SUMO now has a community manager role.\r\n\r\nAs Mozilla grows

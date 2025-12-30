@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: example of open-source madness
 date: '2004-11-21 09:34:00 -0600'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 141
   author: Anonymous
-  author_email: ''
-  author_url: ''
   date: '2004-12-01 13:38:00 -0600'
-  date_gmt: '2004-12-01 19:38:00 -0600'
   content: '>it''s an article describing the (apparently newly published?) Open Source
     Definition. <br /><br />If within "newly published" you mean "published seven
     years ago", then yes.<br /><br />>the biggest gripe I have is with the first requirement

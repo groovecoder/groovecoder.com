@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Frameworks - 10 pounds of Design Patterns in a 5 pound bag (hopefully)
 date: '2007-04-02 22:31:00 -0500'
 categories:

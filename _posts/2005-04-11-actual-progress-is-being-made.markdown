@@ -1,30 +1,20 @@
 ---
 layout: post
-status: publish
-published: true
 title: actual progress is being made
 date: '2005-04-11 21:03:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 165
   author: Richard Veryard
-  author_email: ''
-  author_url: ''
   date: '2005-04-14 04:17:00 -0500'
-  date_gmt: '2005-04-14 10:17:00 -0500'
   content: Luke<br/><br/>I don't understand what value-add you can offer. To what
     extent are you transforming the services rather than simply passing them "straight-through"?
     How are you going to create a viable brand? <br/><br/>If you succeed I am very
     interested to know more, but I think you have a hard task ahead. (The software
     is the easy bit.)<br/><br/>cheers, Richard<br/>http://www.veryard.com/so/soapbox.htm
-- id: 166
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2005-04-14 08:36:00 -0500'
-  date_gmt: '2005-04-14 14:36:00 -0500'
   content: hey Richard. thanks for coming by...I'm interested to find out how you
     ended up here, as I'm basically aware of NO readers of this blog...<br/><br/>in
     any case, there are a few value adds that exist in this model. these values do
@@ -82,12 +72,8 @@ comments:
     they sell, or on value that they add to services they pass-thru. their brand is
     built on a set of consistent circumstances that you experience when you buy those
     products and services. and they're doing very well on that premise alone.
-- id: 167
   author: Anonymous
-  author_email: ''
-  author_url: ''
   date: '2005-04-14 13:42:00 -0500'
-  date_gmt: '2005-04-14 19:42:00 -0500'
   content: Keep us posted on your progress. I'd like to see what this product looks
     like when you're done. <br/><br/>- Hart, FedEx Services
 ---

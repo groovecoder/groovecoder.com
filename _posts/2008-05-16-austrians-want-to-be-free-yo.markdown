@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Austrians want to be FREE yo
 date: '2008-05-16 08:47:00 -0500'
 categories:

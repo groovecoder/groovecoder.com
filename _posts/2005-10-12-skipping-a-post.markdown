@@ -1,27 +1,17 @@
 ---
 layout: post
-status: publish
-published: true
 title: skipping a post
 date: '2005-10-12 07:47:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 191
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2005-10-13 09:52:00 -0500'
-  date_gmt: '2005-10-13 15:52:00 -0500'
   content: heh...<br/>regarding the jab, i think i got as far as "sys-con.com" before
     i realized the article would suck.
-- id: 192
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2005-10-13 15:13:00 -0500'
-  date_gmt: '2005-10-13 21:13:00 -0500'
   content: Aww, that's not fair. Sys-con publishes the Web Services Journal that I
     like so much.<br/><br/>Of late, they've actually done an okay job avoiding vendor-specific
     buzz.<br/><br/>But yes, read sys-con with care.

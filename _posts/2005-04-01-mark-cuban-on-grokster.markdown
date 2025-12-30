@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Mark Cuban on Grokster
 date: '2005-04-01 08:41:00 -0600'
 categories:

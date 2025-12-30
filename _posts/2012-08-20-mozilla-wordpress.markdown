@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Mozilla & WordPress
 date: '2012-08-20 13:36:05 -0500'
 categories:

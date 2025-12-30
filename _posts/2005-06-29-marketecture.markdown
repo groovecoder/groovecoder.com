@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: '&quot;marketecture&quot;'
 date: '2005-06-29 07:37:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 169
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2005-07-19 06:59:00 -0500'
-  date_gmt: '2005-07-19 12:59:00 -0500'
   content: Never thought I'd see the day.<br/><br/>>In the case of PHP 5, it mangled
     the XML markup in the header by invoking an http_encode type transformation on
     it, and it also prematurely closed the root element of the SOAP Body, in addition
@@ -23,12 +17,8 @@ comments:
     about giving away yr code, it's also about taking a bit of time to report bugs
     in the right channels and see if others have the same problem.<br/><br/>BTW fascinating
     article on WS-Security:<br/>http://blogs.zdnet.com/BTL/?p=1597
-- id: 171
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2005-07-19 09:32:00 -0500'
-  date_gmt: '2005-07-19 15:32:00 -0500'
   content: boy, I must have really irked you with that philosophy comment, eh?<br/><br/>http://bugs.php.net/bug.php?id=33366<br/><br/>I
     did I add my vote to the bug as soon as I found the bug, and contacted the other
     people (Carlos Antunes, who originally posted) experiencing it. as far as we could
@@ -41,38 +31,22 @@ comments:
     the quick response time Dmitry offered.<br/><br/>you're right, being open-source
     opens them up to more criticism, and I tried to criticize as constructively as
     possible in the "right channel."<br/><br/>and my blog is a different channel.
-- id: 172
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2005-07-19 09:48:00 -0500'
-  date_gmt: '2005-07-19 15:48:00 -0500'
   content: I should also point out that Macromedia (a proprietary vendor) has been
     completely silent in response to my queries about their similar bug. for me, it's
     very obvious that the open-source vendor being constructively and openly criticized
     leads to results. the proprietary vendor uses your money to buy more lattes.
-- id: 173
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2005-07-19 19:22:00 -0500'
-  date_gmt: '2005-07-20 01:22:00 -0500'
   content: wasn't jabbing at anything .. tone must've come across wrong 'cause i was
     just saying something I assumed you already knew, but hadn't mentioned.
-- id: 174
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2005-07-19 19:24:00 -0500'
-  date_gmt: '2005-07-20 01:24:00 -0500'
   content: '"Never thought I''d see the day" referred to your endorsement of ReST.<br/><br/>Did
     you read the Berlind article?'
-- id: 175
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2005-07-19 23:20:00 -0500'
-  date_gmt: '2005-07-20 05:20:00 -0500'
   content: yeah. and I made a follow-up post (2 posts in 1 day!) about it...
 ---
 <div style="text-align: justify;">I came across this term <a href="http://webservices.sys-con.com/read/104931.htm">here</a>, and found it mildly amusing. or maybe more than that, amusing enough to make a blog post about it...and you can see I haven't been doing much of that recently. even though I'm an SOA and Web Services fan-boy, I enjoy very much when people put a big wet blanket on the ideas because it keeps us zealots honest and grounded to reality.</p>

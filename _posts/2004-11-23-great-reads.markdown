@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: great reads
 date: '2004-11-23 09:37:00 -0600'
 categories:

@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'MySQL CEO: Open source &amp; MySQL will rise, legal foes will fall'
 date: '2005-01-17 10:55:00 -0600'
 categories:

@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Support Tech Opening @ SourceForge
 date: '2008-06-19 07:23:00 -0500'
 categories:

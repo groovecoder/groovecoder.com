@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Software Engineer, SourceForge.net
 date: '2006-08-10 13:50:00 -0500'
 categories:

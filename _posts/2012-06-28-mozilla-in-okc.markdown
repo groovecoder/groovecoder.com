@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Mozilla in OKC
 date: '2012-06-28 16:15:59 -0500'
 categories:
@@ -10,21 +8,13 @@ categories:
 tags:
 - mozilla
 comments:
-- id: 8172
   author: geeknik
-  author_email: brian.carpenter@gmail.com
-  author_url: http://twitter.com/geeknik
   date: '2012-06-28 20:23:45 -0500'
-  date_gmt: '2012-06-29 01:23:45 -0500'
   content: I live in the OKC area myself, work for OpenDNS.com as a SysAdmin, been
     contributing to the Firefox project for years. =) Drop me a line the next time
     you're around this way.
-- id: 8175
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
   date: '2012-06-28 21:54:15 -0500'
-  date_gmt: '2012-06-29 02:54:15 -0500'
   content: Awesome! I use OpenDNS! You should come to Tulsa Tech Fest too. http://www.tulsatechfest.com/
 ---
 <p>In the last couple weeks I've made two trips down highway 44 to give talks about Mozilla technology to web groups in Oklahoma City.</p>

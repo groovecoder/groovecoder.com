@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: great OS read
 date: '2004-12-29 08:55:00 -0600'
 categories:

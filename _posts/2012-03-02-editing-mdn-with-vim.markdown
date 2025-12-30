@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Editing MDN with VIM
 date: '2012-03-02 12:02:04 -0600'
 categories:
@@ -11,30 +9,18 @@ tags:
 - mdn
 - vim
 comments:
-- id: 3025
   author: Screwtape
-  author_email: thristian@gmail.com
-  author_url: ''
   date: '2012-03-03 00:43:36 -0600'
-  date_gmt: '2012-03-03 06:43:36 -0600'
   content: "Looks like you should also add to your .vimrc:\r\n\r\nautocmd BufNewFile,BufRead
     developer.mozilla.org.*.txt setlocal filetype=html\r\n\r\n(assuming that 'html'
     is the most appropriate filetype for Deki's wiki markup; it looks like raw HTML
     in that screenshot, but if not, you can probably find or create a more appropriate
     filetype plugin)"
-- id: 3032
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
   date: '2012-03-04 09:24:17 -0600'
-  date_gmt: '2012-03-04 15:24:17 -0600'
   content: Great tip! updated screenshot!
-- id: 5017
   author: Rod Knowlton
-  author_email: codelahoma@gmail.com
-  author_url: http://codelahoma.com
   date: '2012-04-17 16:04:39 -0500'
-  date_gmt: '2012-04-17 21:04:39 -0500'
   content: Ha! I googled for the autocmd you told me about at the Hackathon, and this
     is where I found it!
 ---

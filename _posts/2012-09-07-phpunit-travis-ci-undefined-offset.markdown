@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: phpunit travis ci undefined offset
 date: '2012-09-07 01:26:05 -0500'
 categories:
@@ -9,20 +7,12 @@ categories:
 tags:
 - php
 comments:
-- id: 14902
   author: Dave Marshall
-  author_email: dave.marshall@atstsolutions.co.uk
-  author_url: http://www.davedevelopment.co.uk
   date: '2012-09-11 13:55:53 -0500'
-  date_gmt: '2012-09-11 18:55:53 -0500'
   content: "I think you can put this in your phpunit.xml, a little nicer than setting
     it somewhere in your test suite\r\n\r\n     \r\n         \r\n     "
-- id: 14905
   author: John Kary
-  author_email: john@johnkary.net
-  author_url: http://johnkary.net
   date: '2012-09-11 14:37:27 -0500'
-  date_gmt: '2012-09-11 19:37:27 -0500'
   content: "The PHP Framework Interoperability Group, consisting of lead devs from
     most of the popular PHP frameworks and libraries, currently work together to define
     autoloading standards and coding standards. The framework and library authors
@@ -30,12 +20,8 @@ comments:
     and collaboration between each others' frameworks and libraries.\r\n\r\nhttp://www.php-fig.org/faq/\r\nhttps://github.com/php-fig/fig-standards\r\n\r\nYour
     post says you were working with WordPress, whose authors were approached about
     joining the FIG group at one time, but to which they declined."
-- id: 14911
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
   date: '2012-09-11 15:30:05 -0500'
-  date_gmt: '2012-09-11 20:30:05 -0500'
   content: Ah, I had never heard of php fig. https://github.com/klaussilveira/phpcs-psr
     is a very useful link for that too. ;)
 ---

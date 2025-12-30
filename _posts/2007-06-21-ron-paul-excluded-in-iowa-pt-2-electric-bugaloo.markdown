@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Ron Paul Excluded in Iowa, pt. 2 electric Bugaloo
 date: '2007-06-21 12:51:00 -0500'
 categories:

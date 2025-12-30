@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: W3C makes a move
 date: '2005-01-27 15:31:00 -0600'
 categories:

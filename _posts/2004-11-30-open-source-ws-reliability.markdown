@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: open source WS-Reliability
 date: '2004-11-30 10:37:00 -0600'
 categories:

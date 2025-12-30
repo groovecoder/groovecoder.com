@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: javascript woes
 date: '2006-07-18 10:00:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 112
   author: upssidetown
-  author_email: ''
-  author_url: ''
   date: '2006-08-17 03:31:00 -0500'
-  date_gmt: '2006-08-17 09:31:00 -0500'
   content: Hi! Just want to say what a nice site. Bye, see you soon.<br/><a HREF="http://desko.at/aufgabenstellung_anlagenbau.html"
     REL="nofollow" rel="nofollow">&raquo;</a>
 ---

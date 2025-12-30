@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: an open source challenge
 date: '2005-02-08 16:42:00 -0600'
 categories:

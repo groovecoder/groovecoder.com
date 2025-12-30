@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: WS-RandomThoughts
 date: '2004-11-19 15:20:00 -0600'
 categories:

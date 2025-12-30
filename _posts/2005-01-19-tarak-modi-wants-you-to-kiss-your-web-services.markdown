@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: Tarak Modi wants you to KISS your web services
 date: '2005-01-19 16:08:00 -0600'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 156
   author: Tarak Modi
-  author_email: ''
-  author_url: ''
   date: '2005-01-20 07:20:00 -0600'
-  date_gmt: '2005-01-20 13:20:00 -0600'
   content: 'Luke, thanks for your positive comments. <br /><br />I definitely did
     not intend to promote the notion that most WS-* specifications are to be ignored.
     That would be irresponsible of me. And you are correct that a lot of the specifications
@@ -28,12 +22,8 @@ comments:
     set of second generation Web Services specifications are univerally accepted/ratified,
     it''s hard to create systems that will support all possible candidates. So use
     what you need now and leave the future where it should be... in the future.'
-- id: 157
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2005-01-20 10:54:00 -0600'
-  date_gmt: '2005-01-20 16:54:00 -0600'
   content: Thanks for coming by, Tarak!<br /><br />The only web services I've done
     have just used basic SOAP and WSDL as well, though I haven't done any mission-critical
     web services projects yet. I think one of the best reasons for NOT going with

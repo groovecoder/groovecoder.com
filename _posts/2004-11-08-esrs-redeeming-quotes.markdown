@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: ESR's 'redeeming' quotes
 date: '2004-11-08 13:24:00 -0600'
 categories:

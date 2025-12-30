@@ -1,28 +1,18 @@
 ---
 layout: post
-status: publish
-published: true
 title: Framework Performance according to Rasmus
 date: '2008-10-23 11:38:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 130
   author: iBspoof
-  author_email: ''
-  author_url: ''
   date: '2008-10-24 10:18:00 -0500'
-  date_gmt: '2008-10-24 16:18:00 -0500'
   content: Ya CakePHP is slow as an elderly woman with a bad leg crossing a 6 lane
     crosswalk, but dev time is faster and with proper caching it can handle the load.  Wish
     they would do more to make it faster, but tis the life.
-- id: 131
   author: Vance
-  author_email: ''
-  author_url: ''
   date: '2008-10-27 07:14:00 -0500'
-  date_gmt: '2008-10-27 13:14:00 -0500'
   content: Nice charts - that's kinda funny that so many talks were about CakePHP
     and it's actually the slowest by far.  I've never really liked it personally,
     but it wasn't really for performance reasons.  It was mainly the fact that it

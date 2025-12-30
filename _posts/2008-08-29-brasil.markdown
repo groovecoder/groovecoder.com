@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Brasil
 date: '2008-08-29 13:29:00 -0500'
 categories:

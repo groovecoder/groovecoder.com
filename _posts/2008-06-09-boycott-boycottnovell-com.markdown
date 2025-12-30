@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: boycott boycottnovell.com
 date: '2008-06-09 07:38:00 -0500'
 categories:
@@ -9,30 +7,18 @@ categories:
 tags:
 - sourceforge
 comments:
-- id: 124
   author: Robert E. Clayton
-  author_email: ''
-  author_url: ''
   date: '2008-06-11 06:31:00 -0500'
-  date_gmt: '2008-06-11 12:31:00 -0500'
   content: You might find it hilarious that Roy Schestowitz used to have Microsoft
     sponsored banners on his boycottnovell.com website as well, up until a few days
     afetr he attacked SourceForge for the same thing ;-)<br/><br/>Basically, the guy
     is just a flaming hypocrite.
-- id: 125
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2008-06-11 06:45:00 -0500'
-  date_gmt: '2008-06-11 12:45:00 -0500'
   content: heh, alright - so it's not just me being reactively defensive. good to
     know.
-- id: 126
   author: Robert E. Clayton
-  author_email: ''
-  author_url: ''
   date: '2008-06-11 18:25:00 -0500'
-  date_gmt: '2008-06-12 00:25:00 -0500'
   content: You might find this interesting:<br/><br/><a HREF="http://bigbolshevik.blogs.friendster.com/a_man_and_his_penguin/2008/06/boycott_boycott.html"
     REL="nofollow" rel="nofollow">http://bigbolshevik.blogs.friendster.com/a_man_and_his_penguin/2008/06/boycott_boycott.html</a>
 ---

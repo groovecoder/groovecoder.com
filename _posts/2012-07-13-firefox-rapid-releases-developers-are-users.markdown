@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Firefox rapid releases: developers *are* users'
 date: '2012-07-13 09:00:36 -0500'
 categories:
@@ -10,31 +8,19 @@ categories:
 tags:
 - mozilla
 comments:
-- id: 9467
   author: Jacob Rose
-  author_email: jacob@thinkgeek.com
-  author_url: http://www.thinkgeek.com/about-us/jacob.shtml
   date: '2012-07-13 09:37:54 -0500'
-  date_gmt: '2012-07-13 14:37:54 -0500'
   content: I've been using the nightly build of Firefox regularly for the last several
     years; it's a great early warning system for web developers, not just about changes
     in Firefox, but changes to web standards that you might otherwise overlook.
-- id: 9497
   author: Michael Beckwith
-  author_email: tw2113@gmail.com
-  author_url: http://michaelbeckwith.me
   date: '2012-07-13 16:26:40 -0500'
-  date_gmt: '2012-07-13 21:26:40 -0500'
   content: I love Aurora and use it as my daily browser. Gets me all the cool new
     features ahead of time and is quite stable. Once the Webdev tools start becoming
     un-dockable and in one window, I'll give ditching firebug a chance. The tools
     aren't there quite yet, but will be in the future.
-- id: 9503
   author: Robert Kaiser
-  author_email: kairo@kairo.at
-  author_url: http://home.kairo.at/blog/
   date: '2012-07-13 19:12:23 -0500'
-  date_gmt: '2012-07-14 00:12:23 -0500'
   content: "Web developers are not the prototype Firefox user, and not the majority
     of our users. Actually, I would hate if the current web developers would be the
     majority of users, as that would mean we'd have a very small market share. I would

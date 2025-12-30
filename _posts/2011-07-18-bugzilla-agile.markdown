@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: bugzilla-agile
 date: '2011-07-18 09:59:17 -0500'
 categories:
@@ -12,12 +10,8 @@ tags:
 - mozilla
 - agile
 comments:
-- id: 526
   author: Kumar McMillan
-  author_email: kumar.mcmillan@gmail.com
-  author_url: http://farmdev.com
   date: '2011-07-18 16:25:22 -0500'
-  date_gmt: '2011-07-18 22:25:22 -0500'
   content: "At my previous job we did XP (when it was the hotness), then Scrum, and
     we used all sorts of tools.  So I've been doing Agile with a capital A since 2004
     then stopped at Mozilla.  The latest tool I used was Pivotal Tracker and I liked
@@ -53,12 +47,8 @@ comments:
     a bug be sure that bug has a clear indication of what value it provides to the
     user of your product.  If it does not explain user value then the bug is either
     missing information or isn't valid at all."
-- id: 63510
   author: Lincoln
-  author_email: lincolnsherman@gmail.com
-  author_url: http://chigaavpli1.edublogs.org
   date: '2013-02-24 17:00:26 -0600'
-  date_gmt: '2013-02-24 23:00:26 -0600'
   content: "Hey! Quick question that's entirely off topic. Do you know how to make
     your site mobile friendly? My website looks weird when viewing from my apple iphone.
     I'm trying to \r\nfind a theme or plugin that might be able to correct this problem.\r\n\r\nIf

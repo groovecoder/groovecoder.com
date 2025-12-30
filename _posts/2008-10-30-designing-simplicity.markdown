@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Designing Simplicity
 date: '2008-10-30 16:30:00 -0500'
 categories:

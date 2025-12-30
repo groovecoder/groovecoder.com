@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: MDN Agile and status
 date: '2011-11-09 16:03:35 -0600'
 categories:

@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: standards bodies, no, mapping standard, yes
 date: '2004-11-11 09:47:00 -0600'
 categories:

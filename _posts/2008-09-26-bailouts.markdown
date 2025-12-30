@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: bailouts
 date: '2008-09-26 09:28:00 -0500'
 categories:

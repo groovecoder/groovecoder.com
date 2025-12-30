@@ -1,29 +1,19 @@
 ---
 layout: post
-status: publish
-published: true
 title: interesting mix of ideas
 date: '2008-07-13 11:24:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 127
   author: Randy
-  author_email: ''
-  author_url: ''
   date: '2008-07-14 09:27:00 -0500'
-  date_gmt: '2008-07-14 15:27:00 -0500'
   content: I am sure you've already thought about several of these concepts, but the
     following wikipedia entries have some interesting observations on this topic as
     well.  Any implication that correlation implies causation is false, but it is
     often a handy way to suggest that there is a relationship between the two.<br/><br/>http://en.wikipedia.org/wiki/Spurious_relationship<br/><br/>http://en.wikipedia.org/wiki/Correlation_does_not_imply_causation<br/><br/>http://en.wikipedia.org/wiki/Causality
-- id: 128
   author: Randy
-  author_email: ''
-  author_url: ''
   date: '2008-07-14 09:34:00 -0500'
-  date_gmt: '2008-07-14 15:34:00 -0500'
   content: As hyperlinks for convenience...<br/><br/><a HREF="http://en.wikipedia.org/wiki/Spurious_relationship"
     REL="nofollow" rel="nofollow">Spurious relationships</a><br/><br/><a HREF="http://en.wikipedia.org/wiki/Correlation_does_not_imply_causation"
     REL="nofollow" rel="nofollow">Correlation does not imply causation</a><br/><br/><a

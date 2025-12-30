@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Reports of the death of the Long Tail have been greatly exxagerated.
 date: '2006-12-21 11:59:00 -0600'
 categories:

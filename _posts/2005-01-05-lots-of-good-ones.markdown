@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: lots of good ones
 date: '2005-01-05 08:50:00 -0600'
 categories:

@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Linux (open-source) &amp; Interoperability (again)
 date: '2005-10-19 08:02:00 -0500'
 categories:

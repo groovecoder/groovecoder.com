@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: pseudo-translation to test i18n
 date: '2011-11-18 16:00:12 -0600'
 categories:
@@ -10,30 +8,18 @@ categories:
 tags:
 - i18n
 comments:
-- id: 1868
   author: F Wolff
-  author_email: friedel@translate.org.za
-  author_url: http://translate.org.za/blogs/friedel/
   date: '2011-12-29 08:27:13 -0600'
-  date_gmt: '2011-12-29 14:27:13 -0600'
   content: "Great to see you use pofilter to improve things for translators!\r\n\r\nTo
     avoid the translation of the new python variables, we need to add support for
     them in the Translate Toolkit to recognise it and skip it in pofilter. It already
     detects HTML, printf variables, etc. so it should be quite feasible, I guess."
-- id: 2012
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
   date: '2012-01-03 08:59:11 -0600'
-  date_gmt: '2012-01-03 14:59:11 -0600'
   content: If I knew any C I would offer to help. Where is the relevant profilter
     code?
-- id: 2035
   author: F Wolff
-  author_email: friedel@translate.org.za
-  author_url: http://translate.org.za/blogs/friedel/
   date: '2012-01-04 08:36:15 -0600'
-  date_gmt: '2012-01-04 14:36:15 -0600'
   content: "It is all in Python. \r\n\r\nPofilter:\r\nhttps://translate.svn.sourceforge.net/svnroot/translate/src/trunk/translate/tools/pogrep.py\r\n\r\nThe
     code to recognise variables:\r\nhttps://translate.svn.sourceforge.net/svnroot/translate/src/trunk/translate/storage/placeables/general.py"
 ---

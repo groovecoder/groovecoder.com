@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Web Standards in Visual Studio
 date: '2011-06-19 12:01:28 -0500'
 categories:

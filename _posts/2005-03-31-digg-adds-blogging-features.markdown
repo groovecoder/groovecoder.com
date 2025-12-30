@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: digg adds blogging features
 date: '2005-03-31 18:23:00 -0600'
 categories:

@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Kiva.org
 date: '2008-12-24 13:03:00 -0600'
 categories:

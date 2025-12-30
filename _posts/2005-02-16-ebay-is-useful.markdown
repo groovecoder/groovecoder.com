@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: eBay is useful
 date: '2005-02-16 16:41:00 -0600'
 categories:

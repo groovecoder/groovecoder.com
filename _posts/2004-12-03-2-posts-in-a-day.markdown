@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: 2 posts in a day!
 date: '2004-12-03 16:00:00 -0600'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 149
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2004-12-03 16:48:00 -0600'
-  date_gmt: '2004-12-03 22:48:00 -0600'
   content: 'It''s a fairly weak statement, in my opinion ... <br />"I believe that
     some think..." so the content has two levels of uncertainty.<br />And the content
     is kinda nebulous.<br /><br />At first glance -- knowing neither jack or s___
@@ -25,12 +19,8 @@ comments:
     the right to monkey with it.<br /><br />PS: what gave me away? My unparalelled
     literary and philosophic powers, or just the fact that I had clearly read every
     post on your blog? ;)'
-- id: 150
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2004-12-03 19:13:00 -0600'
-  date_gmt: '2004-12-04 01:13:00 -0600'
   content: the philosophical powers were dripping thru the comments from the very
     start, and I thought I could see a couple dangling bytes from where you erased
     a typo caused by Otto.<br /><br />my original letter to Erl was:<br /><br />thanks
@@ -44,12 +34,8 @@ comments:
     open-source implementations to encourage adoption of their spec?<br /><br />I
     totally agree...I was dumb-founded by Erl's assessment of open-source undermining
     interoperability.
-- id: 151
   author: Anonymous
-  author_email: ''
-  author_url: ''
   date: '2004-12-04 02:05:00 -0600'
-  date_gmt: '2004-12-04 08:05:00 -0600'
   content: 'Luke, as I mentioned I am not involved with open source so I really could
     not provide you with an opinion. When I stated that "I believe that some think
     open source implementations may undermine the standardized interoperability that
@@ -60,12 +46,8 @@ comments:
     open to development and modification, which can in some instances undermine interoperability."
     Have a read yourself: http://www.theregister.co.uk/2004/04/30/irish_government_open_source/<br
     /><br />Regards,<br />Thomas'
-- id: 152
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2004-12-04 10:09:00 -0600'
-  date_gmt: '2004-12-04 16:09:00 -0600'
   content: '1. Wow. Thomas Erl himself is looking at your blog, and I get to be the
     first to welcome him. That makes 3 and a half of us, including alter egos<br /><br
     />2.The clarifying context is appreciated; this article hails from the heyday
@@ -83,12 +65,8 @@ comments:
     mystified by that argument, because all other things being equal he ought to know
     that "open source AND open standards" is possible, desirable, and getting damn
     near mandatory in a lot of sectors.'
-- id: 153
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2004-12-05 09:06:00 -0600'
-  date_gmt: '2004-12-05 15:06:00 -0600'
   content: Thanks for the comments, Thomas. I've really enjoyed the book, and also
     the correspondence we've had about the open-source issues.<br /><br />I think
     there is still a bit of substance to the Open Source vs. Open Standards argument,

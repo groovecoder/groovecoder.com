@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: team fortress 2 enable steam community ingame
 date: '2013-06-19 22:43:42 -0500'
 categories:

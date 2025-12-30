@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: more about open-source
 date: '2005-07-29 08:12:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 177
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2005-07-29 15:06:00 -0500'
-  date_gmt: '2005-07-29 21:06:00 -0500'
   content: 'Very interesting exchange. Some points<br/>-the author of the counterpost
     is Krzysztof Kowalczyk, Rhys is just the guy who pointed it out to Adam.<br/><br/>-Kowalczyk''s
     assertions put to the test our "free as in speech" rhetoric. "We" really mean

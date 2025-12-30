@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Ubuntu FTW; Boot Camp FTL?
 date: '2008-08-03 13:16:00 -0500'
 categories:

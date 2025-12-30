@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: SoSaaS
 date: '2005-10-31 13:47:00 -0600'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 193
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2005-11-03 14:07:00 -0600'
-  date_gmt: '2005-11-03 20:07:00 -0600'
   content: you bastard now i have to subscribe to that guy's stuff in addition to
     Berlind's.<br/><br/>i like how he says "digital restrictions management"<br/><br/>and
     "a vendor that says 'software-as-a-service' but means 'software-as-a-privilege-you-should-be-darned-grateful-for"<br/><br/>But

@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: MS-Interoperability
 date: '2005-02-04 16:01:00 -0600'
 categories:

@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: unit tests and just-got-it-working inertia
 date: '2008-09-17 09:48:00 -0500'
 categories:

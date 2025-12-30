@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: '[''Tulsa %s'' % e for e in (''Tech Fest'', ''Hackathon'')]'
 date: '2011-10-04 23:25:02 -0500'
 categories:

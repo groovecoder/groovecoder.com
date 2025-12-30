@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: change XML?
 date: '2005-02-02 16:44:00 -0600'
 categories:

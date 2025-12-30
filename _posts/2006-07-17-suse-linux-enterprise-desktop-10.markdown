@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: SUSE Linux Enterprise Desktop 10
 date: '2006-07-17 09:30:00 -0500'
 categories:

@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Let's Encrypt on Heroku with DNS Domain Validation
 date: '2017-01-02 21:00:00 -0600'
 tags:

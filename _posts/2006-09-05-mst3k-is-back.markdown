@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: MST3K is back!
 date: '2006-09-05 09:32:00 -0500'
 categories:

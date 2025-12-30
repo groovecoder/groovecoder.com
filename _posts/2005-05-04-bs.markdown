@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: BS ==
 date: '2005-05-04 07:14:00 -0500'
 categories:

@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Tulsa Web Devs press tour
 date: '2012-03-16 09:12:45 -0500'
 categories:

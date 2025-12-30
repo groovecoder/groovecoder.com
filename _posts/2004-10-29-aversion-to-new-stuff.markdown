@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: aversion to new stuff
 date: '2004-10-29 16:25:00 -0500'
 categories:

@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: MSN search uses Linux
 date: '2004-11-16 09:22:00 -0600'
 categories:

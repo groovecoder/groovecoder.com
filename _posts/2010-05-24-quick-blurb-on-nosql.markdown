@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: quick blurb on NoSQL
 date: '2010-05-24 12:08:00 -0500'
 categories:

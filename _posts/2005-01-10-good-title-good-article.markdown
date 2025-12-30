@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: good title, good article
 date: '2005-01-10 09:35:00 -0600'
 categories:

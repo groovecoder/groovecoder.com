@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: php-based J2EE approach?
 date: '2004-12-11 15:56:00 -0600'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 154
   author: Lux
-  author_email: ''
-  author_url: ''
   date: '2004-12-13 23:38:00 -0600'
-  date_gmt: '2004-12-14 05:38:00 -0600'
   content: 'Hi Luke, thanks for the post about my new project (I''m the developer
     of phpBeans).  I thought it might help to clarify a couple of things about the
     software, which will hopefully dispell a few fears you and others might have about
@@ -45,12 +39,8 @@ comments:
     ;)<br /><br />I hope this helps clarify where our project is coming from, as I
     really do think this is one of the things PHP needs in order to be taken seriously.<br
     /><br />Cheers,<br /><br />Lux'
-- id: 155
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2004-12-14 06:51:00 -0600'
-  date_gmt: '2004-12-14 12:51:00 -0600'
   content: thanks for coming by my blog, and thanks for leaving the links and the
     info. I think there is a place for phpBeans and other RMI-style distributed computing,
     and the solution would be very beneficial for distributed computing projects that

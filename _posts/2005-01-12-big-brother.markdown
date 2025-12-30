@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: big brother
 date: '2005-01-12 20:17:00 -0600'
 categories:

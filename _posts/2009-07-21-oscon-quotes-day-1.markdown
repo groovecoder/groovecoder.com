@@ -1,36 +1,22 @@
 ---
 layout: post
-status: publish
-published: true
 title: OSCON quotes - day 1
 date: '2009-07-21 00:28:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 137
   author: priyanka
-  author_email: ''
-  author_url: ''
   date: '2009-08-20 11:07:37 -0500'
-  date_gmt: '2009-08-20 17:07:37 -0500'
   content: That&#39;s awesome Luke. Thanks for posting these. Good times.
-- id: 138
   author: Lokito_112
-  author_email: ''
-  author_url: ''
   date: '2009-12-13 16:36:42 -0600'
-  date_gmt: '2009-12-13 22:36:42 -0600'
   content: Hey dude !<br />You did an excellent job with ajaxMyTop, I had a big MySQL
     query problem that where knocking down my 3 servers and I found the error through
     ajaxMyTop, thanks a lot !<br />I was wondering I could send you an email but I
     didn&#39;t found your e-mail address on either Sourceforge or Olho.
-- id: 139
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2009-12-14 08:29:01 -0600'
-  date_gmt: '2009-12-14 14:29:01 -0600'
   content: Thanks man. Glad it helped you out. :)
 ---
 <p>I want to share quotes I overhear at OSCON 2009. Most of these are from fellow SourceForgers ...</p>

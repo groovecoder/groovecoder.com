@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: $lamp5-&gt;start();
 date: '2005-01-25 12:54:00 -0600'
 categories:

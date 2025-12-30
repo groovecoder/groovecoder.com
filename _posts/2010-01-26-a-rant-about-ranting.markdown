@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: a rant about ranting
 date: '2010-01-26 11:35:00 -0600'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 140
   author: rtfgvb777
-  author_email: ''
-  author_url: ''
   date: '2010-04-20 22:40:02 -0500'
-  date_gmt: '2010-04-21 04:40:02 -0500'
   content: IS VERY GOOD<a href="http://x331.22vt.com/" rel="nofollow">.</a><a href="http://x332.22vt.com/"
     rel="nofollow">.</a><a href="http://x333.22vt.com/" rel="nofollow">.</a><a href="http://x334.22vt.com/"
     rel="nofollow">.</a><a href="http://x335.22vt.com/" rel="nofollow">.</a><a href="http://x336.22vt.com/"

@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: '''encouragement'' to MySQL'
 date: '2004-12-09 15:21:00 -0600'
 categories:

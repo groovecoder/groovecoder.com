@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Late absentee to the party
 date: '2011-03-24 10:43:25 -0500'
 categories:
@@ -9,22 +7,14 @@ categories:
 tags:
 - mozilla
 comments:
-- id: 62
   author: Robert Kaiser
-  author_email: kairo@kairo.at
-  author_url: http://home.kairo.at/blog/
   date: '2011-03-25 07:32:28 -0500'
-  date_gmt: '2011-03-25 13:32:28 -0500'
   content: Couldn't agree more - esp. on the remote argument. Being on board with
     Firefox the first time for a launch day (as a contractor atm) made me really feel
     bad about not being in Ten Forward with all this awesomeness. How much I'd like
     that to change...
-- id: 68
   author: pd
-  author_email: an0n1m0us@gmail.com
-  author_url: ''
   date: '2011-03-29 07:25:40 -0500'
-  date_gmt: '2011-03-29 13:25:40 -0500'
   content: "We believe in marketing fluff as much as anyone!\r\n\r\nWe don't believe
     in share? What a load of ...\r\n\r\nEvery decision to butcher the interface is
     ultimately justified by the notion that you have to target the mainstream. Just
@@ -36,12 +26,8 @@ comments:
     half the available physical RAM to keep less than a dozen tabs open :)\r\n\r\nI
     also got an added bit of love from Firefox 4. Apparently Mozilla believes in Blue
     Screens of Death now, all in the name of video acceleration."
-- id: 69
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: ''
   date: '2011-03-29 08:34:52 -0500'
-  date_gmt: '2011-03-29 14:34:52 -0500'
   content: "Yeah I'm not usually into \"marketing\" but the Mozilla message is one
     worth branding and advertising well. Compare that video to the latest iPhone commercials
     - \"If you don't have an iPhone, well - you don't have an iPhone.\" Apple's message

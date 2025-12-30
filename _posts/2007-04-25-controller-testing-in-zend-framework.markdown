@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Controller Testing in Zend Framework
 date: '2007-04-25 08:02:00 -0500'
 categories:

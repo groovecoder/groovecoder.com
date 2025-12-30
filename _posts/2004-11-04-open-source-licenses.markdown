@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: open source licenses
 date: '2004-11-04 12:51:00 -0600'
 categories:

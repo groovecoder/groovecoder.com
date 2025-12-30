@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: $bluke-&gt;start();
 date: '2005-01-14 15:27:00 -0600'
 categories:

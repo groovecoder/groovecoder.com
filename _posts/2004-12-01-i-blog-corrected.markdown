@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: I blog corrected
 date: '2004-12-01 17:46:00 -0600'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 142
   author: Anonymous
-  author_email: ''
-  author_url: ''
   date: '2004-12-02 10:04:00 -0600'
-  date_gmt: '2004-12-02 16:04:00 -0600'
   content: It was quite refreshing to see a bit of humility instead of a flame war
     spring up over my comment. I fully expected dismissive and/or abusive language
     in response and appreciate your ability to focus on the issue.<br /><br />Regarding
@@ -30,12 +24,8 @@ comments:
     that will allow those environments to be fully scriptable from a Web Service client."<br
     /><br />It may be worth contacting the desktop developers, or just perusing their
     websites, to see how the WS licensing was worked out.
-- id: 143
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2004-12-02 11:24:00 -0600'
-  date_gmt: '2004-12-02 17:24:00 -0600'
   content: the WS-PublicLicense, then, should contain the legal encapsulation of the
     not-strictly-legally-binding fact mentioned in the FAQ.<br /><br />but, in some
     cases, your contention of the input/output of WS may not hold true...<br /><br
@@ -50,12 +40,8 @@ comments:
     by most companies looking to build their own service-oriented architectures which
     they would need to be proprietary for a number of reasons.<br /><br />and I like
     making up spiffy marketing terms like WS-PublicLicense.
-- id: 144
   author: Anonymous
-  author_email: ''
-  author_url: ''
   date: '2004-12-02 12:11:00 -0600'
-  date_gmt: '2004-12-02 18:11:00 -0600'
   content: You're really just speculating, and IMO in an almost-paranoid manner. You
     think the GPL is so viral that "external services using output from a GPL-covered
     service...could be said to be derived off the source code of the GPL service".
@@ -75,12 +61,8 @@ comments:
     I can't speak about BPEL4WS.<br /><br />The bare, IMO remote, possibility that
     people will take your incredibly liberal reading of 2b to court is no reason to
     toss the GPL. The possibility that a court would countenance that reading is zero.
-- id: 145
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2004-12-02 17:17:00 -0600'
-  date_gmt: '2004-12-02 23:17:00 -0600'
   content: IMO, I think every business looking into open-source software is somewhat
     concerned/"paranoid" about it. whether that concern is justified or not is something
     up for debate, but the existence of that kind of concern towards open-source by
@@ -96,12 +78,8 @@ comments:
     possible.<br /><br />a followup question, though:<br /><br />is it legal/proper
     to copy the GPL or LGPL word-for-word and then make a few changes to create a
     new license?
-- id: 146
   author: Anonymous
-  author_email: ''
-  author_url: ''
   date: '2004-12-03 13:51:00 -0600'
-  date_gmt: '2004-12-03 19:51:00 -0600'
   content: Changing the GPL is not allowed, as per the copyright notice at the top
     of it.<br /><br />Writing your own license that's similar to, but different from,
     the GPL is of course legal and possible, but you should definitely get a copyright
@@ -129,12 +107,8 @@ comments:
     of that kind of concern towards open-source by businesses is just a fact."<br
     /><br />It is an unfortunate and temporary fact, and you are helping delay the
     time when it will go away.
-- id: 148
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2004-12-03 15:20:00 -0600'
-  date_gmt: '2004-12-03 21:20:00 -0600'
   content: expecting to be pardoned on over-blown, emotionally-motivated terminology
     I used when discussing certain issues is obviously a judgemental error on my part,
     considering the audience this blog would carry is no doubt very logical, passionate,

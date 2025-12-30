@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: back to business
 date: '2004-12-03 10:38:00 -0600'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 147
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2004-12-03 14:14:00 -0600'
-  date_gmt: '2004-12-03 20:14:00 -0600'
   content: Good news and bad news:<br /><br />good) Arr wor, I'm a <a HREF="http://www.blogger.com/r?http%3A%2F%2Fbtetc.blogspot.com"
     rel="nofollow">a weblogger</a> now. It's really pointless so far but blech at
     least we're both all up ons now.<br /><br />bad) Dallas PHP/MySQL meeting is also

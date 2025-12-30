@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: criticizing the critics
 date: '2005-02-07 13:00:00 -0600'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 160
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2005-03-26 20:30:00 -0600'
-  date_gmt: '2005-03-27 02:30:00 -0600'
   content: meh.<br/><br/>When are you going to stop basing your opinion of "the open-source
     community" on comments posted by lord-knows-who at slashdot etc.?<br/><br/>There
     are <a HREF="http://www.theregister.co.uk/2005/02/11/hakon_on_ms_interroperability/"
@@ -47,12 +41,8 @@ comments:
     network transactions. But <a HREF="http://www.nzherald.co.nz/index.cfm?c_id=5&ObjectID=10115247"
     REL="nofollow" rel="nofollow">Events</a> even more recent than this memo make
     me wonder.
-- id: 161
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2005-03-28 11:05:00 -0600'
-  date_gmt: '2005-03-28 17:05:00 -0600'
   content: my post in no way adequately encompassed my entire opinion of "the<br/>open
     source community (tOSc)." it is only a small portion of my opinion, not the basis.
     rather, I only  meant it to counter the<br/><br/>if(source == "open"){<br/> program
@@ -90,12 +80,8 @@ comments:
     if open-source programmers *only* consider addressing interoperability issues
     at the source-code level, I think it will be a big drag on advancement in the
     area.
-- id: 162
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2005-03-28 11:06:00 -0600'
-  date_gmt: '2005-03-28 17:06:00 -0600'
   content: my post in no way adequately encompassed my entire opinion of "the<br/>open
     source community (tOSc)." it is only a small portion of my opinion, not the basis.
     rather, I only  meant it to counter the<br/><br/>if(source == "open"){<br/> program

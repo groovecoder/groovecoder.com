@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'if request.META[''HTTP_DNT''] == 1:'
 date: '2011-02-14 10:08:12 -0600'
 categories:

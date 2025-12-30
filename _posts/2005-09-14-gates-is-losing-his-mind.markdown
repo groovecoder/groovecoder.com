@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: gates is losing his mind
 date: '2005-09-14 07:42:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 182
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2005-09-27 11:09:00 -0500'
-  date_gmt: '2005-09-27 17:09:00 -0500'
   content: 'sorry ... i just realized you had stuff down here. This is a great exchange.
     I never get enough of that stuff.<br/><br/>Here''s my all time favorite non-response-where-I-just-blubber-my-head-off-etc.
     This is Darl McBride in a Q&A at Harvard:<br/><br/>"(Q)... I have a quote here

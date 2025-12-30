@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: good model
 date: '2005-05-10 07:22:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 168
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2005-06-11 13:43:00 -0500'
-  date_gmt: '2005-06-11 19:43:00 -0500'
   content: 'Feel bad for not commenting in so long, but maybe it''ll get you to post
     more if I do:<br/><br/>1) PHPEclipse might be doing what you want with that. Haven''t
     looked in on them in awhile ... ZDE pretty much pwns eclipse for me.<br/><br/>2)

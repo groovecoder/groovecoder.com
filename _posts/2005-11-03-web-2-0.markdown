@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: Web 2.0
 date: '2005-11-03 13:06:00 -0600'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 194
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2005-11-07 11:30:00 -0600'
-  date_gmt: '2005-11-07 17:30:00 -0600'
   content: I had read that article a while back and I agree with what you and Tim
     are saying.<br/><br/>Even in the business world there is a lot to be said for
     performing a simple HTTP post with a zip code and getting back the current applicable
@@ -27,12 +21,8 @@ comments:
     processes as those simplified remixable services for general public consumption.
     And it does it in such a way that the enterprise keeps the security, management,
     reliability, etc that they require.
-- id: 195
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2005-11-11 06:57:00 -0600'
-  date_gmt: '2005-11-11 12:57:00 -0600'
   content: How about this Web 1.0 -> Web 2.0 :<br/><br/>Slashdot == Web 1.0<br/>Digg
     = Web 2.0<br/><br/>?
 ---

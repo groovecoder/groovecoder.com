@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: ws-comments-&gt;resume();
 date: '2005-03-24 11:11:00 -0600'
 categories:

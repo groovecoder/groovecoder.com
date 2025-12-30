@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Franchising, open source, and &quot;methods of doing business&quot;
 date: '2006-12-30 11:51:00 -0600'
 categories:

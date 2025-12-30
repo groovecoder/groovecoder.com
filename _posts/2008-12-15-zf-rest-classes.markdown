@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: ZF Rest classes
 date: '2008-12-15 18:44:00 -0600'
 categories:

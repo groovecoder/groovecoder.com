@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Unit-testing ZF Controllers without Zend_Test
 date: '2009-01-08 13:54:00 -0600'
 categories:
@@ -10,20 +8,12 @@ tags:
 - php
 - agile
 comments:
-- id: 132
   author: Duodraco
-  author_email: ''
-  author_url: ''
   date: '2009-01-09 09:07:00 -0600'
-  date_gmt: '2009-01-09 15:07:00 -0600'
   content: Hi Luke. <br/>Great article.<br/>I tagged you in http://duodraco.wordpress.com/2009/01/09/seven-things-that-probably-you-may-not-know-about-me/
     .
-- id: 136
   author: rozydesouza
-  author_email: ''
-  author_url: ''
   date: '2009-08-12 01:09:52 -0500'
-  date_gmt: '2009-08-12 07:09:52 -0500'
   content: I have been in search of such interesting Articles, I am on a holiday its
     good to see that everyone are trying their best to keep up the Spirit by having
     such great articles posted.<br /><br />Cheers, Keep it up.<br />___________________<br

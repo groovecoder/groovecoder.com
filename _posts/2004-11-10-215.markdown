@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 date: '2004-11-10 13:55:00 -0600'
 categories:
 - Uncategorized

@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: catching up
 date: '2004-12-27 18:33:00 -0600'
 categories:

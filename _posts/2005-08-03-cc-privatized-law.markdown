@@ -1,27 +1,17 @@
 ---
 layout: post
-status: publish
-published: true
 title: CC == privatized law
 date: '2005-08-03 08:16:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 178
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2005-08-05 07:13:00 -0500'
-  date_gmt: '2005-08-05 13:13:00 -0500'
   content: You don't need to purchase a travel mug, but you DO need to help me hack
     up a nice interface to CC content.<br/><br/>That's the rule.
-- id: 179
   author: shail
-  author_email: ''
-  author_url: ''
   date: '2005-08-16 05:43:00 -0500'
-  date_gmt: '2005-08-16 11:43:00 -0500'
   content: Imperial <a HREF="http://www.toursnewdelhi.com/rajasthan/rajasthan-tours.htm"
     REL="nofollow" rel="nofollow">Rajasthan</a> tours <br/>take you to the land of
     blue-blooded rajas, ostentatious forts and stately palaces that bejewel<br/>yellow-russet
@@ -34,20 +24,12 @@ comments:
     REL="nofollow" rel="nofollow">Jaipur</a>,<br/><a HREF="http://www.toursnewdelhi.com/rajasthan/jodhpur-tours.htm"
     REL="nofollow" rel="nofollow">Jodhpur</a>,<br/><a HREF="http://www.toursnewdelhi.com/rajasthan/udaipur-tours.htm"
     REL="nofollow" rel="nofollow">Udaipur</a> and Bikaner .
-- id: 180
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2005-08-17 15:23:00 -0500'
-  date_gmt: '2005-08-17 21:23:00 -0500'
   content: Shail makes an excellent point. Not paying much attention to yr blog lately,
     are you?
-- id: 181
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2005-08-17 21:29:00 -0500'
-  date_gmt: '2005-08-18 03:29:00 -0500'
   content: that is a good point. I was going to type up a comment about your extended
     car metaphor, but indeed have been slacking a bit lately.
 ---

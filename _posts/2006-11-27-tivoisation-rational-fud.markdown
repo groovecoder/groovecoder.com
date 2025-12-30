@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Tivoisation &amp; rational FUD
 date: '2006-11-27 10:34:00 -0600'
 categories:

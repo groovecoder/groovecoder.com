@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Oklahoma State Question 743
 date: '2008-11-03 13:25:00 -0600'
 categories:

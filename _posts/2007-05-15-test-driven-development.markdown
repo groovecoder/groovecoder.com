@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Test Driven Development
 date: '2007-05-15 07:10:00 -0500'
 categories:

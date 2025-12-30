@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: Windows EULA
 date: '2006-11-02 17:11:00 -0600'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 117
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2006-11-14 10:37:00 -0600'
-  date_gmt: '2006-11-14 16:37:00 -0600'
   content: 'Nice and concise. Your emphases throught put me in mind of a very long-tail
     insight: small does not equal zero.<br/><br/>In fact, small can equal more than
     big if there are enough of it.<br/><br/>Kinda touches on several of (y)our recent

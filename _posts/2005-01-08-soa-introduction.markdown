@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: SOA introduction
 date: '2005-01-08 15:17:00 -0600'
 categories:

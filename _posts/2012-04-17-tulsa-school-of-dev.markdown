@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Tulsa School of Dev
 date: '2012-04-17 17:27:14 -0500'
 categories:
@@ -10,12 +8,8 @@ categories:
 tags:
 - tulsa
 comments:
-- id: 5027
   author: Sean W
-  author_email: seanw122@gmail.com
-  author_url: http://www.tulsadevelopers.net
   date: '2012-04-17 18:54:30 -0500'
-  date_gmt: '2012-04-17 23:54:30 -0500'
   content: Thanks Luke for the write-up. The TCC NE campus was free. We only had to
     pay for the coffee. The rooms were free due to a grant that campus received a
     few years ago. I think the grant is over now though. We would have had better
@@ -23,22 +17,14 @@ comments:
     semester or like spring break. Oh and a big "Thanks" to the web group. I appreciate
     the work done on the site. Though there were rough edges like you mentioned, it
     looked a lot better than it would have on our Sharepoint site.
-- id: 5031
   author: Dave Brondsema
-  author_email: dave@brondsema.net
-  author_url: http://brondsema.net/
   date: '2012-04-17 21:41:28 -0500'
-  date_gmt: '2012-04-18 02:41:28 -0500'
   content: "Hey Luke, maybe check out http://indico-software.org/ for scheduling.
     \ I heard about it at PyCon.  I don't know much about it, but the idea seems similar.\r\n\r\nThanks
     for your last post too - it was the same week we were having a discussion about
     beer at BarCampGR."
-- id: 5034
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
   date: '2012-04-18 01:06:16 -0500'
-  date_gmt: '2012-04-18 06:06:16 -0500'
   content: "Sean, I didn't know TCC NE was free - that's cool. Good to know about
     using campuses during semesters. Have we ever tried to do an event at the library?\r\n\r\nDave,
     nice! I'll have to check that out."

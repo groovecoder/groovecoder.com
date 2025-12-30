@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: a couple more news items
 date: '2004-12-07 18:11:00 -0600'
 categories:

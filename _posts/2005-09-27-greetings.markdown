@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: Greetings
 date: '2005-09-27 07:30:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 183
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2005-09-27 11:52:00 -0500'
-  date_gmt: '2005-09-27 17:52:00 -0500'
   content: I thought it was very on-topic...and I think you're right on. I did not
     ever look at that aspect of the Office XML formats, but that would definetly be
     a way for MS to force proprietary and non-interoperable objects into their Office
@@ -21,32 +15,20 @@ comments:
     lock-in customers remains yet to be seen. apparently their current tactic, at
     least in the Mass case, is to whine and cry in response to reasonable objections
     to their format.
-- id: 184
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2005-09-28 09:28:00 -0500'
-  date_gmt: '2005-09-28 15:28:00 -0500'
   content: OMG that <a HREF="http://www.mass.gov/Aitd/docs/policies_standards/etrm3dot5/responses/microsoft.pdf"
     REL="nofollow" rel="nofollow">Yates letter</a> cracked me up.<br/><br/>Y'know
     what it was? A fifteen-page version of that stupid dialog box that pops up and
     says "You are about to save in a text-only format, which all computers can read,
     of course, but BE CAREFUL 'cause it'll probably SCREW UP your document REAL BAD!!!1
     Like you might not have Cool Shadows underneath your favorite bullet points etc.!"
-- id: 185
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2005-09-28 09:30:00 -0500'
-  date_gmt: '2005-09-28 15:30:00 -0500'
   content: oh and speaking of Yates you probably saw this too, but:<br/><br/><a HREF="http://dot.kde.org/1127515635/"
     REL="nofollow" rel="nofollow">Inge Wallin = teh pwn</a>
-- id: 186
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2005-09-28 12:14:00 -0500'
-  date_gmt: '2005-09-28 18:14:00 -0500'
   content: lmao!<br/><br/>"I am sure that you are now much calmer..."<br/><br/>Wallin
     is great! I can't believe the way Microsoft is approaching this. don't they know
     they're making themselves look like total idiot assholes?

@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Yet Another Tutorial
 date: '2007-05-16 08:35:00 -0500'
 categories:

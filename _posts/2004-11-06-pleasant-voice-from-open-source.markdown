@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: pleasant voice from open source
 date: '2004-11-06 09:14:00 -0600'
 categories:

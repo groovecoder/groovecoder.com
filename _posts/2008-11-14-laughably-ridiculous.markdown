@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Laughably Ridiculous
 date: '2008-11-14 14:15:00 -0600'
 categories:

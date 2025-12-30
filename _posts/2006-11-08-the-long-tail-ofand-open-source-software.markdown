@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: The Long Tail (of|and) Open Source Software
 date: '2006-11-08 00:06:00 -0600'
 categories:

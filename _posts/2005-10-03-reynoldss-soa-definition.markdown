@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: Reynolds's SOA definition
 date: '2005-10-03 17:39:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 187
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2005-10-04 09:40:00 -0500'
-  date_gmt: '2005-10-04 15:40:00 -0500'
   content: '>with WS-based SOA, the interface is described using a standardized format
     so that the services implementing the interface can be in any language on any
     platform.<br/><br/>>so the good news is that it is indeed another attempt at creating
@@ -30,12 +24,8 @@ comments:
     containing a line, then one shell script that called all those lines in succession.<br/><br/>Actual
     routines would be snippets that require an input (or react to an event) and generate
     an output (or trigger an event)'
-- id: 188
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2005-10-04 13:00:00 -0500'
-  date_gmt: '2005-10-04 19:00:00 -0500'
   content: I think you've mentioned the Lx analogy before and I like it.<br/><br/>but
     there's still a danger of over-simplifying it with this analogy unless we emphasize
     that for good SOA, the <b>interface descriptions</b> are the basis of the system
@@ -52,22 +42,14 @@ comments:
     processes), flexibility (by re-arranging existsing processes interactions), and
     modularity (by removing context from the small processes, and the composite larger
     processes).
-- id: 189
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2005-10-04 14:29:00 -0500'
-  date_gmt: '2005-10-04 20:29:00 -0500'
   content: 'excellent point. WSDL et al. remind me of phpDoc and programs like that
     ... generate man pages automatically if your code is up to snuff, properly commented,
     etc.<br/><br/>I have a confession, though: I never got into this habit. I deserve
     Bad Things (like always being behind deadlines) as a result.'
-- id: 190
   author: luke
-  author_email: ''
-  author_url: ''
   date: '2005-10-04 14:56:00 -0500'
-  date_gmt: '2005-10-04 20:56:00 -0500'
   content: interestingly, when I asked Andi about how PHP plans to support the automatic
     creation of WSDL that describes PHP functions, he said it would be implemented
     using certain comment syntax before the function. then a PHP class would interrogate

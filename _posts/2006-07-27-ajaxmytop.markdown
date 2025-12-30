@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: ajaxmytop
 date: '2006-07-27 10:15:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 113
   author: Peter
-  author_email: ''
-  author_url: ''
   date: '2006-09-06 16:58:00 -0500'
-  date_gmt: '2006-09-06 22:58:00 -0500'
   content: Have you thought about fixing the links in the sidebar area of your BLOG?
     (i.e. EDIT-ME)
 ---

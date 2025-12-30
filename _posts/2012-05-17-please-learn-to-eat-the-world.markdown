@@ -1,39 +1,25 @@
 ---
 layout: post
-status: publish
-published: true
 title: Please Learn to Eat the World
 date: '2012-05-17 18:00:10 -0500'
 categories:
 - tech
 tags: []
 comments:
-- id: 5720
   author: Amanda Shankle-Knowlton
-  author_email: Ashankle@gmail.com
-  author_url: ''
   date: '2012-05-17 22:18:00 -0500'
-  date_gmt: '2012-05-18 03:18:00 -0500'
   content: "Good stuff. I'm constantly surprised at people in tech or really any field
     who want to know just enough to not get fired. How sad it must be to not be passionate
     about the thing you spend so much of your life doing. \r\n\r\nEven without the
     career benefits you mentioned, it seems like learning to code would provide just
     as much mental stimulation as playing sudoku or doing a crossword.  I dont see
     a reason to NOT learn to do anything."
-- id: 6022
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
   date: '2012-05-21 10:14:42 -0500'
-  date_gmt: '2012-05-21 15:14:42 -0500'
   content: "Yes, the world would be a better place if everyone knew how to code at
     least a little bit:\r\n\r\nhttp://developers.slashdot.org/story/12/05/16/1612228/judge-to-oracle-a-high-schooler-could-write-rangecheck"
-- id: 7296
   author: mwic
-  author_email: lamp5matt@gmail.com
-  author_url: ''
   date: '2012-06-14 09:49:05 -0500'
-  date_gmt: '2012-06-14 14:49:05 -0500'
   content: "Hooray for the rangecheck catch. That, of course, is what I thought immediately
     after seeing the article.\r\n\r\nIn my opinion, no one in the discussion has got
     philosophical enough yet (raise your hand if you're surprised that that is my
@@ -47,33 +33,21 @@ comments:
     have to worry about them. But if you're totally ignorant of the existence of code,
     it's like not knowing the basic laws of inertia and gravity .. and such people
     are dangerous drivers."
-- id: 7516
   author: Jeremy
-  author_email: mickleness@gmail.com
-  author_url: http://javagraphics.blogspot.com
   date: '2012-06-19 01:29:26 -0500'
-  date_gmt: '2012-06-19 06:29:26 -0500'
   content: 'This sounds ... tricky. Maybe I don''t have a good understanding of how
     we expect this new literacy to manifest itself? (That is: what will be different
     about my neighbor''s day-to-day life when he becomes code literate?)'
-- id: 7565
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
   date: '2012-06-19 16:23:37 -0500'
-  date_gmt: '2012-06-19 21:23:37 -0500'
   content: "Hey Jeremy! How have you been?!\r\n\r\nGood question, but it depends what
     your neighbor does now. The point of everyone learning to code is exactly that
     we coders *don't* know what our non-coding neighbors might create.\r\n\r\nAt least
     with the case of Oracle vs. high-school programming, your neighbor's mobile phone
     may be cheaper since Google doesn't have to pay ridiculous infringement penalties.
     ;)"
-- id: 7677
   author: mwic
-  author_email: lamp5matt@gmail.com
-  author_url: ''
   date: '2012-06-21 12:43:09 -0500'
-  date_gmt: '2012-06-21 17:43:09 -0500'
   content: "Luke has got the idea (but he cheated by having around 7,000 offline conversations
     with me about it). I don't know who your neighbor is, but if heshe is for example
     a child dying from a curable disease because of unaffordable patented drugs, it
@@ -85,12 +59,8 @@ comments:
     buying is a system of metaphors. And--much more important--what we're buying into
     is the underlying assumption that metaphors are a good way to deal with the world.\r\n\r\nNeal
     Stephenson, In the Beginning Was the Command Line"
-- id: 8705
   author: Jeremy
-  author_email: mickleness@gmail.com
-  author_url: http://javagraphics.blogspot.com
   date: '2012-07-03 02:09:29 -0500'
-  date_gmt: '2012-07-03 07:09:29 -0500'
   content: "I suppose I mostly agree, but in my gut I'm worried about an influx of
     amateurism.\r\n\r\nEven in undergrad I remember having to tiptoe lightly around
     the egos of teammates in our senior project: because the most efficient solution
@@ -101,23 +71,15 @@ comments:
     literacy (a celebrated cornerstone of human civilization), or is it more similar
     to car mechanics (it's gritty technical work, and you need to be certified to
     handle complex factors like human safety and environmental pollution)?"
-- id: 8730
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: http://groovecoder.com
   date: '2012-07-03 06:40:30 -0500'
-  date_gmt: '2012-07-03 11:40:30 -0500'
   content: "Yes. :)\r\n\r\nI like Matt's analogy - someone who doesn't know *any*
     code is like someone who doesn't understand *any* physics. It's the reason we
     don't let 5-year-olds drive, right? Software is 10x more pervasive than automobiles.
     Everyone needs a basic literacy.\r\n\r\nIf you're worried about amateurs, you
     should get involved with teaching/training/mentoring. It's incredibly rewarding!"
-- id: 77764
   author: Howard Hirshfield
-  author_email: protima.raj@gmail.com
-  author_url: http://bestlanguagelearningsoftware.org/
   date: '2014-04-17 08:05:51 -0500'
-  date_gmt: '2014-04-17 13:05:51 -0500'
   content: I liked your ideas because i learned many new things to improve my knowledge.
     Thanks for sharing with us!
 ---

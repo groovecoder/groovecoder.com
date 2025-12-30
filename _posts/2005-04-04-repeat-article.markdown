@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: repeat article?
 date: '2005-04-04 10:24:00 -0500'
 categories:

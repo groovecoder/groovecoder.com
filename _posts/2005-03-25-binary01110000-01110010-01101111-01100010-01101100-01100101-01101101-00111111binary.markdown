@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: '&lt;binary&gt;01110000 01110010 01101111 01100010 01101100 01100101 01101101
   00111111&lt;/binary&gt;'
 date: '2005-03-25 08:13:00 -0600'

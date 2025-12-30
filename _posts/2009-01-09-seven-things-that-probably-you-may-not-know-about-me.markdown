@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: Seven things that probably you may not know about me
 date: '2009-01-09 09:14:00 -0600'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 135
   author: rozydesouza
-  author_email: ''
-  author_url: ''
   date: '2009-08-12 01:09:48 -0500'
-  date_gmt: '2009-08-12 07:09:48 -0500'
   content: I have been in search of such interesting Articles, I am on a holiday its
     good to see that everyone are trying their best to keep up the Spirit by having
     such great articles posted.<br /><br />Cheers, Keep it up.<br />___________________<br

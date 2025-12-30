@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: Camino is fired. Firefox is re-hired.
 date: '2006-09-03 15:25:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 121
   author: ClintB
-  author_email: ''
-  author_url: ''
   date: '2006-11-20 10:00:00 -0600'
-  date_gmt: '2006-11-20 16:00:00 -0600'
   content: I use Safari. It r0x0rz...most of the time. I also have Firefox as a backup
     in case a website (for some reason) won't work in Safari.<br/><br/>I too have
     an Apple theme on my Sony Ericsson. <br/><br/>-Clint

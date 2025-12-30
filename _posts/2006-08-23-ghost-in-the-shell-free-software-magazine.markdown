@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Ghost in the shell | Free Software Magazine
 date: '2006-08-23 19:29:00 -0500'
 categories:

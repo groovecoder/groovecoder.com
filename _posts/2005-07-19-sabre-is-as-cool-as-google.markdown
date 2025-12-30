@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: Sabre is as cool as Google
 date: '2005-07-19 07:55:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 170
   author: Matt Crouch
-  author_email: ''
-  author_url: ''
   date: '2005-07-19 09:11:00 -0500'
-  date_gmt: '2005-07-19 15:11:00 -0500'
   content: you can sleep in my garage until you find a place. it's very nice in August,
     as you can imagine.
 ---

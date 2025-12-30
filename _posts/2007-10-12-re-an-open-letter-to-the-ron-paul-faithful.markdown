@@ -1,28 +1,18 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Re: An Open Letter to the Ron Paul Faithful'
 date: '2007-10-12 09:21:00 -0500'
 categories:
 - Uncategorized
 tags: []
 comments:
-- id: 122
   author: adam brown
-  author_email: ''
-  author_url: ''
   date: '2007-12-23 18:33:00 -0600'
-  date_gmt: '2007-12-24 00:33:00 -0600'
   content: hello, i emailed you but got an error. anyway here's the reg cleaner i
     uses, this shit is good, don't stay <a HREF="http://www.yourtypingbiz.info/regcure.php"
     REL="nofollow" rel="nofollow">without protection!</a>
-- id: 123
   author: barb michelen
-  author_email: ''
-  author_url: ''
   date: '2008-04-02 16:42:00 -0500'
-  date_gmt: '2008-04-02 22:42:00 -0500'
   content: 'Hello I just entered before I have to leave to the airport, it''s been
     very nice to meet you, if you want here is the site I told you about where I type
     some stuff and make good money (I work from home): <a HREF="http://www.yourtypingbiz.info/billion-dollar-market.php"

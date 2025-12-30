@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: screen recording green
 date: '2014-02-25 23:57:34 -0600'
 categories:

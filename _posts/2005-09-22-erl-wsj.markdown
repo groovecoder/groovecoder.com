@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: erl @ WSJ
 date: '2005-09-22 08:06:00 -0500'
 categories:

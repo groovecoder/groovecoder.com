@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: More on design patterns
 date: '2007-04-05 12:01:00 -0500'
 categories:

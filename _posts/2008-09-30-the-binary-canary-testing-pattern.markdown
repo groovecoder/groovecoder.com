@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: the binary canary testing pattern
 date: '2008-09-30 17:06:00 -0500'
 categories:

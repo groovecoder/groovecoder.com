@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Use TrackMeNot to Provide Online Cover for Activists
 date: '2017-02-12 21:00:00 -0600'
 tags:

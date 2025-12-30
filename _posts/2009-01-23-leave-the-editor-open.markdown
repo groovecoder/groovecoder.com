@@ -1,19 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: Leave the editor open
 date: '2009-01-23 09:44:00 -0600'
 categories:
 - dev
 tags: []
 comments:
-- id: 134
   author: rozydesouza
-  author_email: ''
-  author_url: ''
   date: '2009-08-12 01:09:46 -0500'
-  date_gmt: '2009-08-12 07:09:46 -0500'
   content: I have been in search of such interesting Articles, I am on a holiday its
     good to see that everyone are trying their best to keep up the Spirit by having
     such great articles posted.<br /><br />Cheers, Keep it up.<br />___________________<br

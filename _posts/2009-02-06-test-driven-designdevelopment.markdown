@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Test-Driven [Design|Development]
 date: '2009-02-06 16:04:00 -0600'
 categories:
@@ -9,12 +7,8 @@ categories:
 tags:
 - agile
 comments:
-- id: 133
   author: rozydesouza
-  author_email: ''
-  author_url: ''
   date: '2009-08-12 01:09:44 -0500'
-  date_gmt: '2009-08-12 07:09:44 -0500'
   content: I have been in search of such interesting Articles, I am on a holiday its
     good to see that everyone are trying their best to keep up the Spirit by having
     such great articles posted.<br /><br />Cheers, Keep it up.<br />___________________<br

@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: good day for mozillians
 date: '2011-03-04 13:08:16 -0600'
 categories:
@@ -9,20 +7,12 @@ categories:
 tags:
 - mozilla
 comments:
-- id: 19
   author: Staś Małolepszy
-  author_email: stas@mozilla.com
-  author_url: ''
   date: '2011-03-04 14:32:01 -0600'
-  date_gmt: '2011-03-04 20:32:01 -0600'
   content: w00t!  I love how the language selector looks like right now.  Way to go!
     :)
-- id: 20
   author: groovecoder
-  author_email: luke.crouch@gmail.com
-  author_url: ''
   date: '2011-03-04 14:46:41 -0600'
-  date_gmt: '2011-03-04 20:46:41 -0600'
   content: You too man!
 ---
 <div style="height: 310px">

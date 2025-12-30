@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Continuous Integration
 date: '2007-05-18 21:24:00 -0500'
 categories:

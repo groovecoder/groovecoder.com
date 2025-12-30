@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: bezos stole my idea(s)
 date: '2005-03-29 08:32:00 -0600'
 categories:

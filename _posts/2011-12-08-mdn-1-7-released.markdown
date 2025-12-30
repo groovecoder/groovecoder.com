@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: MDN 1.7 Released
 date: '2011-12-08 23:27:46 -0600'
 categories:

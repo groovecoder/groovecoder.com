@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: WS-* &quot;standards&quot;
 date: '2004-11-26 22:23:00 -0600'
 categories:
