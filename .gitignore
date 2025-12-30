@@ -1,6 +1,7 @@
 _site
 Gemfile*
 .bundle
+.claude/settings.local.json
 .envrc
 .jekyll-cache
 .sass-cache
