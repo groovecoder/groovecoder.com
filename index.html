@@ -11,9 +11,7 @@ layout: base
       <span class="post-info-date">
           Posted by <a href="/author/{{ post.author.login }}/" title="View all posts by {{ post.author.login }}" rel="author">{{ post.author.login }}</a>
           on        {{ post.date|date_to_string }}             </span>
-      <!-- TODO: FIXME: add 3rd-party commenting (disqus) -->
-      <span class="gotocomments"><a href="#comments"  rel="nofollow" title="Go to comments ?">Go to original comments</a></span>
-          </div>
+    </div>
     <div class="clear"></div>
 
       {{ post.content }}
