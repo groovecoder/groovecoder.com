@@ -11,6 +11,9 @@ plugins:
 
 paginate: 5
 
+include:
+  - .well-known
+
 exclude:
   - Gemfile
   - Gemfile.lock
