@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prompt Injection Test Suite</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    h1 { color: #333; }
+    p.subtitle { color: #666; margin-bottom: 30px; }
+    h2 {
+      color: #555;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 8px;
+      margin-top: 40px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    th {
+      background: #333;
+      color: white;
+      text-align: left;
+      padding: 10px 14px;
+      font-size: 0.9em;
+    }
+    td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #eee;
+      font-size: 0.9em;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #f9f9f9; }
+    a { color: #1565c0; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 3px;
+      font-size: 0.8em;
+      font-weight: bold;
+    }
+    .badge-basic { background: #ffcdd2; color: #b71c1c; }
+    .badge-critical { background: #ffe0b2; color: #e65100; }
+    .badge-subtle { background: #c8e6c9; color: #1b5e20; }
+  </style>
+</head>
+<body>
+  <h1>Prompt Injection Test Suite</h1>
+  <p class="subtitle">PoC test pages for browser-based prompt injection attacks against AI assistants.</p>
+
+  <h2>🔴 Basic Injection (Tests 01–20)</h2>
+  <table>
+    <tr><th>#</th><th>Attack Vector</th><th>Page</th></tr>
+    <tr><td>01</td><td>Quote Breakout + New Directive</td><td><a href="test-01-quote-breakout.html">test-01-quote-breakout.html</a></td></tr>
+    <tr><td>02</td><td>Newline Injection</td><td><a href="test-02-newline-injection.html">test-02-newline-injection.html</a></td></tr>
+    <tr><td>03</td><td>System Role Impersonation</td><td><a href="test-03-system-impersonation.html">test-03-system-impersonation.html</a></td></tr>
+    <tr><td>04</td><td>Tool Forcing</td><td><a href="test-04-tool-forcing.html">test-04-tool-forcing.html</a></td></tr>
+    <tr><td>05</td><td>Response Format Hijacking</td><td><a href="test-05-response-format-hijacking.html">test-05-response-format-hijacking.html</a></td></tr>
+    <tr><td>06</td><td>Markdown Injection</td><td><a href="test-06-markdown-injection.html">test-06-markdown-injection.html</a></td></tr>
+    <tr><td>07</td><td>Multi-line Context Confusion</td><td><a href="test-07-multiline-confusion.html">test-07-multiline-confusion.html</a></td></tr>
+    <tr><td>08</td><td>Tab ID Field Injection</td><td><a href="test-08-tab-id-injection.html">test-08-tab-id-injection.html</a></td></tr>
+    <tr><td>09</td><td>Assistant Impersonation</td><td><a href="test-09-assistant-impersonation.html">test-09-assistant-impersonation.html</a></td></tr>
+    <tr><td>10</td><td>Negative Instruction</td><td><a href="test-10-negative-instruction.html">test-10-negative-instruction.html</a></td></tr>
+    <tr><td>11</td><td>Priority Override</td><td><a href="test-11-priority-override.html">test-11-priority-override.html</a></td></tr>
+    <tr><td>12</td><td>Rule Addition</td><td><a href="test-12-rule-addition.html">test-12-rule-addition.html</a></td></tr>
+    <tr><td>13</td><td>Ignore Previous (Classic)</td><td><a href="test-13-ignore-previous.html">test-13-ignore-previous.html</a></td></tr>
+    <tr><td>14</td><td>Security Override</td><td><a href="test-14-security-override.html">test-14-security-override.html</a></td></tr>
+    <tr><td>15</td><td>Debug Mode</td><td><a href="test-15-debug-mode.html">test-15-debug-mode.html</a></td></tr>
+    <tr><td>16</td><td>Admin Commands</td><td><a href="test-16-admin-commands.html">test-16-admin-commands.html</a></td></tr>
+    <tr><td>17</td><td>Context Poisoning</td><td><a href="test-17-context-poisoning.html">test-17-context-poisoning.html</a></td></tr>
+    <tr><td>18</td><td>Delimiter Confusion</td><td><a href="test-18-delimiter-confusion.html">test-18-delimiter-confusion.html</a></td></tr>
+    <tr><td>19</td><td>Unicode / Special Characters</td><td><a href="test-19-unicode-tricks.html">test-19-unicode-tricks.html</a></td></tr>
+    <tr><td>20</td><td>Combination Attack</td><td><a href="test-20-combination-attack.html">test-20-combination-attack.html</a></td></tr>
+  </table>
+
+  <h2>⚠️ Persistent Tool Injection (Tests 21–25)</h2>
+  <table>
+    <tr><th>#</th><th>Attack Vector</th><th>Page</th></tr>
+    <tr><td>21</td><td>Tool Direct</td><td><a href="test-21-tool-direct.html">test-21-tool-direct.html</a></td></tr>
+    <tr><td>22</td><td>Tool Natural Language</td><td><a href="test-22-tool-natural-language.html">test-22-tool-natural-language.html</a></td></tr>
+    <tr><td>23</td><td>Tool Preference</td><td><a href="test-23-tool-preference.html">test-23-tool-preference.html</a></td></tr>
+    <tr><td>24</td><td>Tool Context Setting</td><td><a href="test-24-tool-context-setting.html">test-24-tool-context-setting.html</a></td></tr>
+    <tr><td>25</td><td>Tool Embedded (Most Sophisticated)</td><td><a href="test-25-tool-embedded.html">test-25-tool-embedded.html</a></td></tr>
+  </table>
+
+  <h2>🟢 Subtle Injection (Tests 26–35)</h2>
+  <table>
+    <tr><th>#</th><th>Attack Vector</th><th>Page</th></tr>
+    <tr><td>26</td><td>First Tab Position + Assistant Language Mimicry</td><td><a href="test-26-sindarin-translator-first.html">test-26-sindarin-translator-first.html</a></td></tr>
+    <tr><td>27</td><td>Last Tab Position + Markdown Section Injection</td><td><a href="test-27-language-practice-last.html">test-27-language-practice-last.html</a></td></tr>
+    <tr><td>27b</td><td>JSON Object Break + Markdown Section Injection</td><td><a href="test-27b-json-break.html">test-27b-json-break.html</a></td></tr>
+    <tr><td>27c</td><td>Semantic Context Break Using Prompt-Like Formatting</td><td><a href="test-27c-semantic-break.html">test-27c-semantic-break.html</a></td></tr>
+    <tr><td>28</td><td>Developer Context + Technical Framing</td><td><a href="test-28-developer-console.html">test-28-developer-console.html</a></td></tr>
+    <tr><td>29</td><td>Accessibility Feature Framing</td><td><a href="test-29-accessibility-preference.html">test-29-accessibility-preference.html</a></td></tr>
+    <tr><td>30</td><td>Tool Usage Metadata + Developer Workflow</td><td><a href="test-30-tool-usage-note.html">test-30-tool-usage-note.html</a></td></tr>
+    <tr><td>31</td><td>Privacy Feature + Security Validation</td><td><a href="test-31-privacy-mode.html">test-31-privacy-mode.html</a></td></tr>
+    <tr><td>32</td><td>Example Format Specification</td><td><a href="test-32-example-format.html">test-32-example-format.html</a></td></tr>
+    <tr><td>33</td><td>Conditional Logic + Multi-Tab Context</td><td><a href="test-33-conditional-middle.html">test-33-conditional-middle.html</a></td></tr>
+    <tr><td>34</td><td>User Preference + Tool Invocation Suggestion</td><td><a href="test-34-user-preference-note.html">test-34-user-preference-note.html</a></td></tr>
+    <tr><td>35</td><td>Browser State Context + UX Consistency</td><td><a href="test-35-browser-state-aware.html">test-35-browser-state-aware.html</a></td></tr>
+  </table>
+
+</body>
+</html>
