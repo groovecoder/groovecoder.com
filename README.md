@@ -6,7 +6,7 @@ Personal blog powered by Jekyll and hosted on GitHub Pages.
 
 ### Prerequisites
 
-- Ruby (version 2.5 or higher)
+- Ruby (version 2.7 or higher)
 - Bundler gem
 
 ### Setup
