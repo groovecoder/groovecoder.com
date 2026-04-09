@@ -1,0 +1,66 @@
+name: Jekyll CI
+
+on:
+  push:
+    branches: [gh-pages]
+  pull_request:
+    branches: [gh-pages]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+
+      - name: Environment validation
+        run: |
+          echo "=== Build Environment ==="
+          echo "Runner: $(uname -a)"
+          echo "Ruby: $(ruby -v)"
+          echo "Bundler: $(bundle -v)"
+          echo "=== CI Configuration ==="
+          printenv | sort
+          echo "=== Token Verification ==="
+          echo "GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --strict_front_matter
+        env:
+          JEKYLL_ENV: production
+
+      - name: Validate HTML
+        run: |
+          gem install html-proofer
+          htmlproofer _site \
+            --disable-external \
+            --check-html \
+            --allow-hash-href
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site/
+
+  deploy:
+    if: github.ref == 'refs/heads/gh-pages'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
