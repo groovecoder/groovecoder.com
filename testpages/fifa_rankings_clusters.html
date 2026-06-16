@@ -329,7 +329,7 @@ teams = teams.filter(function(t) { return wcRankNames[t.n]; });
 function getColor(p) {
   if (p >= 1800) return '#534AB7';
   if (p >= 1620) return '#1D9E75';
-  if (p >= 1450) return '#EF9F27';
+  if (p >= 1503) return '#EF9F27';
   if (p >= 1290) return '#D85A30';
   return '#888780';
 }
@@ -729,16 +729,16 @@ chart = new Chart(document.getElementById('chart'), {
     },
     scales: {
       x: {
-        title: { display: true, text: 'Rank', color: '#888' },
+        title: { display: true, text: 'FIFA Rank', color: '#888' },
         min: 0, max: Math.max.apply(null, teams.map(function(t){ return t.r; })) + 2,
         ticks: { stepSize: 10, color: '#666' },
         grid: { display: false }
       },
       y: {
         position: 'right',
-        title: { display: true, text: 'FIFA Points', color: '#888' },
+        title: { display: false },
         min: Math.floor(Math.min.apply(null, teams.map(function(t){ return t.p; })) / 50) * 50 - 50, max: 1950,
-        ticks: { stepSize: 100, color: '#666' },
+        ticks: { display: false },
         grid: { display: false }
       }
     }
@@ -758,7 +758,7 @@ chart = new Chart(document.getElementById('chart'), {
       var thresholds = [
         { val: 1800, color: '#534AB7', label: 'Elite gap: ~61 pts' },
         { val: 1641, color: '#1D9E75', label: 'Top tier gap: ~21 pts' },
-        { val: 1459, color: '#EF9F27', label: 'Upper mid gap: ~24 pts' },
+        { val: 1503, color: '#EF9F27', label: 'Upper mid gap: ~31 pts' },
         { val: 1296, color: '#D85A30', label: 'Mid tier gap: ~6 pts' },
       ];
       thresholds.forEach(function(t) {
