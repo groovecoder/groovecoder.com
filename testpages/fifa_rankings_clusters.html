@@ -1,4 +1,4 @@
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   html, body { background: #0d0d1a; color: #ccc; margin: 0; }
   * { box-sizing: border-box; }
@@ -148,10 +148,86 @@
   }
   #cupsets::-webkit-scrollbar { width: 4px; }
   #cupsets::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
+  /* --- Details/summary description --- */
+  details.desc summary {
+    font-size: 13px;
+    color: #999;
+    cursor: pointer;
+    list-style: none;
+    padding: 2px 0;
+  }
+  details.desc summary::-webkit-details-marker { display: none; }
+  details.desc summary::before {
+    content: '▸ ';
+    color: #666;
+  }
+  details.desc[open] summary::before {
+    content: '▾ ';
+  }
+  details.desc p {
+    margin: 6px 0 0;
+  }
+
+  /* --- Mobile tabs --- */
+  #mobile-tabs {
+    display: none;
+  }
+  .tab-bar {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+  }
+  .tab-btn {
+    flex: 1;
+    padding: 10px 0;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: #666;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .tab-btn.active-matches { color: #eee; border-bottom-color: #EF9F27; }
+  .tab-btn.active-cupsets { color: #eee; border-bottom-color: #D85A30; }
+  .tab-content {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  .tab-content::-webkit-scrollbar { width: 4px; }
+  .tab-content::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
+
+  /* --- Touch --- */
+  #match-carousel, #date-scroll {
+    touch-action: pan-x;
+  }
+
+  /* --- Desktop: force details open --- */
+  @media (min-width: 901px) {
+    details.desc { display: block; }
+    details.desc > p { display: block !important; }
+  }
+
+  /* --- Mobile <=900px --- */
   @media (max-width: 900px) {
+    .page-container { max-width: 100% !important; padding: 0 12px !important; }
     #chart-row { flex-direction: column; }
-    #top-matches-panel, #cupsets-panel { flex: none; }
-    #top-matches, #cupsets { flex-direction: row; overflow-x: auto; overflow-y: visible; }
+    #top-matches-panel, #cupsets-panel { display: none; }
+    #mobile-tabs { display: block; margin-top: 8px; }
+    .chart-wrapper { height: 320px !important; }
+    .match-card { min-width: 140px; }
+    #date-nav .arrow-btn { min-width: 44px; min-height: 44px; }
+    h2.page-title { font-size: 16px !important; }
+  }
+
+  /* --- Phone <=480px --- */
+  @media (max-width: 480px) {
+    .chart-wrapper { height: 260px !important; }
+    .date-pill { padding: 4px 8px; }
+    .match-card { min-width: 120px; font-size: 12px; }
+    .tab-content { max-height: 250px; }
   }
   #match-info {
     font-size: 13px;
@@ -161,9 +237,12 @@
   }
 </style>
 
-<div style="padding: 1rem 0; max-width: 1200px; margin: 0 auto; font-family: system-ui, -apple-system, sans-serif;">
-<h2 style="font-size: 18px; color: #eee; margin: 0 0 6px;">FIFA World Cup 2026 — Rankings vs. Matchups</h2>
-<p style="font-size: 13px; color: #999; margin: 0 0 10px; line-height: 1.5; max-width: 680px;">Each dot is one of the 48 World Cup teams, plotted by FIFA ranking (left to right) and points (bottom to top). The dashed lines mark the gaps between tiers. Teams near each other on the curve are close in strength — teams far apart face a mismatch. Click a match card to see the gap between two teams. Click a dot in the graph to see all three group-stage opponents for that team.</p>
+<div class="page-container" style="padding: 1rem 0; max-width: 1200px; margin: 0 auto; font-family: system-ui, -apple-system, sans-serif;">
+<h2 class="page-title" style="font-size: 18px; color: #eee; margin: 0 0 6px;">FIFA World Cup 2026 — Rankings vs. Matchups</h2>
+<details class="desc" open>
+  <summary>About this chart</summary>
+  <p style="font-size: 13px; color: #999; margin: 0 0 10px; line-height: 1.5; max-width: 680px;">Each dot is one of the 48 World Cup teams, plotted by FIFA ranking (left to right) and points (bottom to top). The dashed lines mark the gaps between tiers. Teams near each other on the curve are close in strength — teams far apart face a mismatch. Click a match card to see the gap between two teams. Click a dot in the graph to see all three group-stage opponents for that team.</p>
+</details>
 
 <div id="date-nav">
   <button class="arrow-btn" id="date-prev">&#8249;</button>
@@ -179,7 +258,7 @@
     <p style="font-size: 10px; color: #666; margin: 0 0 6px;">Best head-to-head matchups</p>
     <div id="top-matches"></div>
   </div>
-  <div style="position: relative; flex: 1; min-width: 0; height: 520px;">
+  <div class="chart-wrapper" style="position: relative; flex: 1; min-width: 0; height: 520px;">
     <canvas id="chart" role="img" aria-label="Scatter plot of FIFA rankings 1-100 by points, showing clusters and gaps between tiers"></canvas>
   </div>
   <div id="cupsets-panel">
@@ -187,6 +266,14 @@
     <p style="font-size: 10px; color: #666; margin: 0 0 6px;">Biggest ranking mismatches</p>
     <div id="cupsets"></div>
   </div>
+</div>
+
+<div id="mobile-tabs">
+  <div class="tab-bar">
+    <button class="tab-btn active-matches" id="tab-matches-btn">Top Matches</button>
+    <button class="tab-btn" id="tab-cupsets-btn">World Cupsets</button>
+  </div>
+  <div class="tab-content" id="mobile-tab-content"></div>
 </div>
 
 <p style="font-size: 10px; color: #555; margin-top: 8px;">Match data: <a href="https://www.thestatsapi.com/world-cup/data" style="color:#666;">TheStatsAPI</a></p>
@@ -988,5 +1075,67 @@ chart = new Chart(document.getElementById('chart'), {
 
     container.appendChild(row);
   });
+})();
+
+// --- Mobile tabs ---
+(function() {
+  var matchesBtn = document.getElementById('tab-matches-btn');
+  var cupsetsBtn = document.getElementById('tab-cupsets-btn');
+  var tabContent = document.getElementById('mobile-tab-content');
+  var topMatchesEl = document.getElementById('top-matches');
+  var cupsetsEl = document.getElementById('cupsets');
+
+  function showTab(tab) {
+    // Clone content into mobile tab area
+    tabContent.textContent = '';
+    if (tab === 'matches') {
+      matchesBtn.className = 'tab-btn active-matches';
+      cupsetsBtn.className = 'tab-btn';
+      Array.prototype.forEach.call(topMatchesEl.children, function(child) {
+        tabContent.appendChild(child.cloneNode(true));
+      });
+      // Re-attach click handlers on clones
+      Array.prototype.forEach.call(tabContent.children, function(clone, idx) {
+        var original = topMatchesEl.children[idx];
+        if (original) {
+          clone.addEventListener('click', function() { original.click(); });
+          clone.addEventListener('mouseenter', function() { clone.style.borderColor = '#EF9F27'; });
+          clone.addEventListener('mouseleave', function() { clone.style.borderColor = '#2a2a3e'; });
+        }
+      });
+    } else {
+      cupsetsBtn.className = 'tab-btn active-cupsets';
+      matchesBtn.className = 'tab-btn';
+      Array.prototype.forEach.call(cupsetsEl.children, function(child) {
+        tabContent.appendChild(child.cloneNode(true));
+      });
+      Array.prototype.forEach.call(tabContent.children, function(clone, idx) {
+        var original = cupsetsEl.children[idx];
+        if (original) {
+          clone.addEventListener('click', function() { original.click(); });
+          clone.addEventListener('mouseenter', function() { clone.style.borderColor = '#D85A30'; });
+          clone.addEventListener('mouseleave', function() { clone.style.borderColor = '#2a2a3e'; });
+        }
+      });
+    }
+  }
+
+  matchesBtn.addEventListener('click', function() { showTab('matches'); });
+  cupsetsBtn.addEventListener('click', function() { showTab('cupsets'); });
+
+  // Init: show matches tab
+  showTab('matches');
+
+  // On mobile, close details by default
+  function handleResize() {
+    var desc = document.querySelector('details.desc');
+    if (window.innerWidth <= 900) {
+      desc.removeAttribute('open');
+    } else {
+      desc.setAttribute('open', '');
+    }
+  }
+  handleResize();
+  window.addEventListener('resize', handleResize);
 })();
 </script>
