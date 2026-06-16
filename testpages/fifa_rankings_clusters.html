@@ -330,7 +330,7 @@ function getColor(p) {
   if (p >= 1800) return '#534AB7';
   if (p >= 1620) return '#1D9E75';
   if (p >= 1503) return '#EF9F27';
-  if (p >= 1290) return '#D85A30';
+  if (p >= 1367) return '#D85A30';
   return '#888780';
 }
 
@@ -759,7 +759,7 @@ chart = new Chart(document.getElementById('chart'), {
         { val: 1800, color: '#534AB7', label: 'Elite gap: ~61 pts' },
         { val: 1641, color: '#1D9E75', label: 'Top tier gap: ~21 pts' },
         { val: 1503, color: '#EF9F27', label: 'Upper mid gap: ~31 pts' },
-        { val: 1296, color: '#D85A30', label: 'Mid tier gap: ~6 pts' },
+        { val: 1367, color: '#D85A30', label: 'Mid tier gap: ~41 pts' },
       ];
       thresholds.forEach(function(t) {
         var yPx = y.getPixelForValue(t.val);
@@ -900,7 +900,7 @@ chart = new Chart(document.getElementById('chart'), {
 
     var metaLine = document.createElement('div');
     metaLine.style.cssText = 'font-size:9px;color:#666;';
-    metaLine.textContent = 'Grp ' + m.g;
+    metaLine.textContent = formatDate(m.d);
     mid.appendChild(metaLine);
 
     row.appendChild(mid);
@@ -976,7 +976,7 @@ chart = new Chart(document.getElementById('chart'), {
 
     var metaLine = document.createElement('div');
     metaLine.style.cssText = 'font-size:9px;color:#666;';
-    metaLine.textContent = 'Grp ' + m.g;
+    metaLine.textContent = formatDate(m.d);
     mid.appendChild(metaLine);
 
     row.appendChild(mid);
