@@ -40,7 +40,6 @@
   }
   .match-card .vs { color: #555; font-size: 11px; }
   .match-card .team { font-weight: 600; color: #eee; }
-  .match-card .date { font-size: 10px; color: #666; margin-top: 3px; }
   .match-card .gap-badge {
     display: inline-block;
     font-size: 10px;
@@ -51,34 +50,103 @@
   }
   #date-nav {
     display: flex;
-    gap: 6px;
-    flex-wrap: wrap;
-    margin-bottom: 6px;
     align-items: center;
+    gap: 0;
+    margin-bottom: 10px;
+    position: relative;
   }
-  #date-nav button {
-    padding: 4px 10px;
-    border: 1px solid #444;
-    border-radius: 4px;
-    background: #1a1a2e;
-    color: #aaa;
-    font-size: 11px;
+  #date-nav .arrow-btn {
+    flex: 0 0 auto;
+    width: 32px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0d0d1a;
+    border: none;
+    color: #666;
+    font-size: 18px;
     cursor: pointer;
-    transition: all 0.15s;
+    z-index: 1;
+    transition: color 0.15s;
   }
-  #date-nav button:hover { border-color: #888; color: #eee; }
-  #date-nav button.active { border-color: #EF9F27; color: #EF9F27; background: #2a2a1e; }
-  #clear-btn {
-    padding: 4px 10px;
-    border: 1px solid #444;
-    border-radius: 4px;
-    background: #1a1a2e;
-    color: #888;
-    font-size: 11px;
+  #date-nav .arrow-btn:hover { color: #eee; }
+  #date-scroll {
+    flex: 1;
+    display: flex;
+    gap: 2px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  #date-scroll::-webkit-scrollbar { display: none; }
+  .date-pill {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    min-width: 48px;
     cursor: pointer;
-    margin-left: auto;
+    border: none;
+    background: transparent;
+    color: #777;
+    transition: color 0.15s;
+    position: relative;
+    border-radius: 0;
   }
-  #clear-btn:hover { border-color: #D85A30; color: #D85A30; }
+  .date-pill:hover { color: #ccc; }
+  .date-pill .day-name { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+  .date-pill .day-num { font-size: 16px; font-weight: 700; margin-top: 1px; }
+  .date-pill::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    width: 50%;
+    height: 3px;
+    border-radius: 2px;
+    background: transparent;
+    transition: background 0.15s;
+  }
+  .date-pill.active { color: #EF9F27; }
+  .date-pill.active::after { background: #EF9F27; }
+  .date-pill.today .day-num {
+    background: #333;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .date-pill.today.active .day-num { background: #EF9F2733; }
+  #chart-row {
+    display: flex;
+    gap: 12px;
+    align-items: stretch;
+  }
+  #top-matches-panel {
+    flex: 0 0 220px;
+    display: flex;
+    flex-direction: column;
+  }
+  #top-matches {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
+    overflow-y: auto;
+  }
+  #top-matches::-webkit-scrollbar { width: 4px; }
+  #top-matches::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
+  @media (max-width: 700px) {
+    #chart-row { flex-direction: column; }
+    #top-matches-panel { flex: none; }
+    #top-matches { flex-direction: row; overflow-x: auto; overflow-y: visible; }
+  }
   #match-info {
     font-size: 13px;
     color: #aaa;
@@ -91,20 +159,31 @@
 <h2 style="font-size: 18px; color: #eee; margin: 0 0 4px;">FIFA World Cup 2026 — Rankings vs. Matchups</h2>
 <p style="font-size: 13px; color: #888; margin: 0 0 12px;">Click a match to see the ranking gap. Click a team in the graph to see all their matches.</p>
 
-<div id="date-nav"></div>
+<div id="date-nav">
+  <button class="arrow-btn" id="date-prev">&#8249;</button>
+  <div id="date-scroll"></div>
+  <button class="arrow-btn" id="date-next">&#8250;</button>
+</div>
 <div id="match-carousel"></div>
 <div id="match-info"></div>
 
-<div style="position: relative; width: 100%; height: 520px;">
-  <canvas id="chart" role="img" aria-label="Scatter plot of FIFA rankings 1-100 by points, showing clusters and gaps between tiers"></canvas>
+<div id="chart-row">
+  <div id="top-matches-panel">
+    <h3 style="font-size: 13px; color: #eee; margin: 0 0 2px;">Top Matches</h3>
+    <p style="font-size: 10px; color: #666; margin: 0 0 6px;">Best head-to-head matchups</p>
+    <div id="top-matches"></div>
+  </div>
+  <div style="position: relative; flex: 1; min-width: 0; height: 520px;">
+    <canvas id="chart" role="img" aria-label="Scatter plot of FIFA rankings 1-100 by points, showing clusters and gaps between tiers"></canvas>
+  </div>
 </div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 1rem; font-size: 12px; color: #888;">
-  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#534AB7;display:inline-block;"></span>Elite (#1-4, 1800+)</span>
-  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#1D9E75;display:inline-block;"></span>Top tier (#5-19, 1620-1800)</span>
-  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#EF9F27;display:inline-block;"></span>Upper mid (#20-50, 1450-1620)</span>
-  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#D85A30;display:inline-block;"></span>Mid tier (#51-80, 1290-1450)</span>
-  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#888780;display:inline-block;"></span>Lower (#81-100, &lt;1290)</span>
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#534AB7;display:inline-block;"></span>Elite (1800+)</span>
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#1D9E75;display:inline-block;"></span>Top tier (1620-1800)</span>
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#EF9F27;display:inline-block;"></span>Upper mid (1450-1620)</span>
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#D85A30;display:inline-block;"></span>Mid tier (1290-1450)</span>
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#888780;display:inline-block;"></span>Lower (&lt;1290)</span>
 </div>
 <p style="font-size: 10px; color: #555; margin-top: 8px;">Match data: <a href="https://www.thestatsapi.com/world-cup/data" style="color:#666;">TheStatsAPI</a></p>
 </div>
@@ -112,7 +191,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script>
 // --- Rankings data ---
-const teams = [
+var teams = [
   {r:1,n:"Argentina",p:1877.27},{r:2,n:"France",p:1870.70},{r:3,n:"Spain",p:1856.03},{r:4,n:"England",p:1828.02},
   {r:5,n:"Portugal",p:1767.85},{r:6,n:"Brazil",p:1765.34},{r:7,n:"Morocco",p:1755.62},{r:8,n:"Netherlands",p:1749.20},
   {r:9,n:"Germany",p:1743.54},{r:10,n:"Belgium",p:1733.93},{r:11,n:"Croatia",p:1714.87},{r:12,n:"Italy",p:1704.73},
@@ -141,7 +220,7 @@ const teams = [
 ];
 
 // --- Map fixture team names to ranking team names ---
-const nameMap = {
+var nameMap = {
   "United States": "USA",
   "Turkiye": "\u00dcrkiye",
   "Cote d'Ivoire": "C\u00f4te d'Ivoire",
@@ -233,6 +312,14 @@ var matches = [
   {m:71,d:"2026-06-27",g:"K",h:"Colombia",a:"Portugal",c:"Miami"},
   {m:72,d:"2026-06-27",g:"K",h:"Congo DR",a:"Uzbekistan",c:"Atlanta"},
 ];
+
+// --- Filter to WC teams only ---
+var wcRankNames = {};
+matches.forEach(function(m) {
+  wcRankNames[normName(m.h)] = true;
+  wcRankNames[normName(m.a)] = true;
+});
+teams = teams.filter(function(t) { return wcRankNames[t.n]; });
 
 // --- Chart setup ---
 function getColor(p) {
@@ -461,10 +548,6 @@ function buildCard(match) {
   matchup.appendChild(t2);
   card.appendChild(matchup);
 
-  var dateLine = document.createElement('div');
-  dateLine.className = 'date';
-  dateLine.textContent = formatDate(match.d) + ' \u00b7 ' + match.c;
-  card.appendChild(dateLine);
 
   var badge = document.createElement('div');
   badge.className = 'gap-badge';
@@ -492,22 +575,43 @@ function applyFilters() {
   });
 }
 
-// Date buttons
-dates.forEach(function(d) {
-  var btn = document.createElement('button');
-  btn.textContent = formatDate(d);
-  btn.dataset.date = d;
-  btn.addEventListener('click', function() {
-    // Clear team filter when picking a date
-    selectedTeam = null;
+// Date pills
+var dateScroll = document.getElementById('date-scroll');
+var dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
-    var wasActive = btn.classList.contains('active');
-    document.querySelectorAll('#date-nav button:not(#clear-btn)').forEach(function(b) { b.classList.remove('active'); });
+var todayIso = (function() {
+  var t = new Date();
+  return t.getFullYear() + '-' +
+    String(t.getMonth() + 1).padStart(2, '0') + '-' +
+    String(t.getDate()).padStart(2, '0');
+})();
+
+dates.forEach(function(d) {
+  var dt = new Date(d + 'T12:00:00');
+  var pill = document.createElement('button');
+  pill.className = 'date-pill';
+  if (d === todayIso) pill.classList.add('today');
+  pill.dataset.date = d;
+
+  var dayName = document.createElement('span');
+  dayName.className = 'day-name';
+  dayName.textContent = dayNames[dt.getDay()];
+  pill.appendChild(dayName);
+
+  var dayNum = document.createElement('span');
+  dayNum.className = 'day-num';
+  dayNum.textContent = dt.getDate();
+  pill.appendChild(dayNum);
+
+  pill.addEventListener('click', function() {
+    selectedTeam = null;
+    var wasActive = pill.classList.contains('active');
+    document.querySelectorAll('.date-pill.active').forEach(function(p) { p.classList.remove('active'); });
     if (wasActive) {
       activeDate = null;
     } else {
       activeDate = d;
-      btn.classList.add('active');
+      pill.classList.add('active');
     }
     selectedMatch = null;
     highlightedNames = [];
@@ -516,31 +620,69 @@ dates.forEach(function(d) {
     document.getElementById('match-info').textContent = '';
     applyFilters();
   });
-  dateNav.appendChild(btn);
+
+  dateScroll.appendChild(pill);
 });
 
-var clearBtn = document.createElement('button');
-clearBtn.id = 'clear-btn';
-clearBtn.textContent = 'Clear';
-clearBtn.addEventListener('click', function() {
-  activeDate = null;
-  clearSelection();
-  document.querySelectorAll('#date-nav button').forEach(function(b) { b.classList.remove('active'); });
+// Navigate dates
+function activateDateByIndex(idx) {
+  if (idx < 0 || idx >= dates.length) return;
+  var d = dates[idx];
+  selectedTeam = null;
+  document.querySelectorAll('.date-pill.active').forEach(function(p) { p.classList.remove('active'); });
+  activeDate = d;
+  var pill = dateScroll.querySelector('[data-date="' + d + '"]');
+  if (pill) {
+    pill.classList.add('active');
+    pill.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' });
+  }
+  selectedMatch = null;
+  highlightedNames = [];
+  primaryName = null;
+  resetChart();
+  document.getElementById('match-info').textContent = '';
   applyFilters();
-});
-dateNav.appendChild(clearBtn);
+}
 
-// Default to today's date
+function getActiveDateIndex() {
+  if (!activeDate) return -1;
+  return dates.indexOf(activeDate);
+}
+
+function stepDate(dir) {
+  var cur = getActiveDateIndex();
+  if (cur === -1) {
+    // Nothing active: go to first or last
+    activateDateByIndex(dir > 0 ? 0 : dates.length - 1);
+  } else {
+    var next = cur + dir;
+    if (next >= 0 && next < dates.length) {
+      activateDateByIndex(next);
+    }
+  }
+}
+
+document.getElementById('date-prev').addEventListener('click', function() { stepDate(-1); });
+document.getElementById('date-next').addEventListener('click', function() { stepDate(1); });
+
+// Keyboard arrow keys
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'ArrowLeft') { stepDate(-1); e.preventDefault(); }
+  if (e.key === 'ArrowRight') { stepDate(1); e.preventDefault(); }
+});
+
+// Default to today's date and scroll it into view
 (function() {
-  var today = new Date();
-  var iso = today.getFullYear() + '-' +
-    String(today.getMonth() + 1).padStart(2, '0') + '-' +
-    String(today.getDate()).padStart(2, '0');
-  if (dates.indexOf(iso) !== -1) {
-    activeDate = iso;
-    document.querySelectorAll('#date-nav button:not(#clear-btn)').forEach(function(b) {
-      if (b.dataset.date === iso) b.classList.add('active');
-    });
+  if (dates.indexOf(todayIso) !== -1) {
+    activeDate = todayIso;
+    var activePill = dateScroll.querySelector('[data-date="' + todayIso + '"]');
+    if (activePill) {
+      activePill.classList.add('active');
+      // Center the active pill in the scroll container
+      setTimeout(function() {
+        activePill.scrollIntoView({ inline: 'center', block: 'nearest' });
+      }, 0);
+    }
   }
   applyFilters();
 })();
@@ -569,7 +711,7 @@ chart = new Chart(document.getElementById('chart'), {
         var fn = fixtureName(rankName);
         if (wcTeamNames.indexOf(fn) !== -1) {
           activeDate = null;
-          document.querySelectorAll('#date-nav button:not(#clear-btn)').forEach(function(b) { b.classList.remove('active'); });
+          document.querySelectorAll('.date-pill.active').forEach(function(p) { p.classList.remove('active'); });
           selectTeamFilter(fn);
         }
       } else if (selectedTeam) {
@@ -588,16 +730,16 @@ chart = new Chart(document.getElementById('chart'), {
     },
     scales: {
       x: {
-        title: { display: true, text: 'Rank', color: '#888' },
-        min: 0, max: 101,
+        title: { display: false },
+        min: 0, max: Math.max.apply(null, teams.map(function(t){ return t.r; })) + 2,
         ticks: { stepSize: 10, color: '#666' },
-        grid: { color: 'rgba(255,255,255,0.07)' }
+        grid: { display: false }
       },
       y: {
-        title: { display: true, text: 'FIFA points', color: '#888' },
-        min: 1150, max: 1950,
-        ticks: { stepSize: 100, color: '#666' },
-        grid: { color: 'rgba(255,255,255,0.07)' }
+        title: { display: false },
+        min: Math.floor(Math.min.apply(null, teams.map(function(t){ return t.p; })) / 50) * 50 - 50, max: 1950,
+        ticks: { display: false },
+        grid: { display: false }
       }
     }
   },
@@ -694,4 +836,81 @@ chart = new Chart(document.getElementById('chart'), {
     }
   }]
 });
+
+// --- Top group matches ---
+(function() {
+  var scored = matches.map(function(m) {
+    var ht = teamByName(normName(m.h));
+    var at = teamByName(normName(m.a));
+    var hPts = ht ? ht.p : 0;
+    var aPts = at ? at.p : 0;
+    var gap = Math.abs(hPts - aPts);
+    // Score = combined - gap (equivalent to 2 × min). Rewards high-ranked AND close matchups.
+    return { match: m, combined: hPts + aPts, gap: gap, score: hPts + aPts - gap, floor: Math.min(hPts, aPts), hPts: hPts, aPts: aPts, hRank: ht ? ht.r : 99, aRank: at ? at.r : 99 };
+  });
+  scored.sort(function(a, b) { return b.score - a.score; });
+  var top = scored.slice(0, 12);
+
+  var container = document.getElementById('top-matches');
+  top.forEach(function(s, idx) {
+    var m = s.match;
+    var hn = normName(m.h);
+    var an = normName(m.a);
+    var gap = Math.abs(s.hPts - s.aPts).toFixed(0);
+    var gc = gapColor(Math.abs(s.hPts - s.aPts));
+
+    var row = document.createElement('div');
+    row.style.cssText = 'display:flex;align-items:center;gap:6px;padding:5px 8px;background:#1a1a2e;border:1px solid #2a2a3e;border-radius:5px;cursor:pointer;transition:border-color 0.15s;';
+    row.addEventListener('mouseenter', function() { row.style.borderColor = '#EF9F27'; });
+    row.addEventListener('mouseleave', function() { row.style.borderColor = '#2a2a3e'; });
+    row.addEventListener('click', function() {
+      activeDate = null;
+      document.querySelectorAll('.date-pill.active').forEach(function(p) { p.classList.remove('active'); });
+      selectedTeam = null;
+      selectedMatch = m.m;
+      highlightTeams([hn, an], null);
+
+      var info = document.getElementById('match-info');
+      info.textContent = '';
+      var b1 = document.createElement('strong');
+      b1.textContent = hn;
+      info.appendChild(b1);
+      info.appendChild(document.createTextNode(' (#' + s.hRank + ', ' + s.hPts.toFixed(0) + ' pts) vs '));
+      var b2 = document.createElement('strong');
+      b2.textContent = an;
+      info.appendChild(b2);
+      info.appendChild(document.createTextNode(' (#' + s.aRank + ', ' + s.aPts.toFixed(0) + ' pts) \u2014 '));
+      var b3 = document.createElement('strong');
+      b3.textContent = gap + ' pt gap';
+      info.appendChild(b3);
+    });
+
+    var rank = document.createElement('span');
+    rank.style.cssText = 'font-size:10px;color:#555;font-weight:700;min-width:16px;';
+    rank.textContent = (idx + 1);
+    row.appendChild(rank);
+
+    var mid = document.createElement('div');
+    mid.style.cssText = 'flex:1;min-width:0;line-height:1.3;';
+
+    var teamLine = document.createElement('div');
+    teamLine.style.cssText = 'font-size:11px;color:#eee;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;';
+    teamLine.textContent = shortName(m.h) + ' v ' + shortName(m.a);
+    mid.appendChild(teamLine);
+
+    var metaLine = document.createElement('div');
+    metaLine.style.cssText = 'font-size:9px;color:#666;';
+    metaLine.textContent = 'Grp ' + m.g;
+    mid.appendChild(metaLine);
+
+    row.appendChild(mid);
+
+    var badge = document.createElement('span');
+    badge.style.cssText = 'font-size:9px;font-weight:700;padding:1px 5px;border-radius:3px;white-space:nowrap;background:' + gc + '22;color:' + gc + ';';
+    badge.textContent = '\u0394' + gap;
+    row.appendChild(badge);
+
+    container.appendChild(row);
+  });
+})();
 </script>
