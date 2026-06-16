@@ -1,22 +1,117 @@
 
-<div style="padding: 1rem 0;">
-<h2 class="sr-only">FIFA men's national team rankings top 100, showing point clusters and gaps</h2>
-<div style="font-size: 13px; color: var(--color-text-secondary); margin-bottom: 1rem;">Hover a dot for team name & points</div>
+<style>
+  html, body { background: #0d0d1a; color: #ccc; margin: 0; }
+  * { box-sizing: border-box; }
+  #match-carousel {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 8px 0;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  #match-carousel::-webkit-scrollbar { height: 6px; }
+  #match-carousel::-webkit-scrollbar-track { background: #1a1a2e; }
+  #match-carousel::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
+  .match-card {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    padding: 8px 12px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 1.4;
+    background: #1a1a2e;
+    color: #ccc;
+    transition: border-color 0.15s, background 0.15s;
+    min-width: 170px;
+    text-align: center;
+  }
+  .match-card:hover { border-color: #666; background: #222244; }
+  .match-card.active { border-color: #EF9F27; background: #2a2a1e; }
+  .match-card .group-tag {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #888;
+    margin-bottom: 2px;
+  }
+  .match-card .vs { color: #555; font-size: 11px; }
+  .match-card .team { font-weight: 600; color: #eee; }
+  .match-card .date { font-size: 10px; color: #666; margin-top: 3px; }
+  .match-card .gap-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 4px;
+    margin-top: 4px;
+  }
+  #date-nav {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+    align-items: center;
+  }
+  #date-nav button {
+    padding: 4px 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background: #1a1a2e;
+    color: #aaa;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  #date-nav button:hover { border-color: #888; color: #eee; }
+  #date-nav button.active { border-color: #EF9F27; color: #EF9F27; background: #2a2a1e; }
+  #clear-btn {
+    padding: 4px 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background: #1a1a2e;
+    color: #888;
+    font-size: 11px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  #clear-btn:hover { border-color: #D85A30; color: #D85A30; }
+  #match-info {
+    font-size: 13px;
+    color: #aaa;
+    min-height: 20px;
+    margin: 6px 0;
+  }
+</style>
+
+<div style="padding: 1rem 0; max-width: 960px; margin: 0 auto; font-family: system-ui, -apple-system, sans-serif;">
+<h2 style="font-size: 18px; color: #eee; margin: 0 0 4px;">FIFA World Cup 2026 — Rankings vs. Matchups</h2>
+<p style="font-size: 13px; color: #888; margin: 0 0 12px;">Click a match to see the ranking gap. Click a team in the graph to see all their matches.</p>
+
+<div id="date-nav"></div>
+<div id="match-carousel"></div>
+<div id="match-info"></div>
+
 <div style="position: relative; width: 100%; height: 520px;">
   <canvas id="chart" role="img" aria-label="Scatter plot of FIFA rankings 1-100 by points, showing clusters and gaps between tiers"></canvas>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 1rem; font-size: 12px; color: var(--color-text-secondary);">
-  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#534AB7;display:inline-block;"></span>Elite (#1–4, 1800+)</span>
-  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#1D9E75;display:inline-block;"></span>Top tier (#5–19, 1620–1800)</span>
-  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#EF9F27;display:inline-block;"></span>Upper mid (#20–50, 1450–1620)</span>
-  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#D85A30;display:inline-block;"></span>Mid tier (#51–80, 1290–1450)</span>
-  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#888780;display:inline-block;"></span>Lower (#81–100, &lt;1290)</span>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 1rem; font-size: 12px; color: #888;">
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#534AB7;display:inline-block;"></span>Elite (#1-4, 1800+)</span>
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#1D9E75;display:inline-block;"></span>Top tier (#5-19, 1620-1800)</span>
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#EF9F27;display:inline-block;"></span>Upper mid (#20-50, 1450-1620)</span>
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#D85A30;display:inline-block;"></span>Mid tier (#51-80, 1290-1450)</span>
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#888780;display:inline-block;"></span>Lower (#81-100, &lt;1290)</span>
 </div>
+<p style="font-size: 10px; color: #555; margin-top: 8px;">Match data: <a href="https://www.thestatsapi.com/world-cup/data" style="color:#666;">TheStatsAPI</a></p>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script>
+// --- Rankings data ---
 const teams = [
   {r:1,n:"Argentina",p:1877.27},{r:2,n:"France",p:1870.70},{r:3,n:"Spain",p:1856.03},{r:4,n:"England",p:1828.02},
   {r:5,n:"Portugal",p:1767.85},{r:6,n:"Brazil",p:1765.34},{r:7,n:"Morocco",p:1755.62},{r:8,n:"Netherlands",p:1749.20},
@@ -45,6 +140,101 @@ const teams = [
   {r:97,n:"Guatemala",p:1238.74},{r:98,n:"Luxembourg",p:1232.82},{r:99,n:"Vietnam",p:1225.68},{r:100,n:"El Salvador",p:1225.34}
 ];
 
+// --- Map fixture team names to ranking team names ---
+const nameMap = {
+  "United States": "USA",
+  "Turkiye": "\u00dcrkiye",
+  "Cote d'Ivoire": "C\u00f4te d'Ivoire",
+  "Curacao": "Cura\u00e7ao",
+  "Bosnia and Herzegovina": "Bosnia & Herz.",
+};
+// Fix: Turkiye -> Türkiye (the above has a typo from escaping)
+nameMap["Turkiye"] = "T\u00fcrkiye";
+
+var reverseNameMap = {};
+Object.keys(nameMap).forEach(function(k) { reverseNameMap[nameMap[k]] = k; });
+
+function normName(fn) { return nameMap[fn] || fn; }
+function fixtureName(rankName) { return reverseNameMap[rankName] || rankName; }
+function teamByName(n) { return teams.find(function(t) { return t.n === n; }); }
+
+// --- Group stage matches (1-72) ---
+var matches = [
+  {m:1,d:"2026-06-11",g:"A",h:"Mexico",a:"South Africa",c:"Mexico City"},
+  {m:2,d:"2026-06-11",g:"A",h:"Korea Republic",a:"Czechia",c:"Guadalajara"},
+  {m:3,d:"2026-06-12",g:"B",h:"Canada",a:"Bosnia and Herzegovina",c:"Toronto"},
+  {m:4,d:"2026-06-12",g:"D",h:"United States",a:"Paraguay",c:"Los Angeles"},
+  {m:5,d:"2026-06-13",g:"C",h:"Haiti",a:"Scotland",c:"Boston"},
+  {m:6,d:"2026-06-13",g:"D",h:"Australia",a:"Turkiye",c:"Vancouver"},
+  {m:7,d:"2026-06-13",g:"C",h:"Brazil",a:"Morocco",c:"New York"},
+  {m:8,d:"2026-06-13",g:"B",h:"Qatar",a:"Switzerland",c:"San Francisco"},
+  {m:9,d:"2026-06-14",g:"E",h:"Cote d'Ivoire",a:"Ecuador",c:"Philadelphia"},
+  {m:10,d:"2026-06-14",g:"E",h:"Germany",a:"Curacao",c:"Houston"},
+  {m:11,d:"2026-06-14",g:"F",h:"Netherlands",a:"Japan",c:"Dallas"},
+  {m:12,d:"2026-06-14",g:"F",h:"Sweden",a:"Tunisia",c:"Monterrey"},
+  {m:13,d:"2026-06-15",g:"H",h:"Saudi Arabia",a:"Uruguay",c:"Miami"},
+  {m:14,d:"2026-06-15",g:"H",h:"Spain",a:"Cabo Verde",c:"Atlanta"},
+  {m:15,d:"2026-06-15",g:"G",h:"IR Iran",a:"New Zealand",c:"Los Angeles"},
+  {m:16,d:"2026-06-15",g:"G",h:"Belgium",a:"Egypt",c:"Seattle"},
+  {m:17,d:"2026-06-16",g:"I",h:"France",a:"Senegal",c:"New York"},
+  {m:18,d:"2026-06-16",g:"I",h:"Iraq",a:"Norway",c:"Boston"},
+  {m:19,d:"2026-06-16",g:"J",h:"Argentina",a:"Algeria",c:"Kansas City"},
+  {m:20,d:"2026-06-16",g:"J",h:"Austria",a:"Jordan",c:"San Francisco"},
+  {m:21,d:"2026-06-17",g:"L",h:"Ghana",a:"Panama",c:"Toronto"},
+  {m:22,d:"2026-06-17",g:"L",h:"England",a:"Croatia",c:"Dallas"},
+  {m:23,d:"2026-06-17",g:"K",h:"Portugal",a:"Congo DR",c:"Houston"},
+  {m:24,d:"2026-06-17",g:"K",h:"Uzbekistan",a:"Colombia",c:"Mexico City"},
+  {m:25,d:"2026-06-18",g:"A",h:"Czechia",a:"South Africa",c:"Atlanta"},
+  {m:26,d:"2026-06-18",g:"B",h:"Switzerland",a:"Bosnia and Herzegovina",c:"Los Angeles"},
+  {m:27,d:"2026-06-18",g:"B",h:"Canada",a:"Qatar",c:"Vancouver"},
+  {m:28,d:"2026-06-18",g:"A",h:"Mexico",a:"Korea Republic",c:"Guadalajara"},
+  {m:29,d:"2026-06-19",g:"C",h:"Brazil",a:"Haiti",c:"Philadelphia"},
+  {m:30,d:"2026-06-19",g:"C",h:"Scotland",a:"Morocco",c:"Boston"},
+  {m:31,d:"2026-06-19",g:"D",h:"Turkiye",a:"Paraguay",c:"San Francisco"},
+  {m:32,d:"2026-06-19",g:"D",h:"United States",a:"Australia",c:"Seattle"},
+  {m:33,d:"2026-06-20",g:"E",h:"Germany",a:"Cote d'Ivoire",c:"Toronto"},
+  {m:34,d:"2026-06-20",g:"E",h:"Ecuador",a:"Curacao",c:"Kansas City"},
+  {m:35,d:"2026-06-20",g:"F",h:"Netherlands",a:"Sweden",c:"Houston"},
+  {m:36,d:"2026-06-20",g:"F",h:"Tunisia",a:"Japan",c:"Monterrey"},
+  {m:37,d:"2026-06-21",g:"H",h:"Uruguay",a:"Cabo Verde",c:"Miami"},
+  {m:38,d:"2026-06-21",g:"H",h:"Spain",a:"Saudi Arabia",c:"Atlanta"},
+  {m:39,d:"2026-06-21",g:"G",h:"Belgium",a:"IR Iran",c:"Los Angeles"},
+  {m:40,d:"2026-06-21",g:"G",h:"New Zealand",a:"Egypt",c:"Vancouver"},
+  {m:41,d:"2026-06-22",g:"I",h:"Norway",a:"Senegal",c:"New York"},
+  {m:42,d:"2026-06-22",g:"I",h:"France",a:"Iraq",c:"Philadelphia"},
+  {m:43,d:"2026-06-22",g:"J",h:"Argentina",a:"Austria",c:"Dallas"},
+  {m:44,d:"2026-06-22",g:"J",h:"Jordan",a:"Algeria",c:"San Francisco"},
+  {m:45,d:"2026-06-23",g:"L",h:"England",a:"Ghana",c:"Boston"},
+  {m:46,d:"2026-06-23",g:"L",h:"Panama",a:"Croatia",c:"Toronto"},
+  {m:47,d:"2026-06-23",g:"K",h:"Portugal",a:"Uzbekistan",c:"Houston"},
+  {m:48,d:"2026-06-23",g:"K",h:"Colombia",a:"Congo DR",c:"Guadalajara"},
+  {m:49,d:"2026-06-24",g:"C",h:"Scotland",a:"Brazil",c:"Miami"},
+  {m:50,d:"2026-06-24",g:"C",h:"Morocco",a:"Haiti",c:"Atlanta"},
+  {m:51,d:"2026-06-24",g:"B",h:"Switzerland",a:"Canada",c:"Vancouver"},
+  {m:52,d:"2026-06-24",g:"B",h:"Bosnia and Herzegovina",a:"Qatar",c:"Seattle"},
+  {m:53,d:"2026-06-24",g:"A",h:"Czechia",a:"Mexico",c:"Mexico City"},
+  {m:54,d:"2026-06-24",g:"A",h:"South Africa",a:"Korea Republic",c:"Monterrey"},
+  {m:55,d:"2026-06-25",g:"E",h:"Curacao",a:"Cote d'Ivoire",c:"Philadelphia"},
+  {m:56,d:"2026-06-25",g:"E",h:"Ecuador",a:"Germany",c:"New York"},
+  {m:57,d:"2026-06-25",g:"F",h:"Japan",a:"Sweden",c:"Dallas"},
+  {m:58,d:"2026-06-25",g:"F",h:"Tunisia",a:"Netherlands",c:"Kansas City"},
+  {m:59,d:"2026-06-25",g:"D",h:"Turkiye",a:"United States",c:"Los Angeles"},
+  {m:60,d:"2026-06-25",g:"D",h:"Paraguay",a:"Australia",c:"San Francisco"},
+  {m:61,d:"2026-06-26",g:"I",h:"Norway",a:"France",c:"Boston"},
+  {m:62,d:"2026-06-26",g:"I",h:"Senegal",a:"Iraq",c:"Toronto"},
+  {m:63,d:"2026-06-26",g:"G",h:"Egypt",a:"IR Iran",c:"Seattle"},
+  {m:64,d:"2026-06-26",g:"G",h:"New Zealand",a:"Belgium",c:"Vancouver"},
+  {m:65,d:"2026-06-26",g:"H",h:"Cabo Verde",a:"Saudi Arabia",c:"Houston"},
+  {m:66,d:"2026-06-26",g:"H",h:"Uruguay",a:"Spain",c:"Guadalajara"},
+  {m:67,d:"2026-06-27",g:"L",h:"Panama",a:"England",c:"New York"},
+  {m:68,d:"2026-06-27",g:"L",h:"Croatia",a:"Ghana",c:"Philadelphia"},
+  {m:69,d:"2026-06-27",g:"J",h:"Algeria",a:"Austria",c:"Kansas City"},
+  {m:70,d:"2026-06-27",g:"J",h:"Jordan",a:"Argentina",c:"Dallas"},
+  {m:71,d:"2026-06-27",g:"K",h:"Colombia",a:"Portugal",c:"Miami"},
+  {m:72,d:"2026-06-27",g:"K",h:"Congo DR",a:"Uzbekistan",c:"Atlanta"},
+];
+
+// --- Chart setup ---
 function getColor(p) {
   if (p >= 1800) return '#534AB7';
   if (p >= 1620) return '#1D9E75';
@@ -53,34 +243,345 @@ function getColor(p) {
   return '#888780';
 }
 
-const data = teams.map(t => ({ x: t.r, y: t.p, name: t.n }));
-const colors = teams.map(t => getColor(t.p));
+var baseColors = teams.map(function(t) { return getColor(t.p); });
+var data = teams.map(function(t) { return { x: t.r, y: t.p, name: t.n }; });
 
-const gaps = [
-  { y: 1800, label: '← gap (~61 pts)', color: '#534AB7' },
-  { y: 1641, label: '← gap (~21 pts)', color: '#1D9E75' },
-  { y: 1459, label: '← gap (~24 pts)', color: '#EF9F27' },
-  { y: 1296, label: '← gap (~6 pts)', color: '#D85A30' },
-];
+var selectedMatch = null;
+var selectedTeam = null;  // fixture-name of the filtered team
+var highlightedNames = []; // ranking-names to highlight on chart
+var primaryName = null;    // ranking-name of the selected team (for connector lines)
+var chart;
 
-new Chart(document.getElementById('chart'), {
+function resetChart() {
+  chart.data.datasets[0].backgroundColor = baseColors.slice();
+  chart.data.datasets[0].borderColor = teams.map(function() { return 'transparent'; });
+  chart.data.datasets[0].borderWidth = teams.map(function() { return 0; });
+  chart.data.datasets[0].pointRadius = teams.map(function() { return 5; });
+  chart.update();
+}
+
+function highlightTeams(names, primary) {
+  highlightedNames = names;
+  primaryName = primary || null;
+  var nameSet = {};
+  names.forEach(function(n) { nameSet[n] = true; });
+  var newColors = [];
+  var newBorders = [];
+  var newBorderW = [];
+  var newRadii = [];
+  teams.forEach(function(t, i) {
+    if (nameSet[t.n]) {
+      newColors.push(baseColors[i]);
+      newBorders.push(t.n === primary ? '#EF9F27' : '#fff');
+      newBorderW.push(3);
+      newRadii.push(t.n === primary ? 12 : 9);
+    } else {
+      newColors.push(baseColors[i] + '22');
+      newBorders.push('transparent');
+      newBorderW.push(0);
+      newRadii.push(4);
+    }
+  });
+  chart.data.datasets[0].backgroundColor = newColors;
+  chart.data.datasets[0].borderColor = newBorders;
+  chart.data.datasets[0].borderWidth = newBorderW;
+  chart.data.datasets[0].pointRadius = newRadii;
+  chart.update();
+}
+
+function clearSelection() {
+  selectedMatch = null;
+  selectedTeam = null;
+  highlightedNames = [];
+  primaryName = null;
+  document.querySelectorAll('.match-card.active').forEach(function(el) { el.classList.remove('active'); });
+  document.getElementById('match-info').textContent = '';
+  resetChart();
+}
+
+function selectMatch(match, cardEl) {
+  // If in team mode, don't toggle — just highlight this single match on top
+  var hn = normName(match.h);
+  var an = normName(match.a);
+  var ht = teamByName(hn);
+  var at = teamByName(an);
+
+  if (!selectedTeam && selectedMatch === match.m) { clearSelection(); return; }
+  selectedMatch = match.m;
+
+  document.querySelectorAll('.match-card.active').forEach(function(el) { el.classList.remove('active'); });
+  if (cardEl) cardEl.classList.add('active');
+
+  // Build info line
+  var info = document.getElementById('match-info');
+  info.textContent = '';
+  var gap = ht && at ? Math.abs(ht.p - at.p).toFixed(0) : '?';
+  var hRank = ht ? '#' + ht.r : 'unranked';
+  var aRank = at ? '#' + at.r : 'unranked';
+  var hPts = ht ? ht.p.toFixed(0) : '\u2014';
+  var aPts = at ? at.p.toFixed(0) : '\u2014';
+
+  var b1 = document.createElement('strong');
+  b1.textContent = hn;
+  info.appendChild(b1);
+  info.appendChild(document.createTextNode(' (' + hRank + ', ' + hPts + ' pts) vs '));
+  var b2 = document.createElement('strong');
+  b2.textContent = an;
+  info.appendChild(b2);
+  info.appendChild(document.createTextNode(' (' + aRank + ', ' + aPts + ' pts) \u2014 '));
+  var b3 = document.createElement('strong');
+  b3.textContent = gap + ' pt gap';
+  info.appendChild(b3);
+
+  highlightTeams([hn, an], null);
+}
+
+function matchesForTeam(fixtureName) {
+  return matches.filter(function(m) { return m.h === fixtureName || m.a === fixtureName; });
+}
+
+function selectTeamFilter(fixtureName) {
+  if (!fixtureName) { clearSelection(); applyFilters(); return; }
+
+  selectedTeam = fixtureName;
+  selectedMatch = null;
+  var rankName = normName(fixtureName);
+  var teamMatches = matchesForTeam(fixtureName);
+
+  // Collect all opponent names + the team itself
+  var names = [rankName];
+  teamMatches.forEach(function(m) {
+    var opp = m.h === fixtureName ? m.a : m.h;
+    names.push(normName(opp));
+  });
+
+  // Build info: team's 3 opponents with gaps
+  var info = document.getElementById('match-info');
+  info.textContent = '';
+  var t = teamByName(rankName);
+  if (t) {
+    var b = document.createElement('strong');
+    b.textContent = rankName;
+    info.appendChild(b);
+    info.appendChild(document.createTextNode(' (#' + t.r + ', ' + t.p.toFixed(0) + ' pts) faces: '));
+    teamMatches.forEach(function(m, idx) {
+      var opp = m.h === fixtureName ? m.a : m.h;
+      var oppRank = teamByName(normName(opp));
+      if (idx > 0) info.appendChild(document.createTextNode(', '));
+      var ob = document.createElement('strong');
+      ob.textContent = normName(opp);
+      info.appendChild(ob);
+      if (oppRank) {
+        var gap = Math.abs(t.p - oppRank.p).toFixed(0);
+        info.appendChild(document.createTextNode(' (\u0394' + gap + ')'));
+      }
+    });
+  }
+
+  highlightTeams(names, rankName);
+  applyFilters();
+  // Mark all cards active
+  document.querySelectorAll('.match-card').forEach(function(el) { el.classList.add('active'); });
+}
+
+// --- Build date nav + carousel ---
+var dates = [];
+matches.forEach(function(m) { if (dates.indexOf(m.d) === -1) dates.push(m.d); });
+var dateNav = document.getElementById('date-nav');
+var carousel = document.getElementById('match-carousel');
+
+function formatDate(iso) {
+  var d = new Date(iso + 'T12:00:00');
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+
+function shortName(n) {
+  var abbr = {
+    "Bosnia and Herzegovina": "Bosnia",
+    "Cote d'Ivoire": "Ivory Coast",
+    "Korea Republic": "S. Korea",
+    "United States": "USA",
+    "Saudi Arabia": "Saudi",
+    "New Zealand": "NZ",
+    "Congo DR": "DR Congo",
+  };
+  return abbr[n] || n;
+}
+
+function gapColor(g) {
+  if (g > 400) return '#D85A30';
+  if (g > 200) return '#EF9F27';
+  if (g > 100) return '#1D9E75';
+  return '#534AB7';
+}
+
+// --- Collect WC team names for the dropdown ---
+var wcTeamNames = [];
+(function() {
+  var seen = {};
+  matches.forEach(function(m) {
+    if (!seen[m.h]) { seen[m.h] = true; wcTeamNames.push(m.h); }
+    if (!seen[m.a]) { seen[m.a] = true; wcTeamNames.push(m.a); }
+  });
+  wcTeamNames.sort(function(a, b) {
+    return shortName(a).localeCompare(shortName(b));
+  });
+})();
+
+
+function buildCard(match) {
+  var hn = normName(match.h);
+  var an = normName(match.a);
+  var ht = teamByName(hn);
+  var at = teamByName(an);
+  var gap = ht && at ? Math.abs(ht.p - at.p) : 0;
+  var gapStr = gap > 0 ? gap.toFixed(0) : '?';
+  var gc = gapColor(gap);
+
+  var card = document.createElement('div');
+  card.className = 'match-card' + (selectedMatch === match.m ? ' active' : '');
+
+  var groupTag = document.createElement('div');
+  groupTag.className = 'group-tag';
+  groupTag.textContent = 'Group ' + match.g;
+  card.appendChild(groupTag);
+
+  var matchup = document.createElement('div');
+  var t1 = document.createElement('span');
+  t1.className = 'team';
+  t1.textContent = shortName(match.h);
+  var vs = document.createElement('span');
+  vs.className = 'vs';
+  vs.textContent = ' vs ';
+  var t2 = document.createElement('span');
+  t2.className = 'team';
+  t2.textContent = shortName(match.a);
+  matchup.appendChild(t1);
+  matchup.appendChild(vs);
+  matchup.appendChild(t2);
+  card.appendChild(matchup);
+
+  var dateLine = document.createElement('div');
+  dateLine.className = 'date';
+  dateLine.textContent = formatDate(match.d) + ' \u00b7 ' + match.c;
+  card.appendChild(dateLine);
+
+  var badge = document.createElement('div');
+  badge.className = 'gap-badge';
+  badge.style.background = gc + '22';
+  badge.style.color = gc;
+  badge.textContent = gapStr + ' pt gap';
+  card.appendChild(badge);
+
+  card.addEventListener('click', function() { selectMatch(match, card); });
+  return card;
+}
+
+var activeDate = null;
+
+function applyFilters() {
+  carousel.textContent = '';
+  var filtered = matches;
+  if (selectedTeam) {
+    filtered = matchesForTeam(selectedTeam);
+  } else if (activeDate) {
+    filtered = matches.filter(function(m) { return m.d === activeDate; });
+  }
+  filtered.forEach(function(match) {
+    carousel.appendChild(buildCard(match));
+  });
+}
+
+// Date buttons
+dates.forEach(function(d) {
+  var btn = document.createElement('button');
+  btn.textContent = formatDate(d);
+  btn.dataset.date = d;
+  btn.addEventListener('click', function() {
+    // Clear team filter when picking a date
+    selectedTeam = null;
+
+    var wasActive = btn.classList.contains('active');
+    document.querySelectorAll('#date-nav button:not(#clear-btn)').forEach(function(b) { b.classList.remove('active'); });
+    if (wasActive) {
+      activeDate = null;
+    } else {
+      activeDate = d;
+      btn.classList.add('active');
+    }
+    selectedMatch = null;
+    highlightedNames = [];
+    primaryName = null;
+    resetChart();
+    document.getElementById('match-info').textContent = '';
+    applyFilters();
+  });
+  dateNav.appendChild(btn);
+});
+
+var clearBtn = document.createElement('button');
+clearBtn.id = 'clear-btn';
+clearBtn.textContent = 'Clear';
+clearBtn.addEventListener('click', function() {
+  activeDate = null;
+  clearSelection();
+  document.querySelectorAll('#date-nav button').forEach(function(b) { b.classList.remove('active'); });
+  applyFilters();
+});
+dateNav.appendChild(clearBtn);
+
+// Default to today's date
+(function() {
+  var today = new Date();
+  var iso = today.getFullYear() + '-' +
+    String(today.getMonth() + 1).padStart(2, '0') + '-' +
+    String(today.getDate()).padStart(2, '0');
+  if (dates.indexOf(iso) !== -1) {
+    activeDate = iso;
+    document.querySelectorAll('#date-nav button:not(#clear-btn)').forEach(function(b) {
+      if (b.dataset.date === iso) b.classList.add('active');
+    });
+  }
+  applyFilters();
+})();
+
+// --- Create chart ---
+chart = new Chart(document.getElementById('chart'), {
   type: 'scatter',
   data: {
     datasets: [{
-      data,
-      backgroundColor: colors,
-      pointRadius: 5,
-      pointHoverRadius: 7,
+      data: data,
+      backgroundColor: baseColors.slice(),
+      borderColor: teams.map(function() { return 'transparent'; }),
+      borderWidth: teams.map(function() { return 0; }),
+      pointRadius: teams.map(function() { return 5; }),
+      pointHoverRadius: 8,
     }]
   },
   options: {
     responsive: true,
     maintainAspectRatio: false,
+    animation: { duration: 300 },
+    onClick: function(evt, elements) {
+      if (elements.length > 0) {
+        var idx = elements[0].index;
+        var rankName = data[idx].name;
+        var fn = fixtureName(rankName);
+        if (wcTeamNames.indexOf(fn) !== -1) {
+          activeDate = null;
+          document.querySelectorAll('#date-nav button:not(#clear-btn)').forEach(function(b) { b.classList.remove('active'); });
+          selectTeamFilter(fn);
+        }
+      } else if (selectedTeam) {
+        clearSelection();
+        applyFilters();
+      }
+    },
     plugins: {
       legend: { display: false },
       tooltip: {
         callbacks: {
-          label: ctx => `#${ctx.raw.x} ${ctx.raw.name}: ${ctx.raw.y.toFixed(0)} pts`
+          label: function(ctx) { return '#' + ctx.raw.x + ' ' + ctx.raw.name + ': ' + ctx.raw.y.toFixed(0) + ' pts'; }
         }
       },
       annotation: undefined
@@ -89,44 +590,107 @@ new Chart(document.getElementById('chart'), {
       x: {
         title: { display: true, text: 'Rank', color: '#888' },
         min: 0, max: 101,
-        ticks: { stepSize: 10 },
-        grid: { color: 'rgba(128,128,128,0.1)' }
+        ticks: { stepSize: 10, color: '#666' },
+        grid: { color: 'rgba(255,255,255,0.07)' }
       },
       y: {
         title: { display: true, text: 'FIFA points', color: '#888' },
         min: 1150, max: 1950,
-        ticks: { stepSize: 100 },
-        grid: { color: 'rgba(128,128,128,0.1)' }
+        ticks: { stepSize: 100, color: '#666' },
+        grid: { color: 'rgba(255,255,255,0.07)' }
       }
     }
   },
   plugins: [{
-    afterDraw(chart) {
-      const { ctx, scales: { x, y } } = chart;
-      const thresholds = [
-        { val: 1800, color: '#534AB7', label: '▲ Elite gap: ~61 pts' },
-        { val: 1641, color: '#1D9E75', label: '▲ Top tier gap: ~21 pts' },
-        { val: 1459, color: '#EF9F27', label: '▲ Upper mid gap: ~24 pts' },
-        { val: 1296, color: '#D85A30', label: '▲ Mid tier gap: ~6 pts' },
+    beforeDraw: function(chart) {
+      var ctx = chart.ctx;
+      ctx.save();
+      ctx.fillStyle = '#0d0d1a';
+      ctx.fillRect(0, 0, chart.width, chart.height);
+      ctx.restore();
+    },
+    afterDraw: function(chart) {
+      var ctx = chart.ctx;
+      var x = chart.scales.x;
+      var y = chart.scales.y;
+      var thresholds = [
+        { val: 1800, color: '#534AB7', label: 'Elite gap: ~61 pts' },
+        { val: 1641, color: '#1D9E75', label: 'Top tier gap: ~21 pts' },
+        { val: 1459, color: '#EF9F27', label: 'Upper mid gap: ~24 pts' },
+        { val: 1296, color: '#D85A30', label: 'Mid tier gap: ~6 pts' },
       ];
-      thresholds.forEach(({ val, color, label }) => {
-        const yPx = y.getPixelForValue(val);
+      thresholds.forEach(function(t) {
+        var yPx = y.getPixelForValue(t.val);
         ctx.save();
         ctx.setLineDash([6, 4]);
-        ctx.strokeStyle = color;
+        ctx.strokeStyle = t.color;
         ctx.lineWidth = 1.5;
-        ctx.globalAlpha = 0.6;
+        ctx.globalAlpha = 0.5;
         ctx.beginPath();
         ctx.moveTo(x.left, yPx);
         ctx.lineTo(x.right, yPx);
         ctx.stroke();
         ctx.setLineDash([]);
-        ctx.globalAlpha = 1;
-        ctx.fillStyle = color;
-        ctx.font = '11px sans-serif';
-        ctx.fillText(label, x.right - 160, yPx - 5);
+        ctx.globalAlpha = 0.8;
+        ctx.fillStyle = t.color;
+        ctx.font = '10px sans-serif';
+        ctx.fillText(t.label, x.right - 140, yPx - 5);
         ctx.restore();
       });
+
+      // Draw connector lines between highlighted teams
+      if (highlightedNames.length >= 2) {
+        var ds = chart.data.datasets[0];
+        // Find the primary team index (or first highlighted)
+        var pIdx = -1;
+        var oppIdxs = [];
+        ds.data.forEach(function(pt, i) {
+          if (ds.borderWidth[i] > 0) {
+            if (primaryName && pt.name === primaryName) {
+              pIdx = i;
+            } else {
+              oppIdxs.push(i);
+            }
+          }
+        });
+        // Team filter: lines from primary to each opponent
+        if (pIdx >= 0 && oppIdxs.length > 0) {
+          var px = x.getPixelForValue(ds.data[pIdx].x);
+          var py = y.getPixelForValue(ds.data[pIdx].y);
+          oppIdxs.forEach(function(oi) {
+            var ox = x.getPixelForValue(ds.data[oi].x);
+            var oy = y.getPixelForValue(ds.data[oi].y);
+            ctx.save();
+            ctx.setLineDash([4, 3]);
+            ctx.strokeStyle = '#EF9F27';
+            ctx.lineWidth = 2;
+            ctx.globalAlpha = 0.6;
+            ctx.beginPath();
+            ctx.moveTo(px, py);
+            ctx.lineTo(ox, oy);
+            ctx.stroke();
+            ctx.restore();
+          });
+        }
+        // Single match (no primary): line between the two
+        if (!primaryName && oppIdxs.length === 2) {
+          var a = oppIdxs[0]; var b = oppIdxs[1];
+          var ax = x.getPixelForValue(ds.data[a].x);
+          var ay = y.getPixelForValue(ds.data[a].y);
+          var bx = x.getPixelForValue(ds.data[b].x);
+          var by = y.getPixelForValue(ds.data[b].y);
+          ctx.save();
+          ctx.setLineDash([4, 3]);
+          ctx.strokeStyle = '#EF9F27';
+          ctx.lineWidth = 2;
+          ctx.globalAlpha = 0.7;
+          ctx.beginPath();
+          ctx.moveTo(ax, ay);
+          ctx.lineTo(bx, by);
+          ctx.stroke();
+          ctx.restore();
+        }
+      }
     }
   }]
 });
