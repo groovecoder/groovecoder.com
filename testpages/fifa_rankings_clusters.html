@@ -30,14 +30,6 @@
   }
   .match-card:hover { border-color: #666; background: #222244; }
   .match-card.active { border-color: #EF9F27; background: #2a2a1e; }
-  .match-card .group-tag {
-    font-size: 10px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    color: #888;
-    margin-bottom: 2px;
-  }
   .match-card .vs { color: #555; font-size: 11px; }
   .match-card .team { font-weight: 600; color: #eee; }
   .match-card .gap-badge {
@@ -142,10 +134,24 @@
   }
   #top-matches::-webkit-scrollbar { width: 4px; }
   #top-matches::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
-  @media (max-width: 700px) {
+  #cupsets-panel {
+    flex: 0 0 220px;
+    display: flex;
+    flex-direction: column;
+  }
+  #cupsets {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
+    overflow-y: auto;
+  }
+  #cupsets::-webkit-scrollbar { width: 4px; }
+  #cupsets::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
+  @media (max-width: 900px) {
     #chart-row { flex-direction: column; }
-    #top-matches-panel { flex: none; }
-    #top-matches { flex-direction: row; overflow-x: auto; overflow-y: visible; }
+    #top-matches-panel, #cupsets-panel { flex: none; }
+    #top-matches, #cupsets { flex-direction: row; overflow-x: auto; overflow-y: visible; }
   }
   #match-info {
     font-size: 13px;
@@ -155,9 +161,9 @@
   }
 </style>
 
-<div style="padding: 1rem 0; max-width: 960px; margin: 0 auto; font-family: system-ui, -apple-system, sans-serif;">
-<h2 style="font-size: 18px; color: #eee; margin: 0 0 4px;">FIFA World Cup 2026 — Rankings vs. Matchups</h2>
-<p style="font-size: 13px; color: #888; margin: 0 0 12px;">Click a match to see the ranking gap. Click a team in the graph to see all their matches.</p>
+<div style="padding: 1rem 0; max-width: 1200px; margin: 0 auto; font-family: system-ui, -apple-system, sans-serif;">
+<h2 style="font-size: 18px; color: #eee; margin: 0 0 6px;">FIFA World Cup 2026 — Rankings vs. Matchups</h2>
+<p style="font-size: 13px; color: #999; margin: 0 0 10px; line-height: 1.5; max-width: 680px;">Each dot is one of the 48 World Cup teams, plotted by FIFA ranking (left to right) and points (bottom to top). The dashed lines mark the gaps between tiers. Teams near each other on the curve are close in strength — teams far apart face a mismatch. Click a match card to see the gap between two teams. Click a dot in the graph to see all three group-stage opponents for that team.</p>
 
 <div id="date-nav">
   <button class="arrow-btn" id="date-prev">&#8249;</button>
@@ -176,15 +182,13 @@
   <div style="position: relative; flex: 1; min-width: 0; height: 520px;">
     <canvas id="chart" role="img" aria-label="Scatter plot of FIFA rankings 1-100 by points, showing clusters and gaps between tiers"></canvas>
   </div>
+  <div id="cupsets-panel">
+    <h3 style="font-size: 13px; color: #eee; margin: 0 0 2px;">World Cupsets</h3>
+    <p style="font-size: 10px; color: #666; margin: 0 0 6px;">Biggest ranking mismatches</p>
+    <div id="cupsets"></div>
+  </div>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 1rem; font-size: 12px; color: #888;">
-  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#534AB7;display:inline-block;"></span>Elite (1800+)</span>
-  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#1D9E75;display:inline-block;"></span>Top tier (1620-1800)</span>
-  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#EF9F27;display:inline-block;"></span>Upper mid (1450-1620)</span>
-  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#D85A30;display:inline-block;"></span>Mid tier (1290-1450)</span>
-  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#888780;display:inline-block;"></span>Lower (&lt;1290)</span>
-</div>
 <p style="font-size: 10px; color: #555; margin-top: 8px;">Match data: <a href="https://www.thestatsapi.com/world-cup/data" style="color:#666;">TheStatsAPI</a></p>
 </div>
 
@@ -528,11 +532,6 @@ function buildCard(match) {
   var card = document.createElement('div');
   card.className = 'match-card' + (selectedMatch === match.m ? ' active' : '');
 
-  var groupTag = document.createElement('div');
-  groupTag.className = 'group-tag';
-  groupTag.textContent = 'Group ' + match.g;
-  card.appendChild(groupTag);
-
   var matchup = document.createElement('div');
   var t1 = document.createElement('span');
   t1.className = 'team';
@@ -730,15 +729,16 @@ chart = new Chart(document.getElementById('chart'), {
     },
     scales: {
       x: {
-        title: { display: false },
+        title: { display: true, text: 'Rank', color: '#888' },
         min: 0, max: Math.max.apply(null, teams.map(function(t){ return t.r; })) + 2,
         ticks: { stepSize: 10, color: '#666' },
         grid: { display: false }
       },
       y: {
-        title: { display: false },
+        position: 'right',
+        title: { display: true, text: 'FIFA Points', color: '#888' },
         min: Math.floor(Math.min.apply(null, teams.map(function(t){ return t.p; })) / 50) * 50 - 50, max: 1950,
-        ticks: { display: false },
+        ticks: { stepSize: 100, color: '#666' },
         grid: { display: false }
       }
     }
@@ -862,6 +862,82 @@ chart = new Chart(document.getElementById('chart'), {
     var row = document.createElement('div');
     row.style.cssText = 'display:flex;align-items:center;gap:6px;padding:5px 8px;background:#1a1a2e;border:1px solid #2a2a3e;border-radius:5px;cursor:pointer;transition:border-color 0.15s;';
     row.addEventListener('mouseenter', function() { row.style.borderColor = '#EF9F27'; });
+    row.addEventListener('mouseleave', function() { row.style.borderColor = '#2a2a3e'; });
+    row.addEventListener('click', function() {
+      activeDate = null;
+      document.querySelectorAll('.date-pill.active').forEach(function(p) { p.classList.remove('active'); });
+      selectedTeam = null;
+      selectedMatch = m.m;
+      highlightTeams([hn, an], null);
+
+      var info = document.getElementById('match-info');
+      info.textContent = '';
+      var b1 = document.createElement('strong');
+      b1.textContent = hn;
+      info.appendChild(b1);
+      info.appendChild(document.createTextNode(' (#' + s.hRank + ', ' + s.hPts.toFixed(0) + ' pts) vs '));
+      var b2 = document.createElement('strong');
+      b2.textContent = an;
+      info.appendChild(b2);
+      info.appendChild(document.createTextNode(' (#' + s.aRank + ', ' + s.aPts.toFixed(0) + ' pts) \u2014 '));
+      var b3 = document.createElement('strong');
+      b3.textContent = gap + ' pt gap';
+      info.appendChild(b3);
+    });
+
+    var rank = document.createElement('span');
+    rank.style.cssText = 'font-size:10px;color:#555;font-weight:700;min-width:16px;';
+    rank.textContent = (idx + 1);
+    row.appendChild(rank);
+
+    var mid = document.createElement('div');
+    mid.style.cssText = 'flex:1;min-width:0;line-height:1.3;';
+
+    var teamLine = document.createElement('div');
+    teamLine.style.cssText = 'font-size:11px;color:#eee;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;';
+    teamLine.textContent = shortName(m.h) + ' v ' + shortName(m.a);
+    mid.appendChild(teamLine);
+
+    var metaLine = document.createElement('div');
+    metaLine.style.cssText = 'font-size:9px;color:#666;';
+    metaLine.textContent = 'Grp ' + m.g;
+    mid.appendChild(metaLine);
+
+    row.appendChild(mid);
+
+    var badge = document.createElement('span');
+    badge.style.cssText = 'font-size:9px;font-weight:700;padding:1px 5px;border-radius:3px;white-space:nowrap;background:' + gc + '22;color:' + gc + ';';
+    badge.textContent = '\u0394' + gap;
+    row.appendChild(badge);
+
+    container.appendChild(row);
+  });
+})();
+
+// --- World Cupsets (biggest mismatches) ---
+(function() {
+  var scored = matches.map(function(m) {
+    var ht = teamByName(normName(m.h));
+    var at = teamByName(normName(m.a));
+    var hPts = ht ? ht.p : 0;
+    var aPts = at ? at.p : 0;
+    var gap = Math.abs(hPts - aPts);
+    return { match: m, gap: gap, hPts: hPts, aPts: aPts, hRank: ht ? ht.r : 99, aRank: at ? at.r : 99 };
+  });
+  scored.sort(function(a, b) { return b.gap - a.gap; });
+  var top = scored.slice(0, 12);
+
+  var container = document.getElementById('cupsets');
+  top.forEach(function(s, idx) {
+    var m = s.match;
+    var hn = normName(m.h);
+    var an = normName(m.a);
+    var gap = s.gap.toFixed(0);
+    var gc = gapColor(s.gap);
+
+    var row = document.createElement('div');
+    row.style.cssText = 'display:flex;align-items:center;gap:6px;padding:5px 8px;background:#1a1a2e;border:1px solid #2a2a3e;border-radius:5px;cursor:pointer;transition:border-color 0.15s;';
+    row.addEventListener('mouseenter', function() { row.style.borderColor = '#D85A30'; });
     row.addEventListener('mouseleave', function() { row.style.borderColor = '#2a2a3e'; });
     row.addEventListener('click', function() {
       activeDate = null;
