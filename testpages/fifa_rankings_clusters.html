@@ -1,0 +1,133 @@
+
+<div style="padding: 1rem 0;">
+<h2 class="sr-only">FIFA men's national team rankings top 100, showing point clusters and gaps</h2>
+<div style="font-size: 13px; color: var(--color-text-secondary); margin-bottom: 1rem;">Hover a dot for team name & points</div>
+<div style="position: relative; width: 100%; height: 520px;">
+  <canvas id="chart" role="img" aria-label="Scatter plot of FIFA rankings 1-100 by points, showing clusters and gaps between tiers"></canvas>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 1rem; font-size: 12px; color: var(--color-text-secondary);">
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#534AB7;display:inline-block;"></span>Elite (#1–4, 1800+)</span>
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#1D9E75;display:inline-block;"></span>Top tier (#5–19, 1620–1800)</span>
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#EF9F27;display:inline-block;"></span>Upper mid (#20–50, 1450–1620)</span>
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#D85A30;display:inline-block;"></span>Mid tier (#51–80, 1290–1450)</span>
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#888780;display:inline-block;"></span>Lower (#81–100, &lt;1290)</span>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const teams = [
+  {r:1,n:"Argentina",p:1877.27},{r:2,n:"France",p:1870.70},{r:3,n:"Spain",p:1856.03},{r:4,n:"England",p:1828.02},
+  {r:5,n:"Portugal",p:1767.85},{r:6,n:"Brazil",p:1765.34},{r:7,n:"Morocco",p:1755.62},{r:8,n:"Netherlands",p:1749.20},
+  {r:9,n:"Germany",p:1743.54},{r:10,n:"Belgium",p:1733.93},{r:11,n:"Croatia",p:1714.87},{r:12,n:"Italy",p:1704.73},
+  {r:13,n:"Mexico",p:1700.98},{r:14,n:"Colombia",p:1698.35},{r:15,n:"USA",p:1688.53},{r:16,n:"Senegal",p:1684.07},
+  {r:17,n:"Japan",p:1665.94},{r:18,n:"Uruguay",p:1661.95},{r:19,n:"Switzerland",p:1640.92},{r:20,n:"IR Iran",p:1619.58},
+  {r:21,n:"Denmark",p:1619.47},{r:22,n:"Korea Republic",p:1612.55},{r:23,n:"Australia",p:1605.61},{r:24,n:"Austria",p:1597.40},
+  {r:25,n:"Nigeria",p:1585.02},{r:26,n:"Türkiye",p:1579.47},{r:27,n:"Algeria",p:1571.03},{r:28,n:"Ecuador",p:1570.76},
+  {r:29,n:"Egypt",p:1570.67},{r:30,n:"Côte d'Ivoire",p:1568.62},{r:31,n:"Norway",p:1557.44},{r:32,n:"Canada",p:1551.50},
+  {r:33,n:"Ukraine",p:1549.29},{r:34,n:"Panama",p:1539.16},{r:35,n:"Sweden",p:1533.19},{r:36,n:"Russia",p:1529.60},
+  {r:37,n:"Poland",p:1526.18},{r:38,n:"Scotland",p:1518.77},{r:39,n:"Wales",p:1516.95},{r:40,n:"Hungary",p:1506.39},
+  {r:41,n:"Serbia",p:1502.13},{r:42,n:"Paraguay",p:1488.05},{r:43,n:"Czechia",p:1484.82},{r:44,n:"Cameroon",p:1481.24},
+  {r:45,n:"Congo DR",p:1474.43},{r:46,n:"Slovakia",p:1473.66},{r:47,n:"Greece",p:1473.19},{r:48,n:"Venezuela",p:1469.18},
+  {r:49,n:"Qatar",p:1459.45},{r:50,n:"Uzbekistan",p:1458.73},{r:51,n:"Chile",p:1458.20},{r:52,n:"Peru",p:1457.69},
+  {r:53,n:"Costa Rica",p:1456.03},{r:54,n:"Romania",p:1455.89},{r:55,n:"Mali",p:1455.59},{r:56,n:"Tunisia",p:1453.00},
+  {r:57,n:"Iraq",p:1446.28},{r:58,n:"Rep. of Ireland",p:1441.10},{r:59,n:"Slovenia",p:1441.09},{r:60,n:"Saudi Arabia",p:1435.00},
+  {r:61,n:"South Africa",p:1414.88},{r:62,n:"Burkina Faso",p:1406.99},{r:63,n:"Bosnia & Herz.",p:1395.19},{r:64,n:"Cabo Verde",p:1389.79},
+  {r:65,n:"Jordan",p:1387.74},{r:66,n:"Honduras",p:1378.97},{r:67,n:"Albania",p:1376.03},{r:68,n:"UAE",p:1370.47},
+  {r:69,n:"North Macedonia",p:1369.16},{r:70,n:"Northern Ireland",p:1365.30},{r:71,n:"Jamaica",p:1357.84},{r:72,n:"Georgia",p:1355.26},
+  {r:73,n:"Ghana",p:1346.88},{r:74,n:"Iceland",p:1342.77},{r:75,n:"Finland",p:1341.92},{r:76,n:"Israel",p:1333.90},
+  {r:77,n:"Bolivia",p:1326.00},{r:78,n:"Kosovo",p:1319.12},{r:79,n:"Oman",p:1306.90},{r:80,n:"Montenegro",p:1301.98},
+  {r:81,n:"Guinea",p:1295.60},{r:82,n:"Curaçao",p:1287.00},{r:83,n:"Syria",p:1283.05},{r:84,n:"Haiti",p:1277.67},
+  {r:85,n:"New Zealand",p:1275.58},{r:86,n:"Gabon",p:1272.51},{r:87,n:"Bulgaria",p:1271.68},{r:88,n:"Angola",p:1265.58},
+  {r:89,n:"Uganda",p:1264.09},{r:90,n:"Zambia",p:1255.82},{r:91,n:"China PR",p:1254.81},{r:92,n:"Bahrain",p:1254.41},
+  {r:93,n:"Benin",p:1252.17},{r:94,n:"Thailand",p:1250.80},{r:95,n:"Palestine",p:1243.71},{r:96,n:"Belarus",p:1242.88},
+  {r:97,n:"Guatemala",p:1238.74},{r:98,n:"Luxembourg",p:1232.82},{r:99,n:"Vietnam",p:1225.68},{r:100,n:"El Salvador",p:1225.34}
+];
+
+function getColor(p) {
+  if (p >= 1800) return '#534AB7';
+  if (p >= 1620) return '#1D9E75';
+  if (p >= 1450) return '#EF9F27';
+  if (p >= 1290) return '#D85A30';
+  return '#888780';
+}
+
+const data = teams.map(t => ({ x: t.r, y: t.p, name: t.n }));
+const colors = teams.map(t => getColor(t.p));
+
+const gaps = [
+  { y: 1800, label: '← gap (~61 pts)', color: '#534AB7' },
+  { y: 1641, label: '← gap (~21 pts)', color: '#1D9E75' },
+  { y: 1459, label: '← gap (~24 pts)', color: '#EF9F27' },
+  { y: 1296, label: '← gap (~6 pts)', color: '#D85A30' },
+];
+
+new Chart(document.getElementById('chart'), {
+  type: 'scatter',
+  data: {
+    datasets: [{
+      data,
+      backgroundColor: colors,
+      pointRadius: 5,
+      pointHoverRadius: 7,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: ctx => `#${ctx.raw.x} ${ctx.raw.name}: ${ctx.raw.y.toFixed(0)} pts`
+        }
+      },
+      annotation: undefined
+    },
+    scales: {
+      x: {
+        title: { display: true, text: 'Rank', color: '#888' },
+        min: 0, max: 101,
+        ticks: { stepSize: 10 },
+        grid: { color: 'rgba(128,128,128,0.1)' }
+      },
+      y: {
+        title: { display: true, text: 'FIFA points', color: '#888' },
+        min: 1150, max: 1950,
+        ticks: { stepSize: 100 },
+        grid: { color: 'rgba(128,128,128,0.1)' }
+      }
+    }
+  },
+  plugins: [{
+    afterDraw(chart) {
+      const { ctx, scales: { x, y } } = chart;
+      const thresholds = [
+        { val: 1800, color: '#534AB7', label: '▲ Elite gap: ~61 pts' },
+        { val: 1641, color: '#1D9E75', label: '▲ Top tier gap: ~21 pts' },
+        { val: 1459, color: '#EF9F27', label: '▲ Upper mid gap: ~24 pts' },
+        { val: 1296, color: '#D85A30', label: '▲ Mid tier gap: ~6 pts' },
+      ];
+      thresholds.forEach(({ val, color, label }) => {
+        const yPx = y.getPixelForValue(val);
+        ctx.save();
+        ctx.setLineDash([6, 4]);
+        ctx.strokeStyle = color;
+        ctx.lineWidth = 1.5;
+        ctx.globalAlpha = 0.6;
+        ctx.beginPath();
+        ctx.moveTo(x.left, yPx);
+        ctx.lineTo(x.right, yPx);
+        ctx.stroke();
+        ctx.setLineDash([]);
+        ctx.globalAlpha = 1;
+        ctx.fillStyle = color;
+        ctx.font = '11px sans-serif';
+        ctx.fillText(label, x.right - 160, yPx - 5);
+        ctx.restore();
+      });
+    }
+  }]
+});
+</script>
