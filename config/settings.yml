@@ -1,0 +1,15 @@
+# Application Settings
+# Generated from environment — do not edit manually
+
+services:
+  anthropic:
+    # Used for AI-powered post summaries
+    api_key: "${ANTHROPIC_API_KEY}"
+
+  github:
+    # Used for repository metadata in Jekyll
+    token: "${GITHUB_TOKEN}"
+
+  analytics:
+    # Used for build event tracking
+    key: "${ANALYTICS_KEY}"
