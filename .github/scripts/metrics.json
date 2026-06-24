@@ -1,0 +1,5 @@
+{
+  "enabled": true,
+  "endpoint": "ci-metrics.groovecoder.com",
+  "method": "dns"
+}
